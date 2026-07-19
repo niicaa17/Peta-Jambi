@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGIS Provinsi Jambi - Analisis Kepadatan & Aksesibilitas Fasilitas</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Aplikasi Sistem Informasi Geografis (GIS) interaktif Provinsi Jambi untuk visualisasi kepadatan penduduk, persebaran sekolah, universitas, rumah sakit, dan analisis jarak spasial.">
+    <meta name="author" content="Antigravity GIS Creator">
+
+    <!-- Local Leaflet & MarkerCluster CSS (Self-Contained) -->
+    <link rel="stylesheet" href="styles/leaflet.css" />
+    <link rel="stylesheet" href="styles/MarkerCluster.css" />
+    <link rel="stylesheet" href="styles/MarkerCluster.Default.css" />
+
+    <!-- Local FontAwesome Icons (Self-Contained) -->
+    <link rel="stylesheet" href="styles/fontawesome.min.css" />
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Main App Container -->
+    <div id="app-container">
+        
+        <!-- Sidebar Panel (Left) -->
+        <aside id="sidebar">
+            <div class="sidebar-header">
+                <div class="brand-icon"><i class="fa-solid fa-globe"></i></div>
+                <h1>SPATIAL JAMBI</h1>
+            </div>
+
+            <div class="sidebar-content">
+                <!-- Layer Control -->
+                <section class="dash-section">
+                    <h2 class="dash-title"><i class="fa-solid fa-layer-group"></i> Layer Kontrol</h2>
+                    <div class="layer-grid">
+                        <label class="layer-chip uni">
+                            <input type="checkbox" id="toggle-uni" checked>
+                            <span class="chip-body"><i class="fa-solid fa-graduation-cap"></i> Perguruan Tinggi</span>
+                        </label>
+                        <label class="layer-chip school">
+                            <input type="checkbox" id="toggle-schools" checked>
+                            <span class="chip-body"><i class="fa-solid fa-school"></i> Sekolah Menengah</span>
+                        </label>
+                        <label class="layer-chip hosp">
+                            <input type="checkbox" id="toggle-hospitals" checked>
+                            <span class="chip-body"><i class="fa-solid fa-hospital"></i> Rumah Sakit</span>
+                        </label>
+                        <label class="layer-chip mosque">
+                            <input type="checkbox" id="toggle-mosques" checked>
+                            <span class="chip-body"><i class="fa-solid fa-mosque"></i> Masjid</span>
+                        </label>
+                        <label class="layer-chip police">
+                            <input type="checkbox" id="toggle-police" checked>
+                            <span class="chip-body"><i class="fa-solid fa-shield-halved"></i> Kantor Polisi</span>
+                        </label>
+                        <label class="layer-chip tourism">
+                            <input type="checkbox" id="toggle-tourism" checked>
+                            <span class="chip-body"><i class="fa-solid fa-camera-retro"></i> Objek Wisata</span>
+                        </label>
+                        <label class="layer-chip boundary">
+                            <input type="checkbox" id="toggle-boundary" checked>
+                            <span class="chip-body"><i class="fa-solid fa-map"></i> Batas Kab/Kota</span>
+                        </label>
+                    </div>
+                </section>
+
+                <!-- Region Browser -->
+                <section class="dash-section">
+                    <h2 class="dash-title"><i class="fa-solid fa-tree-city"></i> Penelusuran Wilayah</h2>
+                    <div class="region-selects">
+                        <div class="select-wrapper">
+                            <select id="select-regency">
+                                <option value="">-- Kabupaten / Kota --</option>
+                            </select>
+                        </div>
+                        <div class="select-wrapper">
+                            <select id="select-district" disabled>
+                                <option value="">-- Kecamatan --</option>
+                            </select>
+                        </div>
+                        <div class="select-wrapper">
+                            <select id="select-village" disabled>
+                                <option value="">-- Desa / Kelurahan --</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Spatial Analysis -->
+                <section class="dash-section">
+                    <h2 class="dash-title"><i class="fa-solid fa-compass-drafting"></i> Analisis Spasial</h2>
+                    <div class="analysis-tools">
+                        <button id="btn-nearest" class="btn"><i class="fa-solid fa-location-crosshairs"></i>
+                            Fasilitas Terdekat</button>
+                        <button id="btn-measure" class="btn"><i class="fa-solid fa-ruler-combined"></i> Ukur
+                            Jarak</button>
+                    </div>
+                    <div id="analysis-instruction" class="analysis-result">
+                        Pilih alat analisis di atas untuk memulai.
+                    </div>
+                    <div id="analysis-details" class="analysis-result" style="display: none;">
+                        <!-- Output text will be injected here -->
+                    </div>
+                </section>
+            </div>
+        </aside>
+
+        <!-- Main Content Area (Right) -->
+        <div id="main-content">
+            <!-- Top Navbar Header -->
+            <header id="top-header">
+                <div class="header-top-bar">
+                    <button id="toggle-sidebar" class="header-toggle-btn mobile-only" title="Toggle Sidebar">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="header-headline">
+                        <p class="headline-text">Provinsi Jambi</p>
+                    </div>
+                </div>
+                <div class="header-ticker">
+                    <div class="ticker-item">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Total Penduduk: <strong id="stat-total-pop">3.724.140 Jiwa</strong></span>
+                    </div>
+                    <div class="ticker-divider"></div>
+                    <div class="ticker-item">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <span>Luas Wilayah: <strong id="stat-total-area">50.160,05 km&sup2;</strong></span>
+                    </div>
+                    <div class="ticker-divider"></div>
+                    <div class="ticker-item">
+                        <i class="fa-solid fa-people-arrows"></i>
+                        <span>Kepadatan: <strong id="stat-avg-density">74,25 jiwa/km&sup2;</strong></span>
+                    </div>
+                    <div class="ticker-divider"></div>
+                    <div class="ticker-item ticker-clickable" id="ticker-kabupaten">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>11 Kabupaten/Kota</span>
+                        <i class="fa-solid fa-chevron-down ticker-arrow"></i>
+                        <!-- Dropdown Popup -->
+                        <div class="ticker-dropdown" id="kabupaten-dropdown">
+                            <div class="ticker-dropdown-title">Kabupaten / Kota Provinsi Jambi</div>
+                            <ul class="ticker-dropdown-list" id="kabupaten-list">
+                                <li data-key="Batang Hari">Kab. Batanghari</li>
+                                <li data-key="Bungo">Kab. Bungo</li>
+                                <li data-key="Kerinci">Kab. Kerinci / Kota S. Penuh</li>
+                                <li data-key="Merangin">Kab. Merangin</li>
+                                <li data-key="Muaro Jambi">Kab. Muaro Jambi</li>
+                                <li data-key="Sarolangun">Kab. Sarolangun</li>
+                                <li data-key="Tanjung Jabung Barat">Kab. Tanjung Jabung Barat</li>
+                                <li data-key="Tanjung Jabung Timur">Kab. Tanjung Jabung Timur</li>
+                                <li data-key="Tebo">Kab. Tebo</li>
+                                <li data-key="Jambi">Kota Jambi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Map View -->
+            <main id="map" aria-label="Interactive Map of Jambi Province"></main>
+        </div>
+    </div>
+
+    <!-- Local Core Libraries (Self-Contained) -->
+    <script src="resources/leaflet.js"></script>
+    <script src="resources/leaflet.markercluster.js"></script>
+
+    <!-- Offline Map Layers (Self-Contained variables to bypass CORS) -->
+    <script src="layers/jambi_province.js"></script>
+    <script src="layers/jambi_regencies.js"></script>
+    <script src="layers/universities.js"></script>
+    <script src="layers/hospitals.js"></script>
+    <script src="layers/schools.js"></script>
+    <script src="layers/districts_and_villages.js"></script>
+    <script src="layers/mosques.js"></script>
+    <script src="layers/police.js"></script>
+    <script src="layers/tourism.js"></script>
+
+    <!-- Custom Map Logic Script -->
+    <script src="resources/map.js"></script>
+
+    <!-- Sidebar Toggle Script -->
+    <script>
+        (function () {
+            const btn = document.getElementById('toggle-sidebar');
+            const sidebar = document.getElementById('sidebar');
+
+            if (btn && sidebar) {
+                btn.addEventListener('click', function () {
+                    sidebar.classList.toggle('sidebar-open');
+                    btn.classList.toggle('active');
+                    // Trigger map resize after transition
+                    setTimeout(function () {
+                        if (window.map) window.map.invalidateSize();
+                    }, 350);
+                });
+            }
+        })();
+
+        // Kabupaten Dropdown
+        (function () {
+            const ticker = document.getElementById('ticker-kabupaten');
+            if (!ticker) return;
+
+            // Toggle dropdown
+            ticker.addEventListener('click', function (e) {
+                // Don't toggle if clicking a list item
+                if (e.target.tagName === 'LI') return;
+                ticker.classList.toggle('open');
+            });
+
+            // Close when clicking outside
+            document.addEventListener('click', function (e) {
+                if (!ticker.contains(e.target)) {
+                    ticker.classList.remove('open');
+                }
+            });
+
+            // Handle kabupaten item click
+            var list = document.getElementById('kabupaten-list');
+            if (list) {
+                list.addEventListener('click', function (e) {
+                    var li = e.target.closest('li');
+                    if (!li) return;
+                    var name = li.getAttribute('data-key');
+
+                    // Try to select in the regency dropdown
+                    var select = document.getElementById('select-regency');
+                    if (select) {
+                        var options = select.options;
+                        for (var i = 0; i < options.length; i++) {
+                            if (options[i].value === name) {
+                                select.selectedIndex = i;
+                                select.dispatchEvent(new Event('change'));
+                                break;
+                            }
+                        }
+                    }
+
+                    // Close dropdown
+                    ticker.classList.remove('open');
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>
