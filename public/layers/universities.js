@@ -1,0 +1,437 @@
+var json_universities = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5222,
+          -1.6167
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "npsn": "001017",
+        "name": "Universitas Jambi (UNJA) Mendalo",
+        "type": "Negeri",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Muaro Jambi",
+        "address": "Jl. Raya Jambi - Muara Bulian KM. 15, Mendalo Darat",
+        "website": "https://unja.ac.id",
+        "accreditation": "A / Unggul",
+        "coordinates_str": "-1.61670, 103.52220",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5815,
+          -1.6012
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "npsn": "001017-TEL",
+        "name": "Universitas Jambi (UNJA) Telanaipura",
+        "type": "Negeri",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Muaro Jambi",
+        "address": "Jl. A. Hakim, Telanaipura, Kota Jambi",
+        "website": "https://unja.ac.id",
+        "accreditation": "A / Unggul",
+        "coordinates_str": "-1.60120, 103.58150",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.535,
+          -1.595
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "npsn": "201012",
+        "name": "UIN Sulthan Thaha Saifuddin Jambi",
+        "type": "Negeri",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Muaro Jambi",
+        "address": "Jl. Jambi - Muara Bulian KM. 16, Simpang Sei Duren",
+        "website": "https://uinjambi.ac.id",
+        "accreditation": "B / Baik Sekali",
+        "coordinates_str": "-1.59500, 103.53500",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5938,
+          -1.5912
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "npsn": "101001",
+        "name": "Universitas Batanghari (UNBARI)",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Slamet Riyadi, Broni, Kec. Danau Sipin",
+        "website": "https://unbari.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.59120, 103.59380",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.621,
+          -1.6234
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "npsn": "101032",
+        "name": "Universitas Dinamika Bangsa (UNAMA)",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Jend. Sudirman, The Hok, Kota Jambi",
+        "website": "https://unama.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.62340, 103.62100",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6095,
+          -1.611
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "npsn": "101035",
+        "name": "Universitas Muhammadiyah Jambi",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Kapten Pattimura, Nusa Indah, Kota Jambi",
+        "website": "https://umjambi.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.61100, 103.60950",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5951,
+          -1.6025
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "npsn": "101033",
+        "name": "Universitas Nurdin Hamzah (UNH)",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Kolonel Abunjani No. 8, Sipin, Kota Jambi",
+        "website": "https://unh.ac.id",
+        "accreditation": "Baik",
+        "coordinates_str": "-1.60250, 103.59510",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6189,
+          -1.6315
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "npsn": "101030",
+        "name": "Universitas Adiwangsa Jambi (UNAJA)",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Sersan Muslim, RT. 24, The Hok, Kota Jambi",
+        "website": "https://unaja.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.63150, 103.61890",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.115,
+          -1.4875
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "npsn": "101021",
+        "name": "Universitas Muara Bungo (UMB)",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Bungo",
+        "address": "Jl. Pendidikan, Sungai Binjai, Kec. Bathin III, Bungo",
+        "website": "https://umb.ac.id",
+        "accreditation": "C / Baik",
+        "coordinates_str": "-1.48750, 102.11500",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.623,
+          -1.618
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "npsn": "103015",
+        "name": "STIKES Harapan Ibu Jambi",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Tarmizi Kadir No. 71, Pakuan Baru",
+        "website": "https://stikeshi.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.61800, 103.62300",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.605,
+          -1.6088
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "npsn": "103020",
+        "name": "STIKES Baiturrahim Jambi",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Prof. DR. Moh. Yamin No. 30, Lebak Bandung",
+        "website": "https://stikba.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.60880, 103.60500",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6012,
+          -1.6155
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "npsn": "405008",
+        "name": "Poltekkes Kemenkes Jambi",
+        "type": "Negeri",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. H. Agus Salim No. 09, Paal Lima, Kota Jambi",
+        "website": "https://poltekkesjambi.ac.id",
+        "accreditation": "A / Unggul",
+        "coordinates_str": "-1.61550, 103.60120",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.398,
+          -2.067
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "npsn": "201018",
+        "name": "IAIN Kerinci",
+        "type": "Negeri",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Kerinci",
+        "address": "Jl. Kapten Muradi, Sungai Penuh",
+        "website": "https://iainkerinci.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-2.06700, 101.39800",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.393,
+          -2.062
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "npsn": "102012",
+        "name": "STIE Sakti Alam Kerinci",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Kerinci",
+        "address": "Jl. Jend. Sudirman No. 28, Sungai Penuh",
+        "website": "https://stie-sak.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-2.06200, 101.39300",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.284,
+          -1.725
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "npsn": "202045",
+        "name": "IAI Nusantara Batanghari",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Batang Hari",
+        "address": "Jl. Sudirman KM. 3, Muara Bulian",
+        "website": "https://iainusantara.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.72500, 103.28400",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.122,
+          -1.492
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "npsn": "102025",
+        "name": "STKIP Muhammadiyah Muara Bungo",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Bungo",
+        "address": "Jl. Lintas Sumatera KM. 6, Muara Bungo",
+        "website": "https://stkipmb.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.49200, 102.12200",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.612,
+          -1.609
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "npsn": "104018",
+        "name": "STITEK Tunas Bangsa Jambi",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Gajah Mada, Jelutung, Kota Jambi",
+        "website": "https://stitek-tb.ac.id",
+        "accreditation": "Baik",
+        "coordinates_str": "-1.60900, 103.61200",
+        "source": "PDDikti & Direct Registry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.632,
+          -1.638
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "npsn": "105006",
+        "name": "Politeknik Jambi",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Jl. Eka Rasmi, Lingkar Selatan, Kota Jambi",
+        "website": "https://politeknikjambi.ac.id",
+        "accreditation": "B",
+        "coordinates_str": "-1.63800, 103.63200",
+        "source": "PDDikti & Direct Registry"
+      }
+    }
+  ]
+};
