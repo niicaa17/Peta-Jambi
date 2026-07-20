@@ -240,6 +240,24 @@ document.addEventListener('DOMContentLoaded', function () {
         generateLegend();
     }
 
+    let globalSearchData = [];
+
+
+    function createPopupContent(feature, categoryLabel) {
+        let typeStr = feature.properties.type ? ` (${feature.properties.type})` : '';
+        return `
+            <div class="info-box">
+                <h4>${feature.properties.name}</h4>
+                <p><strong>Kategori:</strong> ${categoryLabel}${typeStr}</p>
+                <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency || 'Tidak Diketahui'}</p>
+                ${feature.properties.address ? `<p><strong>Alamat:</strong> ${feature.properties.address}</p>` : ''}
+                ${feature.properties.website ? `<p><strong>Website:</strong> <a href="${feature.properties.website}" target="_blank">${feature.properties.website}</a></p>` : ''}
+                ${feature.properties.accreditation ? `<p><strong>Akreditasi:</strong> ${feature.properties.accreditation}</p>` : ''}
+                <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
+            </div>
+        `;
+    }
+
     // Universities Loader
     let universitiesData = [];
     if (typeof json_universities !== 'undefined') {
@@ -247,14 +265,16 @@ document.addEventListener('DOMContentLoaded', function () {
         L.geoJSON(json_universities, {
             pointToLayer: function (feature, latlng) {
                 const marker = L.marker(latlng, { icon: uniIcon });
-                marker.bindPopup(`
-                    <div class="info-box">
-                        <h4>${feature.properties.name}</h4>
-                        <p><strong>Kategori:</strong> Perguruan Tinggi (${feature.properties.type})</p>
-                        <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency}</p>
-                        <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
-                    </div>
-                `);
+                marker.bindPopup(createPopupContent(feature, 'Perguruan Tinggi'));
+                
+                // Add to search index
+                globalSearchData.push({
+                    name: feature.properties.name,
+                    aliases: feature.properties.aliases || [],
+                    category: 'Perguruan Tinggi',
+                    layer: marker,
+                    cluster: universityCluster
+                });
                 return marker;
             }
         }).addTo(universityCluster);
@@ -268,14 +288,16 @@ document.addEventListener('DOMContentLoaded', function () {
         L.geoJSON(json_hospitals, {
             pointToLayer: function (feature, latlng) {
                 const marker = L.marker(latlng, { icon: hospitalIcon });
-                marker.bindPopup(`
-                    <div class="info-box">
-                        <h4>${feature.properties.name}</h4>
-                        <p><strong>Kategori:</strong> Rumah Sakit (${feature.properties.type})</p>
-                        <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency}</p>
-                        <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
-                    </div>
-                `);
+                marker.bindPopup(createPopupContent(feature, 'Rumah Sakit'));
+                
+                // Add to search index
+                globalSearchData.push({
+                    name: feature.properties.name,
+                    aliases: feature.properties.aliases || [],
+                    category: 'Rumah Sakit',
+                    layer: marker,
+                    cluster: hospitalCluster
+                });
                 return marker;
             }
         }).addTo(hospitalCluster);
@@ -288,15 +310,26 @@ document.addEventListener('DOMContentLoaded', function () {
         schoolsData = json_schools.features;
         L.geoJSON(json_schools, {
             pointToLayer: function (feature, latlng) {
-                const marker = L.marker(latlng, { icon: schoolIcon });
-                marker.bindPopup(`
-                    <div class="info-box">
-                        <h4>${feature.properties.name}</h4>
-                        <p><strong>Kategori:</strong> Sekolah Menengah (${feature.properties.type})</p>
-                        <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency}</p>
-                        <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
-                    </div>
-                `);
+                let cat = feature.properties.category || '';
+                let color = '#4CAF50'; // Default green
+                let iconClass = 'fa-school';
+                
+                if (cat === 'SD') { color = '#F44336'; } // Red
+                else if (cat === 'SMP') { color = '#2196F3'; } // Blue
+                else if (cat.includes('SMA') || cat.includes('SMK')) { color = '#9E9E9E'; } // Grey
+                else if (cat === 'TK') { color = '#E91E63'; iconClass = 'fa-child-reaching'; } // Pink
+                
+                const marker = L.marker(latlng, { icon: createPin(iconClass, color) });
+                marker.bindPopup(createPopupContent(feature, cat || 'Sekolah'));
+                
+                // Add to search index
+                globalSearchData.push({
+                    name: feature.properties.name,
+                    aliases: feature.properties.aliases || [],
+                    category: 'Sekolah',
+                    layer: marker,
+                    cluster: schoolCluster
+                });
                 return marker;
             }
         }).addTo(schoolCluster);
@@ -310,14 +343,16 @@ document.addEventListener('DOMContentLoaded', function () {
         L.geoJSON(json_mosques, {
             pointToLayer: function (feature, latlng) {
                 const marker = L.marker(latlng, { icon: mosqueIcon });
-                marker.bindPopup(`
-                    <div class="info-box">
-                        <h4>${feature.properties.name}</h4>
-                        <p><strong>Kategori:</strong> Masjid</p>
-                        <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency}</p>
-                        <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
-                    </div>
-                `);
+                marker.bindPopup(createPopupContent(feature, 'Masjid'));
+                
+                // Add to search index
+                globalSearchData.push({
+                    name: feature.properties.name,
+                    aliases: feature.properties.aliases || [],
+                    category: 'Masjid',
+                    layer: marker,
+                    cluster: mosqueCluster
+                });
                 return marker;
             }
         }).addTo(mosqueCluster);
@@ -331,14 +366,16 @@ document.addEventListener('DOMContentLoaded', function () {
         L.geoJSON(json_police, {
             pointToLayer: function (feature, latlng) {
                 const marker = L.marker(latlng, { icon: policeIcon });
-                marker.bindPopup(`
-                    <div class="info-box">
-                        <h4>${feature.properties.name}</h4>
-                        <p><strong>Kategori:</strong> Kantor Polisi</p>
-                        <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency}</p>
-                        <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
-                    </div>
-                `);
+                marker.bindPopup(createPopupContent(feature, 'Kantor Polisi'));
+                
+                // Add to search index
+                globalSearchData.push({
+                    name: feature.properties.name,
+                    aliases: feature.properties.aliases || [],
+                    category: 'Kantor Polisi',
+                    layer: marker,
+                    cluster: policeCluster
+                });
                 return marker;
             }
         }).addTo(policeCluster);
@@ -352,14 +389,16 @@ document.addEventListener('DOMContentLoaded', function () {
         L.geoJSON(json_tourism, {
             pointToLayer: function (feature, latlng) {
                 const marker = L.marker(latlng, { icon: tourismIcon });
-                marker.bindPopup(`
-                    <div class="info-box">
-                        <h4>${feature.properties.name}</h4>
-                        <p><strong>Kategori:</strong> Objek Wisata (${feature.properties.type})</p>
-                        <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency}</p>
-                        <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
-                    </div>
-                `);
+                marker.bindPopup(createPopupContent(feature, 'Objek Wisata'));
+                
+                // Add to search index
+                globalSearchData.push({
+                    name: feature.properties.name,
+                    aliases: feature.properties.aliases || [],
+                    category: 'Objek Wisata',
+                    layer: marker,
+                    cluster: tourismCluster
+                });
                 return marker;
             }
         }).addTo(tourismCluster);
@@ -795,5 +834,94 @@ document.addEventListener('DOMContentLoaded', function () {
             return div;
         };
         legend.addTo(map);
+    }
+
+    // ============================================================
+    // GLOBAL SEARCH FEATURE
+    // ============================================================
+    const searchInput = document.getElementById('global-search');
+    const clearSearchBtn = document.getElementById('clear-search');
+    const searchResultsContainer = document.getElementById('search-results-container');
+    const searchResultsList = document.getElementById('search-results-list');
+
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase().trim();
+            searchResultsList.innerHTML = '';
+            
+            if (query.length > 0) {
+                clearSearchBtn.classList.remove('hidden');
+                
+                // Filter data
+                const matches = globalSearchData.filter(item => {
+                    if (item.name.toLowerCase().includes(query)) return true;
+                    if (item.aliases && item.aliases.some(alias => alias.toLowerCase().includes(query))) return true;
+                    return false;
+                }).slice(0, 10); // Limit to 10 results
+                
+                if (matches.length > 0) {
+                    searchResultsContainer.classList.remove('hidden');
+                    matches.forEach(match => {
+                        const li = document.createElement('li');
+                        li.innerHTML = `<span class="search-result-name">${match.name}</span>
+                                        <span class="search-result-cat">${match.category}</span>`;
+                        li.addEventListener('click', () => {
+                            // Close search
+                            searchResultsContainer.classList.add('hidden');
+                            searchInput.value = match.name;
+                            
+                            // Fly to location
+                            if (match.cluster) {
+                                // Ensure layer is checked
+                                if (!map.hasLayer(match.cluster)) {
+                                    map.addLayer(match.cluster);
+                                    let cbox;
+                                    if(match.category === 'Perguruan Tinggi') cbox = document.getElementById('toggle-uni');
+                                    else if(match.category === 'Sekolah') cbox = document.getElementById('toggle-schools');
+                                    else if(match.category === 'Rumah Sakit') cbox = document.getElementById('toggle-hospitals');
+                                    else if(match.category === 'Masjid') cbox = document.getElementById('toggle-mosques');
+                                    else if(match.category === 'Kantor Polisi') cbox = document.getElementById('toggle-police');
+                                    else if(match.category === 'Objek Wisata') cbox = document.getElementById('toggle-tourism');
+                                    if(cbox) cbox.checked = true;
+                                }
+                                
+                                if (match.cluster.zoomToShowLayer) {
+                                    match.cluster.zoomToShowLayer(match.layer, () => {
+                                        match.layer.openPopup();
+                                    });
+                                } else {
+                                    map.flyTo(match.layer.getLatLng(), 17, {duration: 1.5});
+                                    setTimeout(() => match.layer.openPopup(), 1500);
+                                }
+                            } else {
+                                map.flyTo(match.layer.getLatLng(), 17, {duration: 1.5});
+                                setTimeout(() => match.layer.openPopup(), 1500);
+                            }
+                        });
+                        searchResultsList.appendChild(li);
+                    });
+                } else {
+                    searchResultsContainer.classList.remove('hidden');
+                    searchResultsList.innerHTML = '<li style="color:#94a3b8; cursor:default;">Tidak ditemukan</li>';
+                }
+            } else {
+                clearSearchBtn.classList.add('hidden');
+                searchResultsContainer.classList.add('hidden');
+            }
+        });
+
+        clearSearchBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            clearSearchBtn.classList.add('hidden');
+            searchResultsContainer.classList.add('hidden');
+            searchInput.focus();
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.search-container')) {
+                searchResultsContainer.classList.add('hidden');
+            }
+        });
     }
 });

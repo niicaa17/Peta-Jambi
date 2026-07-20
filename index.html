@@ -26,7 +26,7 @@
 <body>
     <!-- Main App Container -->
     <div id="app-container">
-        
+
         <!-- Sidebar Panel (Left) -->
         <aside id="sidebar">
             <div class="sidebar-header">
@@ -35,6 +35,20 @@
             </div>
 
             <div class="sidebar-content">
+                <!-- Search Box -->
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="global-search" placeholder="Cari lokasi (contoh: stmik)..."
+                            autocomplete="off">
+                        <button id="clear-search" class="clear-search-btn hidden"><i
+                                class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div id="search-results-container" class="search-results-container hidden">
+                        <ul id="search-results-list" class="search-results-list"></ul>
+                    </div>
+                </div>
+
                 <!-- Layer Control -->
                 <section class="dash-section">
                     <h2 class="dash-title"><i class="fa-solid fa-layer-group"></i> Layer Kontrol</h2>
@@ -45,7 +59,27 @@
                         </label>
                         <label class="layer-chip school">
                             <input type="checkbox" id="toggle-schools" checked>
-                            <span class="chip-body"><i class="fa-solid fa-school"></i> Sekolah Menengah</span>
+                            <span class="chip-body">
+                                <i class="fa-solid fa-school"></i>
+                                <span style="display: flex; flex-direction: column;">
+                                    <span>Sekolah (TK, SD, SMP, SMA)</span>
+                                    <small
+                                        style="font-size: 0.85em; margin-top: 6px; font-weight: 500; display: flex; gap: 8px; flex-wrap: wrap;">
+                                        <span style="color: #E91E63;"><i class="fa-solid fa-circle"
+                                                style="font-size: 0.6em; width: auto; height: auto; background: none;"></i>
+                                            TK</span>
+                                        <span style="color: #F44336;"><i class="fa-solid fa-circle"
+                                                style="font-size: 0.6em; width: auto; height: auto; background: none;"></i>
+                                            SD</span>
+                                        <span style="color: #2196F3;"><i class="fa-solid fa-circle"
+                                                style="font-size: 0.6em; width: auto; height: auto; background: none;"></i>
+                                            SMP</span>
+                                        <span style="color: #9E9E9E;"><i class="fa-solid fa-circle"
+                                                style="font-size: 0.6em; width: auto; height: auto; background: none;"></i>
+                                            SMA</span>
+                                    </small>
+                                </span>
+                            </span>
                         </label>
                         <label class="layer-chip hosp">
                             <input type="checkbox" id="toggle-hospitals" checked>
@@ -174,10 +208,11 @@
 
     <!-- Offline Map Layers (Self-Contained variables to bypass CORS) -->
     <script src="layers/jambi_province.js"></script>
+    <script src="layers/jambi_boundary.js"></script>
     <script src="layers/jambi_regencies.js"></script>
     <script src="layers/universities.js"></script>
-    <script src="layers/hospitals.js"></script>
     <script src="layers/schools.js"></script>
+    <script src="layers/hospitals.js"></script>
     <script src="layers/districts_and_villages.js"></script>
     <script src="layers/mosques.js"></script>
     <script src="layers/police.js"></script>
