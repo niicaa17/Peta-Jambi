@@ -924,4 +924,43 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+    // Expose global search data and helper function for Chatbot & External integration
+    window.globalSearchData = globalSearchData;
+    window.focusMapFeature = function(featureName) {
+        if (!window.globalSearchData || !window.globalSearchData.length) return false;
+        const query = featureName.toLowerCase().trim();
+        const match = window.globalSearchData.find(item => 
+            item.name.toLowerCase().includes(query) ||
+            (item.aliases && item.aliases.some(a => a.toLowerCase().includes(query)))
+        );
+        if (!match) return false;
+
+        if (match.cluster) {
+            if (!map.hasLayer(match.cluster)) {
+                map.addLayer(match.cluster);
+                let cbox;
+                if(match.category === 'Perguruan Tinggi') cbox = document.getElementById('toggle-uni');
+                else if(match.category === 'Sekolah') cbox = document.getElementById('toggle-schools');
+                else if(match.category === 'Rumah Sakit') cbox = document.getElementById('toggle-hospitals');
+                else if(match.category === 'Masjid') cbox = document.getElementById('toggle-mosques');
+                else if(match.category === 'Kantor Polisi') cbox = document.getElementById('toggle-police');
+                else if(match.category === 'Objek Wisata') cbox = document.getElementById('toggle-tourism');
+                if(cbox) cbox.checked = true;
+            }
+            if (match.cluster.zoomToShowLayer) {
+                match.cluster.zoomToShowLayer(match.layer, () => {
+                    match.layer.openPopup();
+                });
+            } else {
+                map.flyTo(match.layer.getLatLng(), 17, {duration: 1.5});
+                setTimeout(() => match.layer.openPopup(), 1500);
+            }
+        } else {
+            map.flyTo(match.layer.getLatLng(), 17, {duration: 1.5});
+            setTimeout(() => match.layer.openPopup(), 1500);
+        }
+        return true;
+    };
 });
+
