@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Buat elemen Chatbot UI
     const chatContainer = document.createElement('div');
     chatContainer.id = 'chatbot-container';
-    
+
     chatContainer.innerHTML = `
         <button id="chatbot-toggle" class="chatbot-btn" title="Tanya Nisa AI Map Assistant">
             <i class="fa-solid fa-message"></i>
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sendBtn = document.getElementById('chat-send');
 
     // GROQ API Configuration
-    const GROQ_API_KEY = "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"; 
+    const GROQ_API_KEY = "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";
 
     // Helper: Build dynamic context from map layers loaded in window/memory
     function getMapOverviewContext() {
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const name = item.name.toLowerCase();
                 const cat = (item.category || '').toLowerCase();
                 const reg = (item.regency || '').toLowerCase();
-                
+
                 if (name.includes(q) || q.includes(name) || q.split(/\s+/).some(word => word.length > 3 && name.includes(word))) {
                     matchedItems.push(item);
                 }
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const name = (props.name || '').toLowerCase();
                     const regency = (props.regency || '').toLowerCase();
                     const address = (props.address || '').toLowerCase();
-                    
+
                     if (name.includes(q) || regency.includes(q) || address.includes(q) || q.includes(name)) {
                         if (count < 15) { // Limit to 15 items max for context size
                             specificSummary += `- [${layerObj.cat}] ${props.name} (Kab/Kota: ${props.regency || 'Jambi'}) ${props.type ? `[Tipe: ${props.type}]` : ''} ${props.accreditation ? `[Akreditasi: ${props.accreditation}]` : ''} ${props.address ? `(Alamat: ${props.address})` : ''}\n`;
@@ -182,7 +182,7 @@ ATURAN UTAMA:
         const bubble = document.createElement('div');
         bubble.classList.add('chat-bubble');
         bubble.classList.add(role === 'user' ? 'user-bubble' : 'bot-bubble');
-        
+
         let formattedText = text;
 
         // Convert [MAPS: Nama Fasilitas] into interactive clickable buttons
@@ -192,7 +192,7 @@ ATURAN UTAMA:
 
         // Memproses baris baru menjadi <br>
         bubble.innerHTML = formattedText.replace(/\n/g, '<br>');
-        
+
         chatMessages.appendChild(bubble);
         chatMessages.scrollTop = chatMessages.scrollHeight;
     }
@@ -260,7 +260,7 @@ ATURAN UTAMA:
 
             hideLoading();
             appendMessage('bot', botReply);
-            
+
             // Save clean history for context continuity
             conversationHistory.push({ role: "user", content: text });
             conversationHistory.push({ role: "assistant", content: botReply });
