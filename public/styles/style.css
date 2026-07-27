@@ -1627,18 +1627,69 @@ html {
 }
 
 /* ============================================================
-   SIDEBAR #FFE2E2 THEME & MINI MAZE GAME
+   SIDEBAR TRANSPARENT #FFE2E2 THEME, TOGGLE & SCROLL FIX
    ============================================================ */
 #sidebar {
-    background: #FFE2E2 !important;
-    border-right: 2px solid rgba(225, 29, 72, 0.25) !important;
-    box-shadow: 4px 0 24px rgba(225, 29, 72, 0.12) !important;
+    background: rgba(255, 226, 226, 0.72) !important;
+    backdrop-filter: blur(24px) saturate(160%) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(160%) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 4px 0 32px rgba(225, 29, 72, 0.12) !important;
     color: #1e293b !important;
+    transition: margin-left 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+}
+
+/* Sidebar Toggle / Collapsed State */
+#sidebar.sidebar-closed {
+    margin-left: -320px !important;
+}
+
+/* Sidebar Close Button */
+.sidebar-close-btn {
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(225, 29, 72, 0.2);
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #881337;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sidebar-close-btn:hover {
+    background: #f43f5e;
+    color: #ffffff;
+    border-color: #e11d48;
+}
+
+/* Ensure Sidebar Content is 100% Scrollable */
+.sidebar-content {
+    flex: 1 1 auto !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    min-height: 0 !important;
+    max-height: calc(100vh - 85px) !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    -webkit-overflow-scrolling: touch !important;
 }
 
 #sidebar .sidebar-header {
-    background: linear-gradient(180deg, #ffe2e2 0%, #ffd0d0 100%) !important;
-    border-bottom: 2px solid rgba(225, 29, 72, 0.2) !important;
+    background: rgba(255, 226, 226, 0.45) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-bottom: 1px solid rgba(225, 29, 72, 0.15) !important;
 }
 
 #sidebar .sidebar-header h1 {
@@ -1655,9 +1706,11 @@ html {
 }
 
 #sidebar .dash-section {
-    background: rgba(255, 255, 255, 0.88) !important;
-    border: 1px solid rgba(225, 29, 72, 0.2) !important;
-    box-shadow: 0 4px 15px rgba(225, 29, 72, 0.08) !important;
+    background: rgba(255, 255, 255, 0.65) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    box-shadow: 0 4px 16px rgba(225, 29, 72, 0.08) !important;
 }
 
 #sidebar .dash-title {
@@ -1665,20 +1718,20 @@ html {
 }
 
 #sidebar .layer-chip {
-    background: rgba(255, 255, 255, 0.95) !important;
-    border: 1px solid rgba(225, 29, 72, 0.2) !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    border: 1px solid rgba(225, 29, 72, 0.18) !important;
     color: #1e293b !important;
 }
 
 #sidebar .layer-chip:hover {
-    background: #ffffff !important;
+    background: rgba(255, 255, 255, 0.95) !important;
     border-color: #f43f5e !important;
     box-shadow: 0 2px 8px rgba(244, 63, 94, 0.2) !important;
 }
 
 #sidebar .search-input-wrapper input,
 #sidebar .select-wrapper select {
-    background: #ffffff !important;
+    background: rgba(255, 255, 255, 0.9) !important;
     color: #1e293b !important;
     border: 1px solid rgba(225, 29, 72, 0.3) !important;
 }
@@ -1699,13 +1752,18 @@ html {
 }
 
 #sidebar .analysis-result {
-    background: rgba(255, 226, 226, 0.6) !important;
+    background: rgba(255, 226, 226, 0.5) !important;
     border: 1px dashed rgba(225, 29, 72, 0.3) !important;
     color: #334155 !important;
 }
 
+#sidebar .sidebar-content::-webkit-scrollbar {
+    width: 6px !important;
+}
+
 #sidebar .sidebar-content::-webkit-scrollbar-thumb {
-    background: rgba(244, 63, 94, 0.4) !important;
+    background: rgba(244, 63, 94, 0.5) !important;
+    border-radius: 10px !important;
 }
 
 /* ── Mini Maze Game ── */
@@ -1732,7 +1790,7 @@ html {
 }
 
 #maze-board-wrapper {
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.9);
     padding: 8px;
     border-radius: 12px;
     border: 2px solid #f43f5e;

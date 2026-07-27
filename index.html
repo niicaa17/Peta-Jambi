@@ -32,6 +32,9 @@
             <div class="sidebar-header">
                 <div class="brand-icon"><i class="fa-solid fa-globe"></i></div>
                 <h1>SPATIAL JAMBI</h1>
+                <button id="sidebar-close-btn" class="sidebar-close-btn" title="Tutup / Buka Sidebar">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
             </div>
 
             <div class="sidebar-content">
@@ -176,7 +179,7 @@
             <!-- Top Navbar Header -->
             <header id="top-header">
                 <div class="header-top-bar">
-                    <button id="toggle-sidebar" class="header-toggle-btn mobile-only" title="Toggle Sidebar">
+                    <button id="toggle-sidebar" class="header-toggle-btn" title="Toggle Sidebar">
                         <i class="fa-solid fa-bars"></i>
                     </button>
                     <div class="header-headline">
@@ -251,18 +254,21 @@
     <script>
         (function () {
             const btn = document.getElementById('toggle-sidebar');
+            const closeBtn = document.getElementById('sidebar-close-btn');
             const sidebar = document.getElementById('sidebar');
 
-            if (btn && sidebar) {
-                btn.addEventListener('click', function () {
-                    sidebar.classList.toggle('sidebar-open');
-                    btn.classList.toggle('active');
-                    // Trigger map resize after transition
-                    setTimeout(function () {
-                        if (window.map) window.map.invalidateSize();
-                    }, 350);
-                });
+            function toggleSidebar() {
+                if (!sidebar) return;
+                sidebar.classList.toggle('sidebar-closed');
+                sidebar.classList.toggle('sidebar-open');
+                if (btn) btn.classList.toggle('active');
+                setTimeout(function () {
+                    if (window.map) window.map.invalidateSize();
+                }, 360);
             }
+
+            if (btn) btn.addEventListener('click', toggleSidebar);
+            if (closeBtn) closeBtn.addEventListener('click', toggleSidebar);
         })();
 
         // Kabupaten Dropdown

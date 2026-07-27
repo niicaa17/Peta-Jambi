@@ -12,6 +12,7 @@ class MiniMaze {
         this.cols = 10;
         this.rows = 10;
         this.cellSize = this.canvas.width / this.cols;
+        this.isHovered = false;
         
         this.init();
         this.bindEvents();
@@ -24,7 +25,6 @@ class MiniMaze {
         this.player = { x: 0, y: 0 };
         this.target = { x: this.cols - 1, y: this.rows - 1 };
         
-        // Build empty grid with 4 walls per cell
         for (let r = 0; r < this.rows; r++) {
             let row = [];
             for (let c = 0; c < this.cols; c++) {
@@ -37,7 +37,6 @@ class MiniMaze {
             this.grid.push(row);
         }
         
-        // Generate maze using DFS
         this.generateMaze(0, 0);
         
         if (this.statusEl) this.statusEl.innerHTML = 'Cari jalan ke 🏁!';
@@ -56,7 +55,6 @@ class MiniMaze {
             { r: 0, c: 1, wall: 'right', opp: 'left' }
         ];
         
-        // Shuffle directions randomly
         directions.sort(() => Math.random() - 0.5);
         
         for (let d of directions) {
@@ -107,11 +105,9 @@ class MiniMaze {
         const cs = this.cellSize;
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         
-        // Draw maze floor background
-        this.ctx.fillStyle = '#fff0f3';
+        this.ctx.fillStyle = 'rgba(255, 240, 243, 0.9)';
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
         
-        // Draw walls
         this.ctx.strokeStyle = '#e11d48';
         this.ctx.lineWidth = 3;
         this.ctx.lineCap = 'round';
@@ -143,7 +139,6 @@ class MiniMaze {
             }
         }
         
-        // Draw Target 🏁
         const tx = this.target.x * cs + cs / 2;
         const ty = this.target.y * cs + cs / 2;
         this.ctx.font = `${Math.floor(cs * 0.55)}px sans-serif`;
@@ -151,7 +146,6 @@ class MiniMaze {
         this.ctx.textBaseline = 'middle';
         this.ctx.fillText('🏁', tx, ty);
         
-        // Draw Player 🏃
         const px = this.player.x * cs + cs / 2;
         const py = this.player.y * cs + cs / 2;
         this.ctx.fillText('🏃', px, py);
@@ -164,28 +158,29 @@ class MiniMaze {
         document.getElementById('maze-btn-right')?.addEventListener('click', () => this.move('right'));
         document.getElementById('maze-btn-reset')?.addEventListener('click', () => this.init());
         
+        const section = this.canvas.closest('.mini-maze-section');
+        if (section) {
+            section.addEventListener('mouseenter', () => this.isHovered = true);
+            section.addEventListener('mouseleave', () => this.isHovered = false);
+        }
+        
         window.addEventListener('keydown', (e) => {
+            if (!this.isHovered) return;
+            if (document.activeElement.tagName === 'INPUT') return;
+            
             const key = e.key.toLowerCase();
             if (['arrowup', 'w'].includes(key)) {
-                if (document.activeElement.tagName !== 'INPUT') {
-                    e.preventDefault();
-                    this.move('up');
-                }
+                e.preventDefault();
+                this.move('up');
             } else if (['arrowdown', 's'].includes(key)) {
-                if (document.activeElement.tagName !== 'INPUT') {
-                    e.preventDefault();
-                    this.move('down');
-                }
+                e.preventDefault();
+                this.move('down');
             } else if (['arrowleft', 'a'].includes(key)) {
-                if (document.activeElement.tagName !== 'INPUT') {
-                    e.preventDefault();
-                    this.move('left');
-                }
+                e.preventDefault();
+                this.move('left');
             } else if (['arrowright', 'd'].includes(key)) {
-                if (document.activeElement.tagName !== 'INPUT') {
-                    e.preventDefault();
-                    this.move('right');
-                }
+                e.preventDefault();
+                this.move('right');
             }
         });
     }
