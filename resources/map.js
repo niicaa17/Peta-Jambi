@@ -104,35 +104,35 @@ document.addEventListener('DOMContentLoaded', function () {
     let desaLayerGroup = L.layerGroup().addTo(map);
     let regencyMarkers = L.layerGroup().addTo(map);
 
-    // BPS Population density styling limits (Jiwa / km2) - Transparent Pink Palette
+    // BPS Population density styling limits (Jiwa / km2) - Distinct Pink Palette
     // 0-45, 45-60, 60-75, 75-100, 100-300, 300+
     function getDensityColor(d) {
-        return d > 300  ? '#881337' : // Sangat Padat - Formal Deep Magenta Crimson
-               d > 100  ? '#be123c' : // Padat - Formal Deep Rose Pink
-               d > 75   ? '#e11d48' : // Sedang-Padat - Vivid Pink
-               d > 60   ? '#f43f5e' : // Sedang - Bright Rose Pink
-               d > 45   ? '#fb7185' : // Rendah-Sedang - Soft Bright Pink
-                          '#ffe2e2' ; // Rendah - Soft Light Pastel Pink
+        return d > 300  ? '#701a75' : // > 300 (Sangat Padat)  - Deep Magenta Purple-Pink
+               d > 100  ? '#be123c' : // 100-300 (Padat)       - Formal Crimson Red-Pink
+               d > 75   ? '#db2777' : // 75-100 (Sedang-Padat) - Vivid Hot Fuchsia Pink
+               d > 60   ? '#f43f5e' : // 60-75 (Sedang)        - Bright Coral Rose Pink
+               d > 45   ? '#f472b6' : // 45-60 (Rendah-Sedang) - Light Bubblegum Pink
+                          '#fbcfe8' ; // 0-45 (Rendah)         - Pale Pastel Blush Pink
     }
 
     function regencyStyle(feature) {
         return {
             fillColor: getDensityColor(feature.properties.density),
-            weight: 2,
-            opacity: 0.85,
-            color: '#9f1239',
+            weight: 2.5,
+            opacity: 0.9,
+            color: '#831843', // Dark Magenta Border for clean distinction
             dashArray: '',
-            fillOpacity: 0.42
+            fillOpacity: 0.52 // Transparent fill with crisp distinct hues
         };
     }
 
     function highlightRegency(e) {
         const layer = e.target;
         layer.setStyle({
-            weight: 3,
-            color: '#881337',
+            weight: 3.5,
+            color: '#4c0519',
             dashArray: '',
-            fillOpacity: 0.65
+            fillOpacity: 0.72
         });
         layer.bringToFront();
     }
