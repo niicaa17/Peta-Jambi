@@ -1649,11 +1649,29 @@ html {
     flex-direction: column !important;
 }
 
+/* Header shifts right when sidebar is open */
 #top-header {
     margin-left: 320px !important;
     width: calc(100vw - 320px) !important;
     transition: margin-left 0.35s cubic-bezier(0.4, 0, 0.2, 1), width 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
     z-index: 999 !important;
+    flex-shrink: 0 !important;
+}
+
+/* When sidebar is closed, header goes full-width */
+#sidebar.sidebar-closed ~ #main-content #top-header,
+.sidebar-closed ~ #main-content #top-header {
+    margin-left: 0 !important;
+    width: 100vw !important;
+}
+
+/* Map must fill the entire remaining space */
+#map {
+    flex: 1 1 0 !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    z-index: 1 !important;
+    background: #e8f4f8 !important;
 }
 
 #sidebar {
@@ -1703,23 +1721,30 @@ html {
     border-color: #e11d48;
 }
 
-/* 100% Scrollable Sidebar Content */
+/* 100% Scrollable Sidebar Content — flex scroll pattern */
 .sidebar-content {
-    flex: 1 1 auto !important;
+    flex: 1 1 0 !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
     min-height: 0 !important;
     max-height: none !important;
-    height: 0 !important;
-    padding: 20px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 18px !important;
+    padding: 16px !important;
+    display: block !important;
     -webkit-overflow-scrolling: touch !important;
     touch-action: pan-y !important;
 }
 
+.sidebar-content > * {
+    margin-bottom: 16px !important;
+}
+
+.sidebar-content > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Sidebar header must not grow/shrink */
 #sidebar .sidebar-header {
+    flex-shrink: 0 !important;
     background: rgba(255, 226, 226, 0.35) !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;

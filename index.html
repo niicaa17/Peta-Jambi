@@ -294,15 +294,29 @@
             const btn = document.getElementById('toggle-sidebar');
             const closeBtn = document.getElementById('sidebar-close-btn');
             const sidebar = document.getElementById('sidebar');
+            const header = document.getElementById('top-header');
+
+            function updateHeader() {
+                if (!header || !sidebar) return;
+                const isClosed = sidebar.classList.contains('sidebar-closed');
+                if (isClosed) {
+                    header.style.marginLeft = '0';
+                    header.style.width = '100vw';
+                } else {
+                    header.style.marginLeft = '320px';
+                    header.style.width = 'calc(100vw - 320px)';
+                }
+            }
 
             function toggleSidebar() {
                 if (!sidebar) return;
                 sidebar.classList.toggle('sidebar-closed');
                 sidebar.classList.toggle('sidebar-open');
                 if (btn) btn.classList.toggle('active');
+                updateHeader();
                 setTimeout(function () {
                     if (window.map) window.map.invalidateSize();
-                }, 360);
+                }, 380);
             }
 
             if (btn) btn.addEventListener('click', toggleSidebar);
