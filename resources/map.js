@@ -104,41 +104,28 @@ document.addEventListener('DOMContentLoaded', function () {
     let desaLayerGroup = L.layerGroup().addTo(map);
     let regencyMarkers = L.layerGroup().addTo(map);
 
-    // Curated random palette: Pink, Peach, Orange, Translucent White
-    const pinkPeachOrangeWhitePalette = [
-        '#f43f5e', // Vibrant Rose Pink
-        '#ff8a65', // Warm Coral Peach
-        '#f97316', // Vibrant Orange
-        '#ffffff', // Translucent Soft White
-        '#db2777', // Fuchsia Pink
-        '#ffab91', // Pastel Sunset Peach
-        '#fb923c', // Bright Apricot Orange
-        '#fff0f3', // Pearl Blush White
-        '#e11d48', // Deep Hot Pink
-        '#ff7043', // Deep Sunset Peach
-        '#ea580c', // Deep Warm Orange
-        '#ffedd5'  // Warm Cream White
-    ];
-
-    function getRegencyColor(feature) {
-        if (!feature || !feature.properties) return '#f43f5e';
-        const str = feature.properties.name_clean || feature.properties.regency_key || String(feature.properties.ID_2 || '');
-        let hash = 0;
-        for (let i = 0; i < str.length; i++) {
-            hash = str.charCodeAt(i) + ((hash << 5) - hash);
-        }
-        const index = Math.abs(hash) % pinkPeachOrangeWhitePalette.length;
-        return pinkPeachOrangeWhitePalette[index];
+    // Population density palette: Pink, Peach, Orange, Putih Transparan
+    // > 300: Pink (Sangat Padat / Penduduk Paling Banyak)
+    // 100 - 300: Peach (Padat / Penduduk Banyak)
+    // 60 - 100: Orange (Sedang / Penduduk Sedang)
+    // 45 - 60: Pink Muda (Rendah / Penduduk Sedikit)
+    // < 45: Putih Transparan (Sangat Rendah / Penduduk Paling Sedikit)
+    function getDensityColor(d) {
+        return d > 300  ? '#e11d48' : // > 300 (Pink / Hot Pink - Penduduk Paling Banyak)
+               d > 100  ? '#ff7043' : // 100-300 (Peach - Penduduk Banyak)
+               d > 60   ? '#f97316' : // 60-100 (Orange - Penduduk Sedang)
+               d > 45   ? '#f472b6' : // 45-60 (Pink Muda - Penduduk Sedikit)
+                          '#ffffff' ; // < 45 (Putih Transparan - Penduduk Paling Sedikit)
     }
 
     function regencyStyle(feature) {
         return {
-            fillColor: getRegencyColor(feature),
+            fillColor: getDensityColor(feature.properties.density),
             weight: 2.5,
             opacity: 0.9,
-            color: '#be123c', // Formal Rose-Magenta border
+            color: '#be123c', // Border Rose-Magenta
             dashArray: '',
-            fillOpacity: 0.50 // Semi-transparent fill
+            fillOpacity: 0.52 // Semi-transparent fill
         };
     }
 
@@ -833,20 +820,22 @@ document.addEventListener('DOMContentLoaded', function () {
         const legend = L.control({ position: 'bottomright' });
         legend.onAdd = function () {
             const div = L.DomUtil.create('div', 'info legend');
-            div.innerHTML = '<h4>Kategori Warna Wilayah</h4>';
+            div.innerHTML = '<h4>Kepadatan Penduduk</h4>';
             
             const categories = [
-                { color: '#f43f5e', label: 'Pink' },
-                { color: '#ff8a65', label: 'Peach' },
-                { color: '#f97316', label: 'Orange' },
-                { color: '#ffffff', label: 'Putih (Transparan)' }
+                { color: '#e11d48', label: 'Pink &bull; Sangat Padat (> 300 jiwa/km²)' },
+                { color: '#ff7043', label: 'Peach &bull; Padat (100 &ndash; 300 jiwa/km²)' },
+                { color: '#f97316', label: 'Orange &bull; Sedang (60 &ndash; 100 jiwa/km²)' },
+                { color: '#f472b6', label: 'Pink Muda &bull; Rendah (45 &ndash; 60 jiwa/km²)' },
+                { color: '#ffffff', label: 'Putih &bull; Sangat Rendah (< 45 jiwa/km²)', border: true }
             ];
 
             categories.forEach(cat => {
+                const borderStyle = cat.border ? 'border: 1px solid rgba(0,0,0,0.3);' : '';
                 div.innerHTML += `
-                    <div class="legend-item">
-                        <i style="background: ${cat.color}; border: 1px solid rgba(0,0,0,0.25);"></i> 
-                        <span>${cat.label}</span>
+                    <div class="legend-item" style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                        <i style="background: ${cat.color}; ${borderStyle} width: 18px; height: 18px; border-radius: 4px; display: inline-block; flex-shrink: 0;"></i> 
+                        <span style="font-size: 11px; font-weight: 500;">${cat.label}</span>
                     </div>
                 `;
             });
