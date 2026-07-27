@@ -104,25 +104,25 @@ document.addEventListener('DOMContentLoaded', function () {
     let desaLayerGroup = L.layerGroup().addTo(map);
     let regencyMarkers = L.layerGroup().addTo(map);
 
-    // BPS Population density styling limits (Jiwa / km2)
+    // BPS Population density styling limits (Jiwa / km2) - Transparent Pink Palette
     // 0-45, 45-60, 60-75, 75-100, 100-300, 300+
     function getDensityColor(d) {
-        return d > 300  ? '#b10026' : // Sangat Padat - Dark Red
-               d > 100  ? '#e31a1c' : // Padat - Red
-               d > 75   ? '#fc4e2a' : // Sedang-Padat - Orange-Red
-               d > 60   ? '#fd8d3c' : // Sedang - Orange
-               d > 45   ? '#feb24c' : // Rendah-Sedang - Light Orange
-                          '#FFE2E2' ;  // Rendah - Soft Light Red
+        return d > 300  ? '#881337' : // Sangat Padat - Formal Deep Magenta Crimson
+               d > 100  ? '#be123c' : // Padat - Formal Deep Rose Pink
+               d > 75   ? '#e11d48' : // Sedang-Padat - Vivid Pink
+               d > 60   ? '#f43f5e' : // Sedang - Bright Rose Pink
+               d > 45   ? '#fb7185' : // Rendah-Sedang - Soft Bright Pink
+                          '#ffe2e2' ; // Rendah - Soft Light Pastel Pink
     }
 
     function regencyStyle(feature) {
         return {
             fillColor: getDensityColor(feature.properties.density),
             weight: 2,
-            opacity: 1,
-            color: '#555',
+            opacity: 0.85,
+            color: '#9f1239',
             dashArray: '',
-            fillOpacity: 0.55
+            fillOpacity: 0.42
         };
     }
 
@@ -130,9 +130,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const layer = e.target;
         layer.setStyle({
             weight: 3,
-            color: '#333',
+            color: '#881337',
             dashArray: '',
-            fillOpacity: 0.75
+            fillOpacity: 0.65
         });
         layer.bringToFront();
     }
