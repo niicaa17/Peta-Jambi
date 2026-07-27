@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
                d > 75   ? '#fc4e2a' : // Sedang-Padat - Orange-Red
                d > 60   ? '#fd8d3c' : // Sedang - Orange
                d > 45   ? '#feb24c' : // Rendah-Sedang - Light Orange
-                          '#ffffb2' ;  // Rendah - Pale Yellow
+                          '#FFE2E2' ;  // Rendah - Soft Light Red
     }
 
     function regencyStyle(feature) {
