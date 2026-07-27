@@ -104,25 +104,41 @@ document.addEventListener('DOMContentLoaded', function () {
     let desaLayerGroup = L.layerGroup().addTo(map);
     let regencyMarkers = L.layerGroup().addTo(map);
 
-    // BPS Population density styling limits (Jiwa / km2) - Distinct Pink Palette
-    // 0-45, 45-60, 60-75, 75-100, 100-300, 300+
-    function getDensityColor(d) {
-        return d > 300  ? '#701a75' : // > 300 (Sangat Padat)  - Deep Magenta Purple-Pink
-               d > 100  ? '#be123c' : // 100-300 (Padat)       - Formal Crimson Red-Pink
-               d > 75   ? '#db2777' : // 75-100 (Sedang-Padat) - Vivid Hot Fuchsia Pink
-               d > 60   ? '#f43f5e' : // 60-75 (Sedang)        - Bright Coral Rose Pink
-               d > 45   ? '#f472b6' : // 45-60 (Rendah-Sedang) - Light Bubblegum Pink
-                          '#fbcfe8' ; // 0-45 (Rendah)         - Pale Pastel Blush Pink
+    // Curated random palette: Pink, Peach, Orange, Translucent White
+    const pinkPeachOrangeWhitePalette = [
+        '#f43f5e', // Vibrant Rose Pink
+        '#ff8a65', // Warm Coral Peach
+        '#f97316', // Vibrant Orange
+        '#ffffff', // Translucent Soft White
+        '#db2777', // Fuchsia Pink
+        '#ffab91', // Pastel Sunset Peach
+        '#fb923c', // Bright Apricot Orange
+        '#fff0f3', // Pearl Blush White
+        '#e11d48', // Deep Hot Pink
+        '#ff7043', // Deep Sunset Peach
+        '#ea580c', // Deep Warm Orange
+        '#ffedd5'  // Warm Cream White
+    ];
+
+    function getRegencyColor(feature) {
+        if (!feature || !feature.properties) return '#f43f5e';
+        const str = feature.properties.name_clean || feature.properties.regency_key || String(feature.properties.ID_2 || '');
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            hash = str.charCodeAt(i) + ((hash << 5) - hash);
+        }
+        const index = Math.abs(hash) % pinkPeachOrangeWhitePalette.length;
+        return pinkPeachOrangeWhitePalette[index];
     }
 
     function regencyStyle(feature) {
         return {
-            fillColor: getDensityColor(feature.properties.density),
+            fillColor: getRegencyColor(feature),
             weight: 2.5,
             opacity: 0.9,
-            color: '#831843', // Dark Magenta Border for clean distinction
+            color: '#be123c', // Formal Rose-Magenta border
             dashArray: '',
-            fillOpacity: 0.52 // Transparent fill with crisp distinct hues
+            fillOpacity: 0.50 // Semi-transparent fill
         };
     }
 
@@ -130,9 +146,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const layer = e.target;
         layer.setStyle({
             weight: 3.5,
-            color: '#4c0519',
+            color: '#881337',
             dashArray: '',
-            fillOpacity: 0.72
+            fillOpacity: 0.75
         });
         layer.bringToFront();
     }
@@ -817,20 +833,23 @@ document.addEventListener('DOMContentLoaded', function () {
         const legend = L.control({ position: 'bottomright' });
         legend.onAdd = function () {
             const div = L.DomUtil.create('div', 'info legend');
-            const grades = [0, 45, 60, 75, 100, 300];
+            div.innerHTML = '<h4>Kategori Warna Wilayah</h4>';
             
-            div.innerHTML = '<h4>Kepadatan Penduduk</h4>';
-            
-            for (let i = 0; i < grades.length; i++) {
-                const color = getDensityColor(grades[i] + 1);
-                const label = grades[i + 1] ? `${grades[i]} &ndash; ${grades[i + 1]}` : `&gt; ${grades[i]}`;
+            const categories = [
+                { color: '#f43f5e', label: 'Pink' },
+                { color: '#ff8a65', label: 'Peach' },
+                { color: '#f97316', label: 'Orange' },
+                { color: '#ffffff', label: 'Putih (Transparan)' }
+            ];
+
+            categories.forEach(cat => {
                 div.innerHTML += `
                     <div class="legend-item">
-                        <i style="background: ${color}"></i> 
-                        <span>${label} jiwa/km²</span>
+                        <i style="background: ${cat.color}; border: 1px solid rgba(0,0,0,0.25);"></i> 
+                        <span>${cat.label}</span>
                     </div>
                 `;
-            }
+            });
             return div;
         };
         legend.addTo(map);
