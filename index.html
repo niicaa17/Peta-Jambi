@@ -142,6 +142,32 @@
                         <!-- Output text will be injected here -->
                     </div>
                 </section>
+
+                <!-- Mini Maze Game -->
+                <section class="dash-section mini-maze-section">
+                    <h2 class="dash-title"><i class="fa-solid fa-gamepad"></i> Mini Maze Game</h2>
+                    <div class="maze-header-info">
+                        <span id="maze-status">Cari jalan ke 🏁!</span>
+                        <span id="maze-steps" class="maze-badge">Langkah: 0</span>
+                    </div>
+                    
+                    <div id="maze-board-wrapper">
+                        <canvas id="maze-canvas" width="220" height="220"></canvas>
+                    </div>
+                    
+                    <div class="maze-controls">
+                        <div class="dpad">
+                            <button class="dpad-btn up" id="maze-btn-up" title="Atas"><i class="fa-solid fa-arrow-up"></i></button>
+                            <div class="dpad-row">
+                                <button class="dpad-btn left" id="maze-btn-left" title="Kiri"><i class="fa-solid fa-arrow-left"></i></button>
+                                <button class="dpad-btn reset" id="maze-btn-reset" title="Reset / Maze Baru"><i class="fa-solid fa-rotate-right"></i></button>
+                                <button class="dpad-btn right" id="maze-btn-right" title="Kanan"><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                            <button class="dpad-btn down" id="maze-btn-down" title="Bawah"><i class="fa-solid fa-arrow-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="maze-hint">Gunakan tombol arah atau Arrow Keys / WASD di keyboard!</div>
+                </section>
             </div>
         </aside>
 
@@ -285,6 +311,7 @@
             }
         })();
     </script>
+    <script src="/resources/mini-maze.js"></script>
     <script src="/resources/chatbot.js"></script>
 </body>
 

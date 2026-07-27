@@ -1625,3 +1625,178 @@ html {
     font-size: 13px;
     color: #f97316;
 }
+
+/* ============================================================
+   SIDEBAR #FFE2E2 THEME & MINI MAZE GAME
+   ============================================================ */
+#sidebar {
+    background: #FFE2E2 !important;
+    border-right: 2px solid rgba(225, 29, 72, 0.25) !important;
+    box-shadow: 4px 0 24px rgba(225, 29, 72, 0.12) !important;
+    color: #1e293b !important;
+}
+
+#sidebar .sidebar-header {
+    background: linear-gradient(180deg, #ffe2e2 0%, #ffd0d0 100%) !important;
+    border-bottom: 2px solid rgba(225, 29, 72, 0.2) !important;
+}
+
+#sidebar .sidebar-header h1 {
+    background: linear-gradient(90deg, #881337, #e11d48, #be123c) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+#sidebar .brand-icon {
+    background: linear-gradient(135deg, #f43f5e, #e11d48) !important;
+    border-color: #be123c !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 15px rgba(244, 63, 94, 0.4) !important;
+}
+
+#sidebar .dash-section {
+    background: rgba(255, 255, 255, 0.88) !important;
+    border: 1px solid rgba(225, 29, 72, 0.2) !important;
+    box-shadow: 0 4px 15px rgba(225, 29, 72, 0.08) !important;
+}
+
+#sidebar .dash-title {
+    color: #881337 !important;
+}
+
+#sidebar .layer-chip {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid rgba(225, 29, 72, 0.2) !important;
+    color: #1e293b !important;
+}
+
+#sidebar .layer-chip:hover {
+    background: #ffffff !important;
+    border-color: #f43f5e !important;
+    box-shadow: 0 2px 8px rgba(244, 63, 94, 0.2) !important;
+}
+
+#sidebar .search-input-wrapper input,
+#sidebar .select-wrapper select {
+    background: #ffffff !important;
+    color: #1e293b !important;
+    border: 1px solid rgba(225, 29, 72, 0.3) !important;
+}
+
+#sidebar .search-input-wrapper input::placeholder {
+    color: #64748b !important;
+}
+
+#sidebar .btn {
+    background: linear-gradient(135deg, #f43f5e, #e11d48) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+#sidebar .btn:hover {
+    background: linear-gradient(135deg, #e11d48, #be123c) !important;
+    box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3) !important;
+}
+
+#sidebar .analysis-result {
+    background: rgba(255, 226, 226, 0.6) !important;
+    border: 1px dashed rgba(225, 29, 72, 0.3) !important;
+    color: #334155 !important;
+}
+
+#sidebar .sidebar-content::-webkit-scrollbar-thumb {
+    background: rgba(244, 63, 94, 0.4) !important;
+}
+
+/* ── Mini Maze Game ── */
+.mini-maze-section {
+    align-items: center;
+}
+
+.maze-header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #881337;
+}
+
+.maze-badge {
+    background: #f43f5e;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+}
+
+#maze-board-wrapper {
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid #f43f5e;
+    box-shadow: 0 4px 12px rgba(244, 63, 94, 0.15);
+    display: flex;
+    justify-content: center;
+}
+
+#maze-canvas {
+    border-radius: 6px;
+    display: block;
+}
+
+.maze-controls {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.dpad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.dpad-row {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.dpad-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #f43f5e, #e11d48);
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(225, 29, 72, 0.25);
+    transition: transform 0.1s, background 0.2s;
+}
+
+.dpad-btn:active {
+    transform: scale(0.92);
+    background: #be123c;
+}
+
+.dpad-btn.reset {
+    background: linear-gradient(135deg, #64748b, #475569);
+    width: 34px;
+    height: 34px;
+    font-size: 12px;
+}
+
+.maze-hint {
+    font-size: 10px;
+    color: #64748b;
+    text-align: center;
+    margin-top: 2px;
+}
