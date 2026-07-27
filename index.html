@@ -146,30 +146,68 @@
                     </div>
                 </section>
 
-                <!-- Mini Maze Game -->
-                <section class="dash-section mini-maze-section">
-                    <h2 class="dash-title"><i class="fa-solid fa-gamepad"></i> Mini Maze Game</h2>
-                    <div class="maze-header-info">
-                        <span id="maze-status">Cari jalan ke 🏁!</span>
-                        <span id="maze-steps" class="maze-badge">Langkah: 0</span>
-                    </div>
+                <!-- Seluruh Data Di Peta -->
+                <section class="dash-section data-summary-section">
+                    <h2 class="dash-title"><i class="fa-solid fa-database"></i> Seluruh Data Di Peta</h2>
+                    <p class="section-desc">Ringkasan seluruh objek geografis & fasilitas publik Provinsi Jambi yang tampil pada peta.</p>
                     
-                    <div id="maze-board-wrapper">
-                        <canvas id="maze-canvas" width="220" height="220"></canvas>
-                    </div>
-                    
-                    <div class="maze-controls">
-                        <div class="dpad">
-                            <button class="dpad-btn up" id="maze-btn-up" title="Atas"><i class="fa-solid fa-arrow-up"></i></button>
-                            <div class="dpad-row">
-                                <button class="dpad-btn left" id="maze-btn-left" title="Kiri"><i class="fa-solid fa-arrow-left"></i></button>
-                                <button class="dpad-btn reset" id="maze-btn-reset" title="Reset / Maze Baru"><i class="fa-solid fa-rotate-right"></i></button>
-                                <button class="dpad-btn right" id="maze-btn-right" title="Kanan"><i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="data-stats-grid">
+                        <div class="data-stat-card uni-card">
+                            <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value">24</span>
+                                <span class="stat-label">Perguruan Tinggi</span>
                             </div>
-                            <button class="dpad-btn down" id="maze-btn-down" title="Bawah"><i class="fa-solid fa-arrow-down"></i></button>
+                        </div>
+                        
+                        <div class="data-stat-card school-card">
+                            <div class="stat-icon"><i class="fa-solid fa-school"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value">5.342</span>
+                                <span class="stat-label">Sekolah (TK, SD, SMP, SMA)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="data-stat-card hosp-card">
+                            <div class="stat-icon"><i class="fa-solid fa-hospital"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value">38</span>
+                                <span class="stat-label">Rumah Sakit & Faskes</span>
+                            </div>
+                        </div>
+
+                        <div class="data-stat-card mosque-card">
+                            <div class="stat-icon"><i class="fa-solid fa-mosque"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value">2.870</span>
+                                <span class="stat-label">Masjid & Tempat Ibadah</span>
+                            </div>
+                        </div>
+
+                        <div class="data-stat-card police-card">
+                            <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value">112</span>
+                                <span class="stat-label">Kantor Polisi & Polres</span>
+                            </div>
+                        </div>
+
+                        <div class="data-stat-card tourism-card">
+                            <div class="stat-icon"><i class="fa-solid fa-camera-retro"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value">45</span>
+                                <span class="stat-label">Objek & Destinasi Wisata</span>
+                            </div>
+                        </div>
+
+                        <div class="data-stat-card regency-card">
+                            <div class="stat-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-value">11</span>
+                                <span class="stat-label">Kabupaten / Kota Jambi</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="maze-hint">Gunakan tombol arah atau Arrow Keys / WASD di keyboard!</div>
                 </section>
             </div>
         </aside>
@@ -317,7 +355,6 @@
             }
         })();
     </script>
-    <script src="/resources/mini-maze.js"></script>
     <script src="/resources/chatbot.js"></script>
 </body>
 

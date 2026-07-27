@@ -1627,32 +1627,62 @@ html {
 }
 
 /* ============================================================
-   SIDEBAR TRANSPARENT #FFE2E2 THEME, TOGGLE & SCROLL FIX
+   SIDEBAR REAL MAP-OVERLAY TRANSPARENCY, SCROLL FIX & DATA STATS
    ============================================================ */
-#sidebar {
-    background: rgba(255, 226, 226, 0.72) !important;
-    backdrop-filter: blur(24px) saturate(160%) !important;
-    -webkit-backdrop-filter: blur(24px) saturate(160%) !important;
-    border-right: 1px solid rgba(255, 255, 255, 0.5) !important;
-    box-shadow: 4px 0 32px rgba(225, 29, 72, 0.12) !important;
-    color: #1e293b !important;
-    transition: margin-left 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+#app-container {
+    position: relative !important;
+    width: 100vw !important;
     height: 100vh !important;
-    max-height: 100vh !important;
+    overflow: hidden !important;
+}
+
+#main-content {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#top-header {
+    margin-left: 320px !important;
+    width: calc(100vw - 320px) !important;
+    transition: margin-left 0.35s cubic-bezier(0.4, 0, 0.2, 1), width 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    z-index: 999 !important;
+}
+
+#sidebar {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 320px !important;
+    height: 100vh !important;
+    z-index: 1000 !important;
+    background: rgba(255, 226, 226, 0.45) !important;
+    backdrop-filter: blur(20px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.45) !important;
+    box-shadow: 6px 0 32px rgba(0, 0, 0, 0.25) !important;
+    color: #1e293b !important;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
     display: flex !important;
     flex-direction: column !important;
     overflow: hidden !important;
 }
 
-/* Sidebar Toggle / Collapsed State */
+/* Sidebar Closed State */
 #sidebar.sidebar-closed {
-    margin-left: -320px !important;
+    transform: translateX(-100%) !important;
 }
 
 /* Sidebar Close Button */
 .sidebar-close-btn {
     margin-left: auto;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.75);
     border: 1px solid rgba(225, 29, 72, 0.2);
     border-radius: 8px;
     width: 32px;
@@ -1671,25 +1701,27 @@ html {
     border-color: #e11d48;
 }
 
-/* Ensure Sidebar Content is 100% Scrollable */
+/* 100% Scrollable Sidebar Content */
 .sidebar-content {
     flex: 1 1 auto !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
     min-height: 0 !important;
-    max-height: calc(100vh - 85px) !important;
+    height: calc(100vh - 85px) !important;
     padding: 20px !important;
     display: flex !important;
     flex-direction: column !important;
-    gap: 20px !important;
+    gap: 18px !important;
     -webkit-overflow-scrolling: touch !important;
+    touch-action: pan-y !important;
 }
 
 #sidebar .sidebar-header {
-    background: rgba(255, 226, 226, 0.45) !important;
+    background: rgba(255, 226, 226, 0.35) !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
     border-bottom: 1px solid rgba(225, 29, 72, 0.15) !important;
+    padding: 20px 24px !important;
 }
 
 #sidebar .sidebar-header h1 {
@@ -1706,11 +1738,12 @@ html {
 }
 
 #sidebar .dash-section {
-    background: rgba(255, 255, 255, 0.65) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    border: 1px solid rgba(255, 255, 255, 0.7) !important;
-    box-shadow: 0 4px 16px rgba(225, 29, 72, 0.08) !important;
+    background: rgba(255, 255, 255, 0.58) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.65) !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05) !important;
+    padding: 16px !important;
 }
 
 #sidebar .dash-title {
@@ -1718,7 +1751,7 @@ html {
 }
 
 #sidebar .layer-chip {
-    background: rgba(255, 255, 255, 0.8) !important;
+    background: rgba(255, 255, 255, 0.75) !important;
     border: 1px solid rgba(225, 29, 72, 0.18) !important;
     color: #1e293b !important;
 }
@@ -1731,9 +1764,10 @@ html {
 
 #sidebar .search-input-wrapper input,
 #sidebar .select-wrapper select {
-    background: rgba(255, 255, 255, 0.9) !important;
+    background: rgba(255, 255, 255, 0.85) !important;
     color: #1e293b !important;
-    border: 1px solid rgba(225, 29, 72, 0.3) !important;
+    border: 1px solid rgba(225, 29, 72, 0.25) !important;
+    font-size: 13px !important;
 }
 
 #sidebar .search-input-wrapper input::placeholder {
@@ -1752,7 +1786,7 @@ html {
 }
 
 #sidebar .analysis-result {
-    background: rgba(255, 226, 226, 0.5) !important;
+    background: rgba(255, 226, 226, 0.45) !important;
     border: 1px dashed rgba(225, 29, 72, 0.3) !important;
     color: #334155 !important;
 }
@@ -1766,95 +1800,304 @@ html {
     border-radius: 10px !important;
 }
 
-/* ── Mini Maze Game ── */
-.mini-maze-section {
-    align-items: center;
-}
-
-.maze-header-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    font-size: 12px;
-    font-weight: 600;
-    color: #881337;
-}
-
-.maze-badge {
-    background: #f43f5e;
-    color: #ffffff;
-    padding: 3px 8px;
-    border-radius: 12px;
-    font-size: 11px;
-}
-
-#maze-board-wrapper {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 8px;
-    border-radius: 12px;
-    border: 2px solid #f43f5e;
-    box-shadow: 0 4px 12px rgba(244, 63, 94, 0.15);
-    display: flex;
-    justify-content: center;
-}
-
-#maze-canvas {
-    border-radius: 6px;
-    display: block;
-}
-
-.maze-controls {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 4px;
-}
-
-.dpad {
+/* ── Seluruh Data Di Peta Section ── */
+.data-summary-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 4px;
+    gap: 10px;
 }
 
-.dpad-row {
+.section-desc {
+    font-size: 11px;
+    color: #475569;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.data-stats-grid {
     display: flex;
-    gap: 4px;
-    align-items: center;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.dpad-btn {
-    width: 36px;
-    height: 36px;
+.data-stat-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(225, 29, 72, 0.15);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.data-stat-card:hover {
+    background: rgba(255, 255, 255, 0.95);
+    transform: translateX(3px);
+    box-shadow: 0 4px 12px rgba(225, 29, 72, 0.12);
+    border-color: #f43f5e;
+}
+
+.data-stat-card .stat-icon {
+    width: 34px;
+    height: 34px;
     border-radius: 8px;
-    border: none;
-    background: linear-gradient(135deg, #f43f5e, #e11d48);
-    color: #ffffff;
-    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    box-shadow: 0 2px 6px rgba(225, 29, 72, 0.25);
-    transition: transform 0.1s, background 0.2s;
+    font-size: 15px;
+    flex-shrink: 0;
 }
 
-.dpad-btn:active {
-    transform: scale(0.92);
-    background: #be123c;
+.uni-card .stat-icon { background: rgba(245, 158, 11, 0.18); color: #d97706; }
+.school-card .stat-icon { background: rgba(16, 185, 129, 0.18); color: #059669; }
+.hosp-card .stat-icon { background: rgba(239, 68, 68, 0.18); color: #dc2626; }
+.mosque-card .stat-icon { background: rgba(13, 148, 136, 0.18); color: #0d9488; }
+.police-card .stat-icon { background: rgba(71, 85, 105, 0.18); color: #475569; }
+.tourism-card .stat-icon { background: rgba(219, 39, 119, 0.18); color: #db2777; }
+.regency-card .stat-icon { background: rgba(99, 102, 241, 0.18); color: #4f46e5; }
+
+.stat-info {
+    display: flex;
+    flex-direction: column;
 }
 
-.dpad-btn.reset {
-    background: linear-gradient(135deg, #64748b, #475569);
-    width: 34px;
-    height: 34px;
-    font-size: 12px;
+.stat-value {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e293b;
+    line-height: 1.1;
 }
 
-.maze-hint {
-    font-size: 10px;
+.stat-label {
+    font-size: 11px;
     color: #64748b;
-    text-align: center;
-    margin-top: 2px;
+    font-weight: 500;
+}
+
+/* ============================================================
+   GLOBAL UNIFIED #FFE2E2 GLASSMORPHISM THEME OVERRIDES
+   ============================================================ */
+
+/* ── 1. Top Navbar Header ── */
+#top-header {
+    background: rgba(255, 226, 226, 0.55) !important;
+    backdrop-filter: blur(20px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45) !important;
+    color: #1e293b !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.header-top-bar {
+    padding: 10px 24px !important;
+}
+
+.headline-text {
+    color: #881337 !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    font-family: 'Outfit', sans-serif !important;
+    letter-spacing: 0.5px !important;
+}
+
+.headline-badge {
+    background: linear-gradient(135deg, #f43f5e, #e11d48) !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(244, 63, 94, 0.3) !important;
+}
+
+.header-toggle-btn {
+    background: rgba(255, 255, 255, 0.75) !important;
+    color: #881337 !important;
+    border: 1px solid rgba(225, 29, 72, 0.25) !important;
+    font-weight: 600 !important;
+}
+
+.header-toggle-btn:hover, .header-toggle-btn.active {
+    background: #ffffff !important;
+    color: #e11d48 !important;
+    border-color: #f43f5e !important;
+    box-shadow: 0 2px 10px rgba(244, 63, 94, 0.25) !important;
+}
+
+/* ── 2. Header Ticker Bar ── */
+.header-ticker {
+    background: rgba(255, 215, 215, 0.4) !important;
+    border-top: 1px solid rgba(225, 29, 72, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.ticker-item {
+    color: #475569 !important;
+    font-weight: 500 !important;
+}
+
+.ticker-item i {
+    color: #e11d48 !important;
+    opacity: 1 !important;
+}
+
+.ticker-item strong {
+    color: #881337 !important;
+    font-weight: 700 !important;
+}
+
+.ticker-divider {
+    background: rgba(225, 29, 72, 0.25) !important;
+}
+
+.ticker-clickable:hover {
+    background: rgba(255, 255, 255, 0.7) !important;
+    color: #881337 !important;
+}
+
+.ticker-clickable.open {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #e11d48 !important;
+}
+
+.ticker-dropdown {
+    background: rgba(255, 230, 230, 0.95) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(225, 29, 72, 0.25) !important;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2) !important;
+    color: #1e293b !important;
+}
+
+.ticker-dropdown-list li {
+    color: #334155 !important;
+}
+
+.ticker-dropdown-list li:hover {
+    background: rgba(244, 63, 94, 0.15) !important;
+    color: #881337 !important;
+}
+
+/* ── 3. Leaflet Controls & Zoom Buttons ── */
+.leaflet-control-zoom {
+    border: 1px solid rgba(225, 29, 72, 0.25) !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.leaflet-control-zoom a {
+    background: rgba(255, 226, 226, 0.88) !important;
+    color: #881337 !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-bottom: 1px solid rgba(225, 29, 72, 0.15) !important;
+    font-weight: bold !important;
+}
+
+.leaflet-control-zoom a:hover {
+    background: #ffffff !important;
+    color: #f43f5e !important;
+}
+
+/* ── 4. Choropleth Map Legend ── */
+.legend {
+    background: rgba(255, 226, 226, 0.85) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    color: #1e293b !important;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18) !important;
+    border-radius: 14px !important;
+    padding: 12px 16px !important;
+}
+
+.legend h4 {
+    color: #881337 !important;
+    font-weight: 700 !important;
+    border-bottom: 1px solid rgba(225, 29, 72, 0.2) !important;
+    padding-bottom: 6px !important;
+    margin-bottom: 8px !important;
+}
+
+.legend-item span {
+    color: #334155 !important;
+    font-weight: 600 !important;
+}
+
+/* ── 5. Leaflet Popups ── */
+.leaflet-popup-content-wrapper {
+    background: rgba(255, 238, 241, 0.95) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border: 1px solid rgba(225, 29, 72, 0.25) !important;
+    color: #1e293b !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 14px !important;
+}
+
+.leaflet-popup-tip {
+    background: rgba(255, 238, 241, 0.95) !important;
+}
+
+/* ── 6. Chatbot Widget & Toggle Button ── */
+.chatbot-btn {
+    background: linear-gradient(135deg, #f43f5e, #e11d48) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(244, 63, 94, 0.4) !important;
+    border: 2px solid #ffffff !important;
+}
+
+.chatbot-btn:hover {
+    background: linear-gradient(135deg, #e11d48, #be123c) !important;
+    transform: scale(1.08) !important;
+}
+
+.chatbot-window {
+    background: rgba(255, 226, 226, 0.92) !important;
+    backdrop-filter: blur(24px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    color: #1e293b !important;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 18px !important;
+}
+
+.chat-header {
+    background: linear-gradient(180deg, rgba(255, 226, 226, 0.95), rgba(255, 205, 205, 0.95)) !important;
+    border-bottom: 1px solid rgba(225, 29, 72, 0.2) !important;
+    color: #881337 !important;
+}
+
+.chat-header h3 {
+    color: #881337 !important;
+}
+
+.chat-message.bot .message-bubble {
+    background: rgba(255, 255, 255, 0.88) !important;
+    color: #1e293b !important;
+    border: 1px solid rgba(225, 29, 72, 0.15) !important;
+}
+
+.chat-message.user .message-bubble {
+    background: linear-gradient(135deg, #f43f5e, #e11d48) !important;
+    color: #ffffff !important;
+}
+
+/* ── 7. Global Search Overlay ── */
+.search-results-container {
+    background: rgba(255, 235, 238, 0.96) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(225, 29, 72, 0.25) !important;
+    color: #1e293b !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 12px !important;
+}
+
+.search-results-list li {
+    color: #1e293b !important;
+    border-bottom: 1px solid rgba(225, 29, 72, 0.1) !important;
+}
+
+.search-results-list li:hover {
+    background: rgba(244, 63, 94, 0.15) !important;
+    color: #881337 !important;
 }
