@@ -104,28 +104,28 @@ document.addEventListener('DOMContentLoaded', function () {
     let desaLayerGroup = L.layerGroup().addTo(map);
     let regencyMarkers = L.layerGroup().addTo(map);
 
-    // Population density palette: Ocean Blue & Teal Premium Theme
-    // > 300: Deep Ocean Navy (Sangat Padat / Penduduk Paling Banyak)
-    // 100 - 300: Royal Blue (Padat / Penduduk Banyak)
-    // 60 - 100: Teal (Sedang / Penduduk Sedang)
-    // 45 - 60: Aqua (Rendah / Penduduk Sedikit)
-    // < 45: Pale Sky (Sangat Rendah / Penduduk Paling Sedikit)
+    // Population density palette: Hot Pink & Rose Premium Theme
+    // > 300: Deep Crimson Rose (Sangat Padat / Penduduk Paling Banyak)
+    // 100 - 300: Magenta Hot Pink (Padat / Penduduk Banyak)
+    // 60 - 100: Pink (Sedang / Penduduk Sedang)
+    // 45 - 60: Light Pink (Rendah / Penduduk Sedikit)
+    // < 45: Pale Blush (Sangat Rendah / Penduduk Paling Sedikit)
     function getDensityColor(d) {
-        return d > 300  ? '#0c4a6e' : // > 300 (Deep Ocean Navy - Penduduk Paling Banyak)
-               d > 100  ? '#0369a1' : // 100-300 (Royal Blue - Penduduk Banyak)
-               d > 60   ? '#0891b2' : // 60-100 (Teal Cyan - Penduduk Sedang)
-               d > 45   ? '#22d3ee' : // 45-60 (Aqua - Penduduk Sedikit)
-                          '#e0f7fa' ; // < 45 (Pale Sky - Penduduk Paling Sedikit)
+        return d > 300  ? '#9d174d' : // > 300 (Deep Crimson Rose - Penduduk Paling Banyak)
+               d > 100  ? '#db2777' : // 100-300 (Hot Pink - Penduduk Banyak)
+               d > 60   ? '#f472b6' : // 60-100 (Pink - Penduduk Sedang)
+               d > 45   ? '#fbcfe8' : // 45-60 (Light Pink - Penduduk Sedikit)
+                          '#fdf2f8' ; // < 45 (Pale Blush - Penduduk Paling Sedikit)
     }
 
     function regencyStyle(feature) {
         return {
             fillColor: getDensityColor(feature.properties.density),
             weight: 2.5,
-            opacity: 0.95,
-            color: '#0c4a6e', // Border Deep Ocean
+            opacity: 1,
+            color: '#831843', // Border Deep Rose
             dashArray: '',
-            fillOpacity: 0.55 // Semi-transparent fill
+            fillOpacity: 0.60 // Semi-transparent fill
         };
     }
 
@@ -133,9 +133,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const layer = e.target;
         layer.setStyle({
             weight: 4,
-            color: '#38bdf8', // Sky blue glow on hover
+            color: '#f9a8d4', // Soft pink glow on hover
             dashArray: '',
-            fillOpacity: 0.78
+            fillOpacity: 0.82
         });
         layer.bringToFront();
     }
@@ -823,15 +823,15 @@ document.addEventListener('DOMContentLoaded', function () {
             div.innerHTML = '<h4>Kepadatan Penduduk</h4>';
             
             const categories = [
-                { color: '#0c4a6e', label: 'Navy &bull; Sangat Padat (&gt; 300 jiwa/km²)' },
-                { color: '#0369a1', label: 'Royal Blue &bull; Padat (100 &ndash; 300 jiwa/km²)' },
-                { color: '#0891b2', label: 'Teal &bull; Sedang (60 &ndash; 100 jiwa/km²)' },
-                { color: '#22d3ee', label: 'Aqua &bull; Rendah (45 &ndash; 60 jiwa/km²)' },
-                { color: '#e0f7fa', label: 'Pale Sky &bull; Sangat Rendah (&lt; 45 jiwa/km²)', border: true }
+                { color: '#9d174d', label: 'Crimson &bull; Sangat Padat (&gt; 300 jiwa/km²)' },
+                { color: '#db2777', label: 'Hot Pink &bull; Padat (100 &ndash; 300 jiwa/km²)' },
+                { color: '#f472b6', label: 'Pink &bull; Sedang (60 &ndash; 100 jiwa/km²)' },
+                { color: '#fbcfe8', label: 'Light Pink &bull; Rendah (45 &ndash; 60 jiwa/km²)', border: true },
+                { color: '#fdf2f8', label: 'Pale Blush &bull; Sangat Rendah (&lt; 45 jiwa/km²)', border: true }
             ];
 
             categories.forEach(cat => {
-                const borderStyle = cat.border ? 'border: 1px solid rgba(0,100,180,0.35);' : '';
+                const borderStyle = cat.border ? 'border: 1px solid rgba(219,39,119,0.30);' : '';
                 div.innerHTML += `
                     <div class="legend-item" style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
                         <i style="background: ${cat.color}; ${borderStyle} width: 18px; height: 18px; border-radius: 4px; display: inline-block; flex-shrink: 0;"></i> 
