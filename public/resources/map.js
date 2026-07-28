@@ -248,12 +248,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function createPopupContent(feature, categoryLabel) {
         let typeStr = feature.properties.type ? ` (${feature.properties.type})` : '';
+        const addr = feature.properties.address;
+        const hasRealAddr = addr && addr !== '-' && addr.trim() !== '';
+        const districtStr = feature.properties.district ? `, Kec. ${feature.properties.district}` : '';
         return `
             <div class="info-box">
                 <h4>${feature.properties.name}</h4>
                 <p><strong>Kategori:</strong> ${categoryLabel}${typeStr}</p>
                 <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency || 'Tidak Diketahui'}</p>
-                ${feature.properties.address ? `<p><strong>Alamat:</strong> ${feature.properties.address}</p>` : ''}
+                ${hasRealAddr ? `<p><strong>Alamat:</strong> ${addr}</p>` : ''}
                 ${feature.properties.website ? `<p><strong>Website:</strong> <a href="${feature.properties.website}" target="_blank">${feature.properties.website}</a></p>` : ''}
                 ${feature.properties.accreditation ? `<p><strong>Akreditasi:</strong> ${feature.properties.accreditation}</p>` : ''}
                 <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
