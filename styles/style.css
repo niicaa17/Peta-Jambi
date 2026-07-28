@@ -1110,7 +1110,7 @@ html {
     left: 50%;
     top: 50%;
     margin: -15px 0 0 -15px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0,0,0, 0.2);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45), 0 0 10px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1157,35 +1157,35 @@ html {
 }
 
 .marker-cluster-small {
-    background-color: rgba(79, 157, 105, 0.25);
+    background-color: rgba(14, 165, 233, 0.20); /* Sky Blue outer ring */
 }
 
 .marker-cluster-small div {
-    background-color: rgba(79, 157, 105, 0.85);
+    background-color: rgba(14, 165, 233, 0.88); /* Sky Blue — Sekolah cluster */
 }
 
 .marker-cluster-medium {
-    background-color: rgba(212, 162, 78, 0.25);
+    background-color: rgba(245, 158, 11, 0.20); /* Amber outer ring */
 }
 
 .marker-cluster-medium div {
-    background-color: rgba(212, 162, 78, 0.85);
+    background-color: rgba(245, 158, 11, 0.88); /* Amber — Universitas cluster */
 }
 
 .marker-cluster-large {
-    background-color: rgba(193, 68, 60, 0.25);
+    background-color: rgba(244, 63, 94, 0.20); /* Rose outer ring */
 }
 
 .marker-cluster-large div {
-    background-color: rgba(193, 68, 60, 0.85);
+    background-color: rgba(244, 63, 94, 0.88); /* Rose — Rumah Sakit cluster */
 }
 
 .marker-cluster-mosque {
-    background-color: rgba(47, 125, 107, 0.25);
+    background-color: rgba(8, 145, 178, 0.20); /* Teal Blue outer ring */
 }
 
 .marker-cluster-mosque div {
-    background-color: rgba(47, 125, 107, 0.85);
+    background-color: rgba(8, 145, 178, 0.88); /* Teal Blue — Masjid cluster */
 }
 
 .marker-cluster-police {
@@ -1197,11 +1197,11 @@ html {
 }
 
 .marker-cluster-tourism {
-    background-color: rgba(201, 138, 107, 0.25);
+    background-color: rgba(168, 85, 247, 0.20); /* Purple outer ring */
 }
 
 .marker-cluster-tourism div {
-    background-color: rgba(201, 138, 107, 0.85);
+    background-color: rgba(168, 85, 247, 0.88); /* Purple — Wisata cluster */
 }
 
 /* ============================================================
@@ -1659,8 +1659,8 @@ html {
 }
 
 /* When sidebar is closed, header goes full-width */
-#sidebar.sidebar-closed ~ #main-content #top-header,
-.sidebar-closed ~ #main-content #top-header {
+#sidebar.sidebar-closed~#main-content #top-header,
+.sidebar-closed~#main-content #top-header {
     margin-left: 0 !important;
     width: 100vw !important;
 }
@@ -1734,11 +1734,11 @@ html {
     touch-action: pan-y !important;
 }
 
-.sidebar-content > * {
+.sidebar-content>* {
     margin-bottom: 16px !important;
 }
 
-.sidebar-content > *:last-child {
+.sidebar-content>*:last-child {
     margin-bottom: 0 !important;
 }
 
@@ -1878,13 +1878,40 @@ html {
     flex-shrink: 0;
 }
 
-.uni-card .stat-icon { background: rgba(245, 158, 11, 0.18); color: #d97706; }
-.school-card .stat-icon { background: rgba(16, 185, 129, 0.18); color: #059669; }
-.hosp-card .stat-icon { background: rgba(239, 68, 68, 0.18); color: #dc2626; }
-.mosque-card .stat-icon { background: rgba(13, 148, 136, 0.18); color: #0d9488; }
-.police-card .stat-icon { background: rgba(71, 85, 105, 0.18); color: #475569; }
-.tourism-card .stat-icon { background: rgba(219, 39, 119, 0.18); color: #db2777; }
-.regency-card .stat-icon { background: rgba(99, 102, 241, 0.18); color: #4f46e5; }
+.uni-card .stat-icon {
+    background: rgba(245, 158, 11, 0.18);
+    color: #d97706;
+}
+
+.school-card .stat-icon {
+    background: rgba(16, 185, 129, 0.18);
+    color: #059669;
+}
+
+.hosp-card .stat-icon {
+    background: rgba(239, 68, 68, 0.18);
+    color: #dc2626;
+}
+
+.mosque-card .stat-icon {
+    background: rgba(13, 148, 136, 0.18);
+    color: #0d9488;
+}
+
+.police-card .stat-icon {
+    background: rgba(71, 85, 105, 0.18);
+    color: #475569;
+}
+
+.tourism-card .stat-icon {
+    background: rgba(219, 39, 119, 0.18);
+    color: #db2777;
+}
+
+.regency-card .stat-icon {
+    background: rgba(99, 102, 241, 0.18);
+    color: #4f46e5;
+}
 
 .stat-info {
     display: flex;

@@ -104,38 +104,38 @@ document.addEventListener('DOMContentLoaded', function () {
     let desaLayerGroup = L.layerGroup().addTo(map);
     let regencyMarkers = L.layerGroup().addTo(map);
 
-    // Population density palette: Pink, Peach, Orange, Putih Transparan
-    // > 300: Pink (Sangat Padat / Penduduk Paling Banyak)
-    // 100 - 300: Peach (Padat / Penduduk Banyak)
-    // 60 - 100: Orange (Sedang / Penduduk Sedang)
-    // 45 - 60: Pink Muda (Rendah / Penduduk Sedikit)
-    // < 45: Putih Transparan (Sangat Rendah / Penduduk Paling Sedikit)
+    // Population density palette: Ocean Blue & Teal Premium Theme
+    // > 300: Deep Ocean Navy (Sangat Padat / Penduduk Paling Banyak)
+    // 100 - 300: Royal Blue (Padat / Penduduk Banyak)
+    // 60 - 100: Teal (Sedang / Penduduk Sedang)
+    // 45 - 60: Aqua (Rendah / Penduduk Sedikit)
+    // < 45: Pale Sky (Sangat Rendah / Penduduk Paling Sedikit)
     function getDensityColor(d) {
-        return d > 300  ? '#e11d48' : // > 300 (Pink / Hot Pink - Penduduk Paling Banyak)
-               d > 100  ? '#ff7043' : // 100-300 (Peach - Penduduk Banyak)
-               d > 60   ? '#f97316' : // 60-100 (Orange - Penduduk Sedang)
-               d > 45   ? '#f472b6' : // 45-60 (Pink Muda - Penduduk Sedikit)
-                          '#ffffff' ; // < 45 (Putih Transparan - Penduduk Paling Sedikit)
+        return d > 300  ? '#0c4a6e' : // > 300 (Deep Ocean Navy - Penduduk Paling Banyak)
+               d > 100  ? '#0369a1' : // 100-300 (Royal Blue - Penduduk Banyak)
+               d > 60   ? '#0891b2' : // 60-100 (Teal Cyan - Penduduk Sedang)
+               d > 45   ? '#22d3ee' : // 45-60 (Aqua - Penduduk Sedikit)
+                          '#e0f7fa' ; // < 45 (Pale Sky - Penduduk Paling Sedikit)
     }
 
     function regencyStyle(feature) {
         return {
             fillColor: getDensityColor(feature.properties.density),
             weight: 2.5,
-            opacity: 0.9,
-            color: '#be123c', // Border Rose-Magenta
+            opacity: 0.95,
+            color: '#0c4a6e', // Border Deep Ocean
             dashArray: '',
-            fillOpacity: 0.52 // Semi-transparent fill
+            fillOpacity: 0.55 // Semi-transparent fill
         };
     }
 
     function highlightRegency(e) {
         const layer = e.target;
         layer.setStyle({
-            weight: 3.5,
-            color: '#881337',
+            weight: 4,
+            color: '#38bdf8', // Sky blue glow on hover
             dashArray: '',
-            fillOpacity: 0.75
+            fillOpacity: 0.78
         });
         layer.bringToFront();
     }
@@ -192,15 +192,15 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    const uniIcon = createPin('fa-solid fa-graduation-cap', '#f59e0b');
-    const schoolIcon = createPin('fa-solid fa-school', '#10b981');
-    const hospitalIcon = createPin('fa-solid fa-hospital', '#ef4444');
-    const regencyIcon = createPin('fa-solid fa-building-columns', '#6366f1');
-    const districtIcon = createPin('fa-solid fa-landmark', '#3b82f6');
-    const villageIcon = createPin('fa-solid fa-house', '#eab308');
-    const mosqueIcon = createPin('fa-solid fa-mosque', '#0d9488');
-    const policeIcon = createPin('fa-solid fa-shield-halved', '#475569');
-    const tourismIcon = createPin('fa-solid fa-camera-retro', '#db2777');
+    const uniIcon = createPin('fa-solid fa-graduation-cap', '#f59e0b');      // Amber — Universitas
+    const schoolIcon = createPin('fa-solid fa-school', '#10b981');            // Emerald — Sekolah
+    const hospitalIcon = createPin('fa-solid fa-hospital', '#f43f5e');        // Rose — Rumah Sakit
+    const regencyIcon = createPin('fa-solid fa-building-columns', '#0ea5e9'); // Sky Blue — Kabupaten
+    const districtIcon = createPin('fa-solid fa-landmark', '#06b6d4');        // Cyan — Kecamatan
+    const villageIcon = createPin('fa-solid fa-house', '#34d399');             // Teal — Desa
+    const mosqueIcon = createPin('fa-solid fa-mosque', '#0891b2');             // Teal Blue — Masjid
+    const policeIcon = createPin('fa-solid fa-shield-halved', '#64748b');     // Slate — Polisi
+    const tourismIcon = createPin('fa-solid fa-camera-retro', '#a855f7');     // Purple — Wisata
 
     // 4. Render Offline Boundary and POI Layers (Using global variables directly, bypassing CORS)
     
@@ -314,13 +314,13 @@ document.addEventListener('DOMContentLoaded', function () {
         L.geoJSON(json_schools, {
             pointToLayer: function (feature, latlng) {
                 let cat = feature.properties.category || '';
-                let color = '#4CAF50'; // Default green
+                let color = '#10b981'; // Default teal-emerald (sekolah umum)
                 let iconClass = 'fa-school';
                 
-                if (cat === 'SD') { color = '#F44336'; } // Red
-                else if (cat === 'SMP') { color = '#2196F3'; } // Blue
-                else if (cat.includes('SMA') || cat.includes('SMK')) { color = '#9E9E9E'; } // Grey
-                else if (cat === 'TK') { color = '#E91E63'; iconClass = 'fa-child-reaching'; } // Pink
+                if (cat === 'SD') { color = '#f59e0b'; }                        // Amber — SD
+                else if (cat === 'SMP') { color = '#38bdf8'; }                   // Sky Blue — SMP
+                else if (cat.includes('SMA') || cat.includes('SMK')) { color = '#6366f1'; } // Indigo — SMA/SMK
+                else if (cat === 'TK') { color = '#a78bfa'; iconClass = 'fa-child-reaching'; } // Violet — TK/PAUD
                 
                 const marker = L.marker(latlng, { icon: createPin(iconClass, color) });
                 marker.bindPopup(createPopupContent(feature, cat || 'Sekolah'));
@@ -823,15 +823,15 @@ document.addEventListener('DOMContentLoaded', function () {
             div.innerHTML = '<h4>Kepadatan Penduduk</h4>';
             
             const categories = [
-                { color: '#e11d48', label: 'Pink &bull; Sangat Padat (> 300 jiwa/km²)' },
-                { color: '#ff7043', label: 'Peach &bull; Padat (100 &ndash; 300 jiwa/km²)' },
-                { color: '#f97316', label: 'Orange &bull; Sedang (60 &ndash; 100 jiwa/km²)' },
-                { color: '#f472b6', label: 'Pink Muda &bull; Rendah (45 &ndash; 60 jiwa/km²)' },
-                { color: '#ffffff', label: 'Putih &bull; Sangat Rendah (< 45 jiwa/km²)', border: true }
+                { color: '#0c4a6e', label: 'Navy &bull; Sangat Padat (&gt; 300 jiwa/km²)' },
+                { color: '#0369a1', label: 'Royal Blue &bull; Padat (100 &ndash; 300 jiwa/km²)' },
+                { color: '#0891b2', label: 'Teal &bull; Sedang (60 &ndash; 100 jiwa/km²)' },
+                { color: '#22d3ee', label: 'Aqua &bull; Rendah (45 &ndash; 60 jiwa/km²)' },
+                { color: '#e0f7fa', label: 'Pale Sky &bull; Sangat Rendah (&lt; 45 jiwa/km²)', border: true }
             ];
 
             categories.forEach(cat => {
-                const borderStyle = cat.border ? 'border: 1px solid rgba(0,0,0,0.3);' : '';
+                const borderStyle = cat.border ? 'border: 1px solid rgba(0,100,180,0.35);' : '';
                 div.innerHTML += `
                     <div class="legend-item" style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
                         <i style="background: ${cat.color}; ${borderStyle} width: 18px; height: 18px; border-radius: 4px; display: inline-block; flex-shrink: 0;"></i> 
