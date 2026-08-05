@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <p><strong>Kabupaten/Kota:</strong> ${feature.properties.regency || 'Tidak Diketahui'}</p>
                 ${hasRealAddr ? `<p><strong>Alamat:</strong> ${addr}</p>` : ''}
                 ${feature.properties.sejarah ? `<p><strong>Sejarah Singkat:</strong> ${feature.properties.sejarah}</p>` : ''}
-                ${feature.properties.website ? `<p><strong>Website:</strong> <a href="${feature.properties.website}" target="_blank">${feature.properties.website}</a></p>` : ''}
+                ${feature.properties.website ? (feature.properties.website === 'Belum tersedia' ? `<p><strong>Website:</strong> Belum tersedia</p>` : `<p><strong>Website:</strong> <a href="${feature.properties.website}" target="_blank">${feature.properties.website}</a></p>`) : ''}
                 ${feature.properties.accreditation ? `<p><strong>Akreditasi:</strong> ${feature.properties.accreditation}</p>` : ''}
                 <p><strong>Koordinat:</strong> ${feature.properties.coordinates_str}</p>
             </div>

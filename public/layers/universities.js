@@ -19,7 +19,9 @@ var json_universities = {
         "regency": "Jambi, Indonesia",
         "address": "Jl. Tri Brata KM 11, Desa Pondok Meja, Mestong, Muaro Jambi, Jambi, Indonesia",
         "coordinates_str": "-1.67248, 103.57406",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://fateta.unja.ac.id",
+        "accreditation": "B"
       }
     },
     {
@@ -40,7 +42,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-2.06559, 101.39312",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://stiesakti.ac.id",
+        "accreditation": "Baik Sekali"
       }
     },
     {
@@ -61,7 +65,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-2.06544, 101.39322",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://stia-nusa.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -82,7 +88,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.49458, 102.12017",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://umbungo.ac.id",
+        "accreditation": "Baik Sekali"
       }
     },
     {
@@ -103,7 +111,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.44789, 102.12134",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://iaiyasni.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -124,7 +134,9 @@ var json_universities = {
         "regency": "Sarolangun",
         "address": "Jalan Jendral Sudirman, Sarolangun",
         "coordinates_str": "-2.38958, 102.70424",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://staimaarifsarolangun.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -145,7 +157,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.61902, 103.57837",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://stiemjambi.ac.id",
+        "accreditation": "Baik Sekali"
       }
     },
     {
@@ -166,7 +180,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.61196, 103.51870",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://unja.ac.id",
+        "accreditation": "Unggul"
       }
     },
     {
@@ -187,7 +203,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.60727, 103.50927",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://uinjambi.ac.id",
+        "accreditation": "Unggul"
       }
     },
     {
@@ -208,7 +226,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.69159, 103.27157",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://unja.ac.id",
+        "accreditation": "Baik Sekali"
       }
     },
     {
@@ -229,7 +249,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.68802, 103.27753",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://ugk.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -250,7 +272,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.50549, 102.11993",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://umb.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -271,7 +295,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.59405, 103.61800",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://akpergapu.ac.id",
+        "accreditation": "Baik Sekali"
       }
     },
     {
@@ -285,14 +311,16 @@ var json_universities = {
       },
       "properties": {
         "id": 14,
-        "name": "Universitas Nurdin Hamzah",
+        "name": "Universitas Nurdin Hamzah (UNH)",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "-",
+        "address": "Jl. Kolonel Abunjani No. 8, Sipin, Kota Jambi",
         "coordinates_str": "-1.61616, 103.59257",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://unh.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -313,7 +341,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.61871, 103.62828",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://unama.ac.id",
+        "accreditation": "Baik Sekali"
       }
     },
     {
@@ -334,7 +364,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.71616, 103.26221",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://akperypsbr.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -355,7 +387,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-2.03345, 101.37812",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://iainkerinci.ac.id",
+        "accreditation": "Baik Sekali"
       }
     },
     {
@@ -376,7 +410,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-2.01491, 101.36836",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://stia-nusa.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -397,7 +433,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.59809, 103.61809",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "Belum tersedia",
+        "accreditation": "Belum tersedia"
       }
     },
     {
@@ -418,7 +456,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-2.26498, 102.57865",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "Belum tersedia",
+        "accreditation": "Belum tersedia"
       }
     },
     {
@@ -439,7 +479,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.67379, 103.57566",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://unja.ac.id",
+        "accreditation": "Unggul"
       }
     },
     {
@@ -460,7 +502,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.59765, 103.57286",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://poltekkesjambi.ac.id",
+        "accreditation": "Baik Sekali"
       }
     },
     {
@@ -481,7 +525,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.69263, 103.27071",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://iainbatanghari.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -502,7 +548,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-2.09524, 102.23588",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://stikesmerangin.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -523,7 +571,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-2.08807, 102.25442",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://iaismq.ac.id",
+        "accreditation": "Baik"
       }
     },
     {
@@ -544,7 +594,9 @@ var json_universities = {
         "regency": "Jambi",
         "address": "-",
         "coordinates_str": "-1.59457, 103.56272",
-        "source": "OpenStreetMap"
+        "source": "OpenStreetMap",
+        "website": "https://poltekkesjambi.ac.id",
+        "accreditation": "Baik Sekali"
       }
     }
   ]
