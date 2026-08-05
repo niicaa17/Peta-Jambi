@@ -244,15 +244,15 @@ var json_tourism = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.85,
-          -0.95
+          104.1000,
+          -1.2500
         ]
       },
       "properties": {
         "name": "Taman Nasional Berbak",
         "type": "nature_reserve",
         "regency": "Tanjung Jabung Timur",
-        "coordinates_str": "-0.95, 103.85",
+        "coordinates_str": "-1.2500, 104.1000",
         "sejarah": "Kawasan pelestarian alam rawa gambut terluas di Asia Tenggara, ditetapkan sebagai taman nasional untuk melindungi harimau dan burung migran."
       }
     },
