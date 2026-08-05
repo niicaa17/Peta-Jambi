@@ -459,6 +459,125 @@ var json_tourism = {
         "coordinates_str": "-1.593000, 103.612000",
         "sejarah": "Masjid terbesar di Jambi yang dijuluki Masjid Seribu Tiang, dibangun di bekas pusat Kesultanan Jambi."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.606,
+          -1.621
+        ]
+      },
+      "properties": {
+        "name": "Tugu Keris Siginjai",
+        "type": "attraction",
+        "regency": "Kota Jambi",
+        "coordinates_str": "-1.621000, 103.606000",
+        "sejarah": "Monumen ikonik berbentuk Keris Siginjai yang merupakan senjata kebesaran raja-raja Jambi zaman dahulu."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.582,
+          -1.594
+        ]
+      },
+      "properties": {
+        "name": "Danau Sipin",
+        "type": "attraction",
+        "regency": "Kota Jambi",
+        "coordinates_str": "-1.594000, 103.582000",
+        "sejarah": "Danau alami berbentuk tapal kuda di tengah Kota Jambi yang menjadi pusat rekreasi air dan keramba ikan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.585,
+          -1.637
+        ]
+      },
+      "properties": {
+        "name": "Kampoeng Radja",
+        "type": "theme_park",
+        "regency": "Kota Jambi",
+        "coordinates_str": "-1.637000, 103.585000",
+        "sejarah": "Taman hiburan dan edukasi keluarga terbesar di Jambi dengan berbagai wahana permainan outbond."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67,
+          -1.658
+        ]
+      },
+      "properties": {
+        "name": "Jambi Paradise",
+        "type": "attraction",
+        "regency": "Muaro Jambi",
+        "coordinates_str": "-1.658000, 103.670000",
+        "sejarah": "Kawasan wisata tematik bernuansa alam yang menyediakan wahana perahu, taman bunga, dan spot foto instagramable."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.55,
+          -2.0833
+        ]
+      },
+      "properties": {
+        "name": "Danau Kaco",
+        "type": "attraction",
+        "regency": "Kerinci",
+        "coordinates_str": "-2.083300, 101.550000",
+        "sejarah": "Danau kecil nan magis berair sebening kaca kebiruan yang memancarkan cahaya terang di malam hari, berada di dalam kawasan Taman Nasional Kerinci Seblat."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.37,
+          -2.03
+        ]
+      },
+      "properties": {
+        "name": "Bukit Khayangan",
+        "type": "viewpoint",
+        "regency": "Kota Sungai Penuh",
+        "coordinates_str": "-2.030000, 101.370000",
+        "sejarah": "Titik pandang di ketinggian 2000 mdpl yang menawarkan pemandangan spektakuler Lembah Kerinci dan Kota Sungai Penuh dari atas awan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.34,
+          -1.72
+        ]
+      },
+      "properties": {
+        "name": "Rawa Bento",
+        "type": "nature_reserve",
+        "regency": "Kerinci",
+        "coordinates_str": "-1.720000, 101.340000",
+        "sejarah": "Rawa tertinggi di Sumatera yang sering disebut sebagai 'The Amazon of Kerinci', habitat bagi berbagai burung endemik dan air berliku nan jernih."
+      }
     }
   ]
 };
