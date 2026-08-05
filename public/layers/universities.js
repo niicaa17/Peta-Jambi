@@ -285,7 +285,7 @@ var json_universities = {
       },
       "properties": {
         "id": 14,
-        "name": "STMIK Nurdin Hamzah",
+        "name": "Universitas Nurdin Hamzah",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
