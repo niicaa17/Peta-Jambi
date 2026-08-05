@@ -38,7 +38,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06559, 101.39312",
         "source": "OpenStreetMap"
       }
@@ -59,7 +59,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06544, 101.39322",
         "source": "OpenStreetMap"
       }
@@ -80,7 +80,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49458, 102.12017",
         "source": "OpenStreetMap"
       }
@@ -101,7 +101,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.44789, 102.12134",
         "source": "OpenStreetMap"
       }
@@ -143,7 +143,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61902, 103.57837",
         "source": "OpenStreetMap"
       }
@@ -164,7 +164,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61196, 103.51870",
         "source": "OpenStreetMap"
       }
@@ -185,7 +185,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60727, 103.50927",
         "source": "OpenStreetMap"
       }
@@ -206,7 +206,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69159, 103.27157",
         "source": "OpenStreetMap"
       }
@@ -227,7 +227,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.68802, 103.27753",
         "source": "OpenStreetMap"
       }
@@ -248,7 +248,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.50549, 102.11993",
         "source": "OpenStreetMap"
       }
@@ -269,7 +269,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59405, 103.61800",
         "source": "OpenStreetMap"
       }
@@ -290,7 +290,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61616, 103.59257",
         "source": "OpenStreetMap"
       }
@@ -311,7 +311,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61871, 103.62828",
         "source": "OpenStreetMap"
       }
@@ -332,7 +332,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71616, 103.26221",
         "source": "OpenStreetMap"
       }
@@ -353,7 +353,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03345, 101.37812",
         "source": "OpenStreetMap"
       }
@@ -374,7 +374,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.01491, 101.36836",
         "source": "OpenStreetMap"
       }
@@ -395,7 +395,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59809, 103.61809",
         "source": "OpenStreetMap"
       }
@@ -416,7 +416,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.26498, 102.57865",
         "source": "OpenStreetMap"
       }
@@ -437,7 +437,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.67379, 103.57566",
         "source": "OpenStreetMap"
       }
@@ -458,7 +458,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59765, 103.57286",
         "source": "OpenStreetMap"
       }
@@ -479,7 +479,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69263, 103.27071",
         "source": "OpenStreetMap"
       }
@@ -500,7 +500,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09524, 102.23588",
         "source": "OpenStreetMap"
       }
@@ -521,7 +521,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08807, 102.25442",
         "source": "OpenStreetMap"
       }
@@ -542,7 +542,7 @@ var json_universities = {
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59457, 103.56272",
         "source": "OpenStreetMap"
       }

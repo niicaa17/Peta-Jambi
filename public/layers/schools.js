@@ -17,7 +17,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.30297, 102.03217",
         "source": "OpenStreetMap"
       }
@@ -38,7 +38,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.21431, 104.15948",
         "source": "OpenStreetMap"
       }
@@ -59,7 +59,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.21605, 104.16140",
         "source": "OpenStreetMap"
       }
@@ -80,7 +80,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12613, 102.39156",
         "source": "OpenStreetMap"
       }
@@ -101,7 +101,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.45959, 102.53634",
         "source": "OpenStreetMap"
       }
@@ -122,7 +122,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.47691, 102.31073",
         "source": "OpenStreetMap"
       }
@@ -143,7 +143,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.47333, 102.18888",
         "source": "OpenStreetMap"
       }
@@ -164,7 +164,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.40958, 102.72892",
         "source": "OpenStreetMap"
       }
@@ -185,7 +185,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49225, 102.21242",
         "source": "OpenStreetMap"
       }
@@ -206,7 +206,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98502, 102.27853",
         "source": "OpenStreetMap"
       }
@@ -248,7 +248,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.01035, 101.38207",
         "source": "OpenStreetMap"
       }
@@ -269,7 +269,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.01004, 101.38217",
         "source": "OpenStreetMap"
       }
@@ -290,7 +290,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11417, 102.01573",
         "source": "OpenStreetMap"
       }
@@ -311,7 +311,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11429, 102.01597",
         "source": "OpenStreetMap"
       }
@@ -332,7 +332,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.14793, 102.04647",
         "source": "OpenStreetMap"
       }
@@ -353,7 +353,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.14793, 102.04675",
         "source": "OpenStreetMap"
       }
@@ -374,7 +374,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.20748, 102.78839",
         "source": "OpenStreetMap"
       }
@@ -395,7 +395,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.20727, 102.78840",
         "source": "OpenStreetMap"
       }
@@ -416,7 +416,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.20706, 102.78842",
         "source": "OpenStreetMap"
       }
@@ -437,7 +437,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.13627, 102.03644",
         "source": "OpenStreetMap"
       }
@@ -458,7 +458,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.13614, 102.03630",
         "source": "OpenStreetMap"
       }
@@ -479,7 +479,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98962, 101.36183",
         "source": "OpenStreetMap"
       }
@@ -500,7 +500,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98922, 101.36177",
         "source": "OpenStreetMap"
       }
@@ -521,7 +521,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72403, 103.26996",
         "source": "OpenStreetMap"
       }
@@ -542,7 +542,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72383, 103.26993",
         "source": "OpenStreetMap"
       }
@@ -563,7 +563,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.53080, 102.71555",
         "source": "OpenStreetMap"
       }
@@ -584,7 +584,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.53055, 102.71553",
         "source": "OpenStreetMap"
       }
@@ -605,7 +605,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.91407, 102.29965",
         "source": "OpenStreetMap"
       }
@@ -626,7 +626,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.91398, 102.29948",
         "source": "OpenStreetMap"
       }
@@ -647,7 +647,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-0.83401, 103.45107",
         "source": "OpenStreetMap"
       }
@@ -668,7 +668,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-0.83421, 103.45089",
         "source": "OpenStreetMap"
       }
@@ -689,7 +689,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99637, 101.37777",
         "source": "OpenStreetMap"
       }
@@ -710,7 +710,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99655, 101.37777",
         "source": "OpenStreetMap"
       }
@@ -731,7 +731,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63520, 103.59890",
         "source": "OpenStreetMap"
       }
@@ -752,7 +752,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63494, 103.59892",
         "source": "OpenStreetMap"
       }
@@ -773,7 +773,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63468, 103.59893",
         "source": "OpenStreetMap"
       }
@@ -794,7 +794,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60049, 103.61877",
         "source": "OpenStreetMap"
       }
@@ -815,7 +815,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60616, 103.61592",
         "source": "OpenStreetMap"
       }
@@ -836,7 +836,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98968, 102.46371",
         "source": "OpenStreetMap"
       }
@@ -857,7 +857,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.25398, 103.07801",
         "source": "OpenStreetMap"
       }
@@ -899,7 +899,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.17293, 102.38416",
         "source": "OpenStreetMap"
       }
@@ -920,7 +920,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.54251, 103.91598",
         "source": "OpenStreetMap"
       }
@@ -941,7 +941,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53923, 103.91552",
         "source": "OpenStreetMap"
       }
@@ -962,7 +962,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.54211, 103.91600",
         "source": "OpenStreetMap"
       }
@@ -983,7 +983,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53501, 103.91318",
         "source": "OpenStreetMap"
       }
@@ -1004,7 +1004,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99311, 102.98779",
         "source": "OpenStreetMap"
       }
@@ -1025,7 +1025,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99340, 102.98762",
         "source": "OpenStreetMap"
       }
@@ -1046,7 +1046,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.01605, 103.59192",
         "source": "OpenStreetMap"
       }
@@ -1067,7 +1067,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.01633, 103.59193",
         "source": "OpenStreetMap"
       }
@@ -1088,7 +1088,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.01650, 103.59168",
         "source": "OpenStreetMap"
       }
@@ -1109,7 +1109,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.01618, 103.59192",
         "source": "OpenStreetMap"
       }
@@ -1130,7 +1130,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66484, 103.59490",
         "source": "OpenStreetMap"
       }
@@ -1151,7 +1151,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66541, 103.59523",
         "source": "OpenStreetMap"
       }
@@ -1172,7 +1172,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66514, 103.59507",
         "source": "OpenStreetMap"
       }
@@ -1193,7 +1193,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.25847, 102.09212",
         "source": "OpenStreetMap"
       }
@@ -1214,7 +1214,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.76565, 103.11190",
         "source": "OpenStreetMap"
       }
@@ -1235,7 +1235,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.48828, 102.13005",
         "source": "OpenStreetMap"
       }
@@ -1256,7 +1256,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60441, 103.22806",
         "source": "OpenStreetMap"
       }
@@ -1277,7 +1277,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60420, 103.22824",
         "source": "OpenStreetMap"
       }
@@ -1298,7 +1298,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73235, 103.26139",
         "source": "OpenStreetMap"
       }
@@ -1319,7 +1319,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73296, 103.26136",
         "source": "OpenStreetMap"
       }
@@ -1340,7 +1340,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71919, 103.32959",
         "source": "OpenStreetMap"
       }
@@ -1361,7 +1361,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71992, 103.33013",
         "source": "OpenStreetMap"
       }
@@ -1382,7 +1382,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71957, 103.32987",
         "source": "OpenStreetMap"
       }
@@ -1403,7 +1403,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.32044, 102.20537",
         "source": "OpenStreetMap"
       }
@@ -1424,7 +1424,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.32031, 102.20519",
         "source": "OpenStreetMap"
       }
@@ -1445,7 +1445,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.33190, 102.73698",
         "source": "OpenStreetMap"
       }
@@ -1466,7 +1466,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.33150, 102.73700",
         "source": "OpenStreetMap"
       }
@@ -1487,7 +1487,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.04757, 102.25303",
         "source": "OpenStreetMap"
       }
@@ -1508,7 +1508,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.04777, 102.25337",
         "source": "OpenStreetMap"
       }
@@ -1529,7 +1529,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.04767, 102.25320",
         "source": "OpenStreetMap"
       }
@@ -1550,7 +1550,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73682, 103.35837",
         "source": "OpenStreetMap"
       }
@@ -1571,7 +1571,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73696, 103.35837",
         "source": "OpenStreetMap"
       }
@@ -1592,7 +1592,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65732, 103.32645",
         "source": "OpenStreetMap"
       }
@@ -1613,7 +1613,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65769, 103.32654",
         "source": "OpenStreetMap"
       }
@@ -1634,7 +1634,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62290, 103.34388",
         "source": "OpenStreetMap"
       }
@@ -1655,7 +1655,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62247, 103.34389",
         "source": "OpenStreetMap"
       }
@@ -1676,7 +1676,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59636, 103.62013",
         "source": "OpenStreetMap"
       }
@@ -1697,7 +1697,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59644, 103.62021",
         "source": "OpenStreetMap"
       }
@@ -1718,7 +1718,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59652, 103.62029",
         "source": "OpenStreetMap"
       }
@@ -1739,7 +1739,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.80986, 101.36013",
         "source": "OpenStreetMap"
       }
@@ -1760,7 +1760,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59370, 103.56323",
         "source": "OpenStreetMap"
       }
@@ -1781,7 +1781,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59319, 103.56312",
         "source": "OpenStreetMap"
       }
@@ -1802,7 +1802,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29654, 102.71689",
         "source": "OpenStreetMap"
       }
@@ -1823,7 +1823,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29657, 102.71778",
         "source": "OpenStreetMap"
       }
@@ -1865,7 +1865,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.48634, 102.24867",
         "source": "OpenStreetMap"
       }
@@ -1886,7 +1886,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07964, 101.40641",
         "source": "OpenStreetMap"
       }
@@ -1907,7 +1907,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07877, 101.40577",
         "source": "OpenStreetMap"
       }
@@ -1928,7 +1928,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09273, 101.41857",
         "source": "OpenStreetMap"
       }
@@ -1949,7 +1949,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09279, 101.41670",
         "source": "OpenStreetMap"
       }
@@ -1970,7 +1970,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09632, 101.41724",
         "source": "OpenStreetMap"
       }
@@ -1991,7 +1991,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09824, 101.41791",
         "source": "OpenStreetMap"
       }
@@ -2012,7 +2012,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31105, 102.10832",
         "source": "OpenStreetMap"
       }
@@ -2033,7 +2033,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31221, 102.10258",
         "source": "OpenStreetMap"
       }
@@ -2054,7 +2054,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31589, 102.09882",
         "source": "OpenStreetMap"
       }
@@ -2075,7 +2075,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31308, 102.10134",
         "source": "OpenStreetMap"
       }
@@ -2096,7 +2096,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31284, 102.10715",
         "source": "OpenStreetMap"
       }
@@ -2117,7 +2117,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.26309, 102.06144",
         "source": "OpenStreetMap"
       }
@@ -2138,7 +2138,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.26103, 102.06197",
         "source": "OpenStreetMap"
       }
@@ -2159,7 +2159,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.26181, 102.06294",
         "source": "OpenStreetMap"
       }
@@ -2180,7 +2180,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.38127, 102.04779",
         "source": "OpenStreetMap"
       }
@@ -2201,7 +2201,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49499, 102.10045",
         "source": "OpenStreetMap"
       }
@@ -2222,7 +2222,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31539, 102.09714",
         "source": "OpenStreetMap"
       }
@@ -2243,7 +2243,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08124, 101.46878",
         "source": "OpenStreetMap"
       }
@@ -2264,7 +2264,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08107, 101.47001",
         "source": "OpenStreetMap"
       }
@@ -2285,7 +2285,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08151, 101.46905",
         "source": "OpenStreetMap"
       }
@@ -2306,7 +2306,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07601, 101.40411",
         "source": "OpenStreetMap"
       }
@@ -2327,7 +2327,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.50111, 102.12900",
         "source": "OpenStreetMap"
       }
@@ -2348,7 +2348,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49455, 102.10821",
         "source": "OpenStreetMap"
       }
@@ -2369,7 +2369,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.51408, 102.11120",
         "source": "OpenStreetMap"
       }
@@ -2390,7 +2390,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.51117, 102.10420",
         "source": "OpenStreetMap"
       }
@@ -2411,7 +2411,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.39696, 102.01207",
         "source": "OpenStreetMap"
       }
@@ -2432,7 +2432,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49568, 102.10051",
         "source": "OpenStreetMap"
       }
@@ -2453,7 +2453,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.48813, 102.09216",
         "source": "OpenStreetMap"
       }
@@ -2474,7 +2474,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.51034, 102.10223",
         "source": "OpenStreetMap"
       }
@@ -2495,7 +2495,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09104, 101.41661",
         "source": "OpenStreetMap"
       }
@@ -2516,7 +2516,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08748, 101.41904",
         "source": "OpenStreetMap"
       }
@@ -2537,7 +2537,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49276, 102.11672",
         "source": "OpenStreetMap"
       }
@@ -2558,7 +2558,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49283, 102.11731",
         "source": "OpenStreetMap"
       }
@@ -2579,7 +2579,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57860, 102.01968",
         "source": "OpenStreetMap"
       }
@@ -2600,7 +2600,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.58006, 102.01562",
         "source": "OpenStreetMap"
       }
@@ -2621,7 +2621,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62786, 103.58471",
         "source": "OpenStreetMap"
       }
@@ -2642,7 +2642,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61392, 103.57821",
         "source": "OpenStreetMap"
       }
@@ -2663,7 +2663,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09854, 101.41402",
         "source": "OpenStreetMap"
       }
@@ -2684,7 +2684,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62710, 101.95132",
         "source": "OpenStreetMap"
       }
@@ -2705,7 +2705,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64576, 101.93533",
         "source": "OpenStreetMap"
       }
@@ -2726,7 +2726,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71353, 102.50075",
         "source": "OpenStreetMap"
       }
@@ -2768,7 +2768,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99099, 101.37011",
         "source": "OpenStreetMap"
       }
@@ -2789,7 +2789,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98697, 101.35601",
         "source": "OpenStreetMap"
       }
@@ -2810,7 +2810,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70810, 102.70868",
         "source": "OpenStreetMap"
       }
@@ -2831,7 +2831,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70834, 102.70895",
         "source": "OpenStreetMap"
       }
@@ -2873,7 +2873,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66513, 102.78674",
         "source": "OpenStreetMap"
       }
@@ -2894,7 +2894,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71059, 103.25989",
         "source": "OpenStreetMap"
       }
@@ -2915,7 +2915,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.85303, 103.17628",
         "source": "OpenStreetMap"
       }
@@ -2936,7 +2936,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.92558, 103.13886",
         "source": "OpenStreetMap"
       }
@@ -2957,7 +2957,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65872, 103.15187",
         "source": "OpenStreetMap"
       }
@@ -2978,7 +2978,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Batang Hari",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63775, 102.89268",
         "source": "OpenStreetMap"
       }
@@ -2999,7 +2999,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.46402, 102.57735",
         "source": "OpenStreetMap"
       }
@@ -3020,7 +3020,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.44096, 102.35300",
         "source": "OpenStreetMap"
       }
@@ -3041,7 +3041,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.37319, 102.32131",
         "source": "OpenStreetMap"
       }
@@ -3083,7 +3083,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.29355, 102.28990",
         "source": "OpenStreetMap"
       }
@@ -3104,7 +3104,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.29329, 102.29192",
         "source": "OpenStreetMap"
       }
@@ -3125,7 +3125,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31114, 102.30963",
         "source": "OpenStreetMap"
       }
@@ -3146,7 +3146,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.32003, 102.30943",
         "source": "OpenStreetMap"
       }
@@ -3167,7 +3167,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.26688, 102.51277",
         "source": "OpenStreetMap"
       }
@@ -3209,7 +3209,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53546, 102.72641",
         "source": "OpenStreetMap"
       }
@@ -3230,7 +3230,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.48820, 102.44148",
         "source": "OpenStreetMap"
       }
@@ -3251,7 +3251,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61678, 103.63348",
         "source": "OpenStreetMap"
       }
@@ -3272,7 +3272,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.58079, 102.19383",
         "source": "OpenStreetMap"
       }
@@ -3293,7 +3293,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99075, 101.37179",
         "source": "OpenStreetMap"
       }
@@ -3314,7 +3314,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99064, 101.36949",
         "source": "OpenStreetMap"
       }
@@ -3335,7 +3335,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99004, 101.37325",
         "source": "OpenStreetMap"
       }
@@ -3356,7 +3356,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.55123, 102.72514",
         "source": "OpenStreetMap"
       }
@@ -3377,7 +3377,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63660, 102.88730",
         "source": "OpenStreetMap"
       }
@@ -3398,7 +3398,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65095, 102.98239",
         "source": "OpenStreetMap"
       }
@@ -3419,7 +3419,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71689, 103.12305",
         "source": "OpenStreetMap"
       }
@@ -3440,7 +3440,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53503, 102.67878",
         "source": "OpenStreetMap"
       }
@@ -3461,7 +3461,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.52883, 102.67463",
         "source": "OpenStreetMap"
       }
@@ -3482,7 +3482,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.46232, 102.41944",
         "source": "OpenStreetMap"
       }
@@ -3503,7 +3503,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.46002, 102.39271",
         "source": "OpenStreetMap"
       }
@@ -3524,7 +3524,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53905, 102.10882",
         "source": "OpenStreetMap"
       }
@@ -3545,7 +3545,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65300, 102.55940",
         "source": "OpenStreetMap"
       }
@@ -3566,7 +3566,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06112, 101.39852",
         "source": "OpenStreetMap"
       }
@@ -3587,7 +3587,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.05965, 101.39928",
         "source": "OpenStreetMap"
       }
@@ -3608,7 +3608,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06420, 101.39338",
         "source": "OpenStreetMap"
       }
@@ -3629,7 +3629,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06383, 101.39332",
         "source": "OpenStreetMap"
       }
@@ -3650,7 +3650,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29077, 102.73517",
         "source": "OpenStreetMap"
       }
@@ -3671,7 +3671,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61683, 103.59753",
         "source": "OpenStreetMap"
       }
@@ -3692,7 +3692,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62380, 103.58473",
         "source": "OpenStreetMap"
       }
@@ -3713,7 +3713,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93412, 101.26554",
         "source": "OpenStreetMap"
       }
@@ -3734,7 +3734,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93250, 101.26311",
         "source": "OpenStreetMap"
       }
@@ -3755,7 +3755,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93447, 101.26559",
         "source": "OpenStreetMap"
       }
@@ -3776,7 +3776,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06403, 101.39258",
         "source": "OpenStreetMap"
       }
@@ -3797,7 +3797,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06476, 101.39569",
         "source": "OpenStreetMap"
       }
@@ -3818,7 +3818,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.96702, 101.35440",
         "source": "OpenStreetMap"
       }
@@ -3839,7 +3839,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.52974, 101.81192",
         "source": "OpenStreetMap"
       }
@@ -3881,7 +3881,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62908, 103.54388",
         "source": "OpenStreetMap"
       }
@@ -3902,7 +3902,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60591, 103.61251",
         "source": "OpenStreetMap"
       }
@@ -3923,7 +3923,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60594, 103.61285",
         "source": "OpenStreetMap"
       }
@@ -3944,7 +3944,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60670, 103.61434",
         "source": "OpenStreetMap"
       }
@@ -3965,7 +3965,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60873, 103.61527",
         "source": "OpenStreetMap"
       }
@@ -3986,7 +3986,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61408, 103.61858",
         "source": "OpenStreetMap"
       }
@@ -4007,7 +4007,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61056, 103.62062",
         "source": "OpenStreetMap"
       }
@@ -4028,7 +4028,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60880, 103.62116",
         "source": "OpenStreetMap"
       }
@@ -4049,7 +4049,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61390, 103.62000",
         "source": "OpenStreetMap"
       }
@@ -4070,7 +4070,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60864, 103.62314",
         "source": "OpenStreetMap"
       }
@@ -4091,7 +4091,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61198, 103.62371",
         "source": "OpenStreetMap"
       }
@@ -4112,7 +4112,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.15822, 102.07080",
         "source": "OpenStreetMap"
       }
@@ -4133,7 +4133,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98726, 101.37249",
         "source": "OpenStreetMap"
       }
@@ -4154,7 +4154,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99298, 101.37233",
         "source": "OpenStreetMap"
       }
@@ -4175,7 +4175,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73004, 103.27673",
         "source": "OpenStreetMap"
       }
@@ -4196,7 +4196,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49018, 102.35642",
         "source": "OpenStreetMap"
       }
@@ -4217,7 +4217,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12218, 101.52474",
         "source": "OpenStreetMap"
       }
@@ -4238,7 +4238,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.17925, 102.40286",
         "source": "OpenStreetMap"
       }
@@ -4259,7 +4259,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59219, 103.61798",
         "source": "OpenStreetMap"
       }
@@ -4280,7 +4280,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71392, 103.26796",
         "source": "OpenStreetMap"
       }
@@ -4301,7 +4301,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66270, 103.29132",
         "source": "OpenStreetMap"
       }
@@ -4322,7 +4322,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Batang Hari",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66013, 102.99688",
         "source": "OpenStreetMap"
       }
@@ -4343,7 +4343,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66960, 103.00920",
         "source": "OpenStreetMap"
       }
@@ -4364,7 +4364,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10126, 102.24458",
         "source": "OpenStreetMap"
       }
@@ -4385,7 +4385,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11107, 102.24282",
         "source": "OpenStreetMap"
       }
@@ -4406,7 +4406,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63664, 102.41197",
         "source": "OpenStreetMap"
       }
@@ -4427,7 +4427,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70641, 102.88264",
         "source": "OpenStreetMap"
       }
@@ -4448,7 +4448,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66787, 102.77090",
         "source": "OpenStreetMap"
       }
@@ -4469,7 +4469,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59529, 103.46741",
         "source": "OpenStreetMap"
       }
@@ -4490,7 +4490,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10534, 101.49032",
         "source": "OpenStreetMap"
       }
@@ -4511,7 +4511,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10492, 101.49020",
         "source": "OpenStreetMap"
       }
@@ -4532,7 +4532,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06543, 101.39255",
         "source": "OpenStreetMap"
       }
@@ -4553,7 +4553,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.48680, 102.72721",
         "source": "OpenStreetMap"
       }
@@ -4574,7 +4574,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.20993, 101.66470",
         "source": "OpenStreetMap"
       }
@@ -4595,7 +4595,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.02198, 103.26629",
         "source": "OpenStreetMap"
       }
@@ -4616,7 +4616,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71620, 103.27276",
         "source": "OpenStreetMap"
       }
@@ -4637,7 +4637,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70514, 103.26350",
         "source": "OpenStreetMap"
       }
@@ -4658,7 +4658,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70273, 103.26950",
         "source": "OpenStreetMap"
       }
@@ -4679,7 +4679,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06960, 102.39887",
         "source": "OpenStreetMap"
       }
@@ -4700,7 +4700,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.26946, 102.74438",
         "source": "OpenStreetMap"
       }
@@ -4721,7 +4721,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.26936, 102.74367",
         "source": "OpenStreetMap"
       }
@@ -4742,7 +4742,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97415, 102.99401",
         "source": "OpenStreetMap"
       }
@@ -4763,7 +4763,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.84857, 103.02470",
         "source": "OpenStreetMap"
       }
@@ -4784,7 +4784,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.84683, 103.01842",
         "source": "OpenStreetMap"
       }
@@ -4805,7 +4805,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.79182, 103.09178",
         "source": "OpenStreetMap"
       }
@@ -4826,7 +4826,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.52766, 103.58696",
         "source": "OpenStreetMap"
       }
@@ -4847,7 +4847,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61645, 103.58631",
         "source": "OpenStreetMap"
       }
@@ -4868,7 +4868,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60326, 103.61201",
         "source": "OpenStreetMap"
       }
@@ -4889,7 +4889,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61567, 103.58160",
         "source": "OpenStreetMap"
       }
@@ -4910,7 +4910,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.58439, 103.63245",
         "source": "OpenStreetMap"
       }
@@ -4931,7 +4931,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62371, 103.59730",
         "source": "OpenStreetMap"
       }
@@ -4952,7 +4952,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60694, 103.55124",
         "source": "OpenStreetMap"
       }
@@ -4973,7 +4973,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59719, 103.61520",
         "source": "OpenStreetMap"
       }
@@ -4994,7 +4994,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60412, 103.54859",
         "source": "OpenStreetMap"
       }
@@ -5015,7 +5015,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60396, 103.54872",
         "source": "OpenStreetMap"
       }
@@ -5036,7 +5036,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60230, 103.54949",
         "source": "OpenStreetMap"
       }
@@ -5057,7 +5057,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60365, 103.61921",
         "source": "OpenStreetMap"
       }
@@ -5078,7 +5078,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60090, 103.61334",
         "source": "OpenStreetMap"
       }
@@ -5099,7 +5099,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65575, 103.58189",
         "source": "OpenStreetMap"
       }
@@ -5120,7 +5120,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62301, 103.54381",
         "source": "OpenStreetMap"
       }
@@ -5141,7 +5141,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60945, 103.57550",
         "source": "OpenStreetMap"
       }
@@ -5162,7 +5162,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61888, 103.58644",
         "source": "OpenStreetMap"
       }
@@ -5183,7 +5183,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59832, 103.59139",
         "source": "OpenStreetMap"
       }
@@ -5204,7 +5204,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60374, 103.62240",
         "source": "OpenStreetMap"
       }
@@ -5225,7 +5225,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61406, 103.63080",
         "source": "OpenStreetMap"
       }
@@ -5246,7 +5246,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59845, 103.62145",
         "source": "OpenStreetMap"
       }
@@ -5267,7 +5267,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60054, 103.61870",
         "source": "OpenStreetMap"
       }
@@ -5288,7 +5288,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59333, 103.62265",
         "source": "OpenStreetMap"
       }
@@ -5309,7 +5309,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60401, 103.60469",
         "source": "OpenStreetMap"
       }
@@ -5330,7 +5330,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60536, 103.62247",
         "source": "OpenStreetMap"
       }
@@ -5351,7 +5351,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78589, 103.36614",
         "source": "OpenStreetMap"
       }
@@ -5372,7 +5372,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78414, 103.35372",
         "source": "OpenStreetMap"
       }
@@ -5393,7 +5393,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.66282, 101.82171",
         "source": "OpenStreetMap"
       }
@@ -5414,7 +5414,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.60739, 101.86211",
         "source": "OpenStreetMap"
       }
@@ -5435,7 +5435,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.57839, 101.84575",
         "source": "OpenStreetMap"
       }
@@ -5456,7 +5456,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.61674, 101.86601",
         "source": "OpenStreetMap"
       }
@@ -5477,7 +5477,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.61825, 101.87612",
         "source": "OpenStreetMap"
       }
@@ -5498,7 +5498,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.64280, 101.89465",
         "source": "OpenStreetMap"
       }
@@ -5519,7 +5519,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.64490, 101.90854",
         "source": "OpenStreetMap"
       }
@@ -5540,7 +5540,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.55514, 101.96795",
         "source": "OpenStreetMap"
       }
@@ -5561,7 +5561,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.86854, 103.27975",
         "source": "OpenStreetMap"
       }
@@ -5582,7 +5582,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.88603, 103.26778",
         "source": "OpenStreetMap"
       }
@@ -5603,7 +5603,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77405, 103.27314",
         "source": "OpenStreetMap"
       }
@@ -5624,7 +5624,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.90089, 103.25687",
         "source": "OpenStreetMap"
       }
@@ -5645,7 +5645,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93938, 103.25568",
         "source": "OpenStreetMap"
       }
@@ -5666,7 +5666,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.84247, 103.26678",
         "source": "OpenStreetMap"
       }
@@ -5687,7 +5687,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.30702, 102.71283",
         "source": "OpenStreetMap"
       }
@@ -5708,7 +5708,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57140, 103.12708",
         "source": "OpenStreetMap"
       }
@@ -5729,7 +5729,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57468, 103.13194",
         "source": "OpenStreetMap"
       }
@@ -5750,7 +5750,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69870, 103.11236",
         "source": "OpenStreetMap"
       }
@@ -5771,7 +5771,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.92679, 103.45869",
         "source": "OpenStreetMap"
       }
@@ -5792,7 +5792,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93501, 103.48128",
         "source": "OpenStreetMap"
       }
@@ -5813,7 +5813,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69096, 103.17421",
         "source": "OpenStreetMap"
       }
@@ -5834,7 +5834,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69161, 103.17320",
         "source": "OpenStreetMap"
       }
@@ -5855,7 +5855,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69032, 103.17334",
         "source": "OpenStreetMap"
       }
@@ -5876,7 +5876,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71666, 103.16973",
         "source": "OpenStreetMap"
       }
@@ -5897,7 +5897,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71772, 103.16995",
         "source": "OpenStreetMap"
       }
@@ -5918,7 +5918,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60045, 103.37946",
         "source": "OpenStreetMap"
       }
@@ -5939,7 +5939,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63260, 103.33772",
         "source": "OpenStreetMap"
       }
@@ -5960,7 +5960,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60579, 103.40067",
         "source": "OpenStreetMap"
       }
@@ -5981,7 +5981,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.55877, 103.43551",
         "source": "OpenStreetMap"
       }
@@ -6002,7 +6002,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.56265, 103.43688",
         "source": "OpenStreetMap"
       }
@@ -6023,7 +6023,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.56109, 103.43622",
         "source": "OpenStreetMap"
       }
@@ -6044,7 +6044,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61593, 103.57527",
         "source": "OpenStreetMap"
       }
@@ -6065,7 +6065,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71235, 102.50051",
         "source": "OpenStreetMap"
       }
@@ -6086,7 +6086,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98764, 101.37159",
         "source": "OpenStreetMap"
       }
@@ -6107,7 +6107,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97263, 101.35785",
         "source": "OpenStreetMap"
       }
@@ -6128,7 +6128,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.95369, 101.33693",
         "source": "OpenStreetMap"
       }
@@ -6149,7 +6149,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.92832, 101.32122",
         "source": "OpenStreetMap"
       }
@@ -6170,7 +6170,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.82962, 101.25928",
         "source": "OpenStreetMap"
       }
@@ -6191,7 +6191,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.81130, 101.27493",
         "source": "OpenStreetMap"
       }
@@ -6212,7 +6212,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78359, 101.27952",
         "source": "OpenStreetMap"
       }
@@ -6233,7 +6233,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77835, 101.28070",
         "source": "OpenStreetMap"
       }
@@ -6254,7 +6254,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77904, 101.28046",
         "source": "OpenStreetMap"
       }
@@ -6275,7 +6275,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.75633, 101.31049",
         "source": "OpenStreetMap"
       }
@@ -6296,7 +6296,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71026, 101.34261",
         "source": "OpenStreetMap"
       }
@@ -6317,7 +6317,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98774, 101.37861",
         "source": "OpenStreetMap"
       }
@@ -6338,7 +6338,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98872, 101.37853",
         "source": "OpenStreetMap"
       }
@@ -6359,7 +6359,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98948, 101.37755",
         "source": "OpenStreetMap"
       }
@@ -6380,7 +6380,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99144, 101.37342",
         "source": "OpenStreetMap"
       }
@@ -6401,7 +6401,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71677, 103.25719",
         "source": "OpenStreetMap"
       }
@@ -6422,7 +6422,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64448, 102.14074",
         "source": "OpenStreetMap"
       }
@@ -6443,7 +6443,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63979, 102.14022",
         "source": "OpenStreetMap"
       }
@@ -6464,7 +6464,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06400, 101.39299",
         "source": "OpenStreetMap"
       }
@@ -6485,7 +6485,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.05917, 101.39929",
         "source": "OpenStreetMap"
       }
@@ -6506,7 +6506,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06265, 101.40159",
         "source": "OpenStreetMap"
       }
@@ -6527,7 +6527,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06223, 101.40159",
         "source": "OpenStreetMap"
       }
@@ -6548,7 +6548,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03298, 101.39849",
         "source": "OpenStreetMap"
       }
@@ -6569,7 +6569,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03446, 101.38007",
         "source": "OpenStreetMap"
       }
@@ -6590,7 +6590,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99667, 101.37626",
         "source": "OpenStreetMap"
       }
@@ -6611,7 +6611,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99621, 101.37627",
         "source": "OpenStreetMap"
       }
@@ -6632,7 +6632,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07186, 101.42481",
         "source": "OpenStreetMap"
       }
@@ -6653,7 +6653,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.15433, 102.07611",
         "source": "OpenStreetMap"
       }
@@ -6674,7 +6674,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.22662, 101.68309",
         "source": "OpenStreetMap"
       }
@@ -6695,7 +6695,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.87934, 102.99762",
         "source": "OpenStreetMap"
       }
@@ -6716,7 +6716,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03850, 102.96464",
         "source": "OpenStreetMap"
       }
@@ -6737,7 +6737,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.13838, 102.81499",
         "source": "OpenStreetMap"
       }
@@ -6758,7 +6758,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12972, 101.56967",
         "source": "OpenStreetMap"
       }
@@ -6779,7 +6779,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12782, 101.56760",
         "source": "OpenStreetMap"
       }
@@ -6800,7 +6800,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61717, 103.59708",
         "source": "OpenStreetMap"
       }
@@ -6821,7 +6821,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61834, 103.59598",
         "source": "OpenStreetMap"
       }
@@ -6842,7 +6842,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78679, 103.38533",
         "source": "OpenStreetMap"
       }
@@ -6863,7 +6863,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73572, 103.36239",
         "source": "OpenStreetMap"
       }
@@ -6884,7 +6884,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77809, 103.33511",
         "source": "OpenStreetMap"
       }
@@ -6905,7 +6905,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77851, 103.33569",
         "source": "OpenStreetMap"
       }
@@ -6926,7 +6926,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98259, 102.38133",
         "source": "OpenStreetMap"
       }
@@ -6947,7 +6947,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97673, 102.37959",
         "source": "OpenStreetMap"
       }
@@ -6968,7 +6968,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97944, 102.38109",
         "source": "OpenStreetMap"
       }
@@ -6989,7 +6989,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97897, 102.38149",
         "source": "OpenStreetMap"
       }
@@ -7010,7 +7010,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.95187, 102.17312",
         "source": "OpenStreetMap"
       }
@@ -7031,7 +7031,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.95225, 102.17281",
         "source": "OpenStreetMap"
       }
@@ -7052,7 +7052,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.95205, 102.17200",
         "source": "OpenStreetMap"
       }
@@ -7073,7 +7073,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99417, 101.37661",
         "source": "OpenStreetMap"
       }
@@ -7094,7 +7094,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99502, 101.37450",
         "source": "OpenStreetMap"
       }
@@ -7115,7 +7115,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.04807, 103.49307",
         "source": "OpenStreetMap"
       }
@@ -7136,7 +7136,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.04949, 103.49266",
         "source": "OpenStreetMap"
       }
@@ -7157,7 +7157,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.18032, 101.63879",
         "source": "OpenStreetMap"
       }
@@ -7178,7 +7178,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.18309, 101.63258",
         "source": "OpenStreetMap"
       }
@@ -7199,7 +7199,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.18134, 101.63819",
         "source": "OpenStreetMap"
       }
@@ -7220,7 +7220,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.19753, 101.65235",
         "source": "OpenStreetMap"
       }
@@ -7241,7 +7241,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62817, 103.56050",
         "source": "OpenStreetMap"
       }
@@ -7262,7 +7262,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.18820, 101.64677",
         "source": "OpenStreetMap"
       }
@@ -7283,7 +7283,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60897, 103.57661",
         "source": "OpenStreetMap"
       }
@@ -7304,7 +7304,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62612, 103.55995",
         "source": "OpenStreetMap"
       }
@@ -7325,7 +7325,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66061, 103.61726",
         "source": "OpenStreetMap"
       }
@@ -7346,7 +7346,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61454, 103.62571",
         "source": "OpenStreetMap"
       }
@@ -7367,7 +7367,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61523, 103.62646",
         "source": "OpenStreetMap"
       }
@@ -7388,7 +7388,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61585, 103.58665",
         "source": "OpenStreetMap"
       }
@@ -7409,7 +7409,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07613, 102.27119",
         "source": "OpenStreetMap"
       }
@@ -7430,7 +7430,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61258, 103.63028",
         "source": "OpenStreetMap"
       }
@@ -7451,7 +7451,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61118, 103.63010",
         "source": "OpenStreetMap"
       }
@@ -7472,7 +7472,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61142, 103.63225",
         "source": "OpenStreetMap"
       }
@@ -7493,7 +7493,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61277, 103.63014",
         "source": "OpenStreetMap"
       }
@@ -7514,7 +7514,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.01167, 101.38140",
         "source": "OpenStreetMap"
       }
@@ -7535,7 +7535,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.02225, 101.38562",
         "source": "OpenStreetMap"
       }
@@ -7556,7 +7556,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.02146, 101.38683",
         "source": "OpenStreetMap"
       }
@@ -7577,7 +7577,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99327, 101.38964",
         "source": "OpenStreetMap"
       }
@@ -7598,7 +7598,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99158, 101.39231",
         "source": "OpenStreetMap"
       }
@@ -7619,7 +7619,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98991, 101.39153",
         "source": "OpenStreetMap"
       }
@@ -7640,7 +7640,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98840, 101.38934",
         "source": "OpenStreetMap"
       }
@@ -7661,7 +7661,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99788, 101.38795",
         "source": "OpenStreetMap"
       }
@@ -7682,7 +7682,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59855, 103.62077",
         "source": "OpenStreetMap"
       }
@@ -7703,7 +7703,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07204, 102.46740",
         "source": "OpenStreetMap"
       }
@@ -7724,7 +7724,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72247, 103.16460",
         "source": "OpenStreetMap"
       }
@@ -7745,7 +7745,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72200, 103.12913",
         "source": "OpenStreetMap"
       }
@@ -7766,7 +7766,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72435, 103.14626",
         "source": "OpenStreetMap"
       }
@@ -7787,7 +7787,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70356, 103.29416",
         "source": "OpenStreetMap"
       }
@@ -7808,7 +7808,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69054, 103.27753",
         "source": "OpenStreetMap"
       }
@@ -7829,7 +7829,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71814, 103.24255",
         "source": "OpenStreetMap"
       }
@@ -7850,7 +7850,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66969, 103.16771",
         "source": "OpenStreetMap"
       }
@@ -7871,7 +7871,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.58243, 103.10137",
         "source": "OpenStreetMap"
       }
@@ -7892,7 +7892,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57278, 103.12113",
         "source": "OpenStreetMap"
       }
@@ -7913,7 +7913,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61257, 103.17906",
         "source": "OpenStreetMap"
       }
@@ -7934,7 +7934,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61156, 103.17788",
         "source": "OpenStreetMap"
       }
@@ -7955,7 +7955,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53817, 103.20687",
         "source": "OpenStreetMap"
       }
@@ -7976,7 +7976,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53516, 103.20948",
         "source": "OpenStreetMap"
       }
@@ -7997,7 +7997,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53610, 103.20988",
         "source": "OpenStreetMap"
       }
@@ -8018,7 +8018,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53638, 103.18014",
         "source": "OpenStreetMap"
       }
@@ -8039,7 +8039,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.54595, 103.16930",
         "source": "OpenStreetMap"
       }
@@ -8060,7 +8060,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66434, 102.78756",
         "source": "OpenStreetMap"
       }
@@ -8081,7 +8081,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65982, 102.99450",
         "source": "OpenStreetMap"
       }
@@ -8102,7 +8102,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64728, 102.98146",
         "source": "OpenStreetMap"
       }
@@ -8123,7 +8123,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Batang Hari",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64958, 102.95510",
         "source": "OpenStreetMap"
       }
@@ -8144,7 +8144,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64992, 102.94894",
         "source": "OpenStreetMap"
       }
@@ -8165,7 +8165,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71626, 103.12363",
         "source": "OpenStreetMap"
       }
@@ -8186,7 +8186,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93739, 103.08422",
         "source": "OpenStreetMap"
       }
@@ -8207,7 +8207,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93650, 103.08445",
         "source": "OpenStreetMap"
       }
@@ -8228,7 +8228,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59181, 103.37957",
         "source": "OpenStreetMap"
       }
@@ -8249,7 +8249,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.25765, 102.75170",
         "source": "OpenStreetMap"
       }
@@ -8270,7 +8270,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.19868, 102.79428",
         "source": "OpenStreetMap"
       }
@@ -8291,7 +8291,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.19824, 102.79420",
         "source": "OpenStreetMap"
       }
@@ -8312,7 +8312,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.20448, 102.79055",
         "source": "OpenStreetMap"
       }
@@ -8333,7 +8333,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.21621, 102.78816",
         "source": "OpenStreetMap"
       }
@@ -8354,7 +8354,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.13599, 102.81615",
         "source": "OpenStreetMap"
       }
@@ -8375,7 +8375,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12812, 102.83165",
         "source": "OpenStreetMap"
       }
@@ -8396,7 +8396,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09963, 102.86919",
         "source": "OpenStreetMap"
       }
@@ -8417,7 +8417,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.13376, 102.03688",
         "source": "OpenStreetMap"
       }
@@ -8438,7 +8438,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.19142, 101.62225",
         "source": "OpenStreetMap"
       }
@@ -8459,7 +8459,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.18552, 101.63734",
         "source": "OpenStreetMap"
       }
@@ -8480,7 +8480,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10586, 101.49368",
         "source": "OpenStreetMap"
       }
@@ -8501,7 +8501,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77150, 101.32179",
         "source": "OpenStreetMap"
       }
@@ -8522,7 +8522,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77170, 101.31971",
         "source": "OpenStreetMap"
       }
@@ -8543,7 +8543,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97718, 101.35233",
         "source": "OpenStreetMap"
       }
@@ -8564,7 +8564,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98305, 101.35080",
         "source": "OpenStreetMap"
       }
@@ -8585,7 +8585,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10005, 101.41626",
         "source": "OpenStreetMap"
       }
@@ -8606,7 +8606,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09157, 101.41514",
         "source": "OpenStreetMap"
       }
@@ -8627,7 +8627,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10674, 101.48867",
         "source": "OpenStreetMap"
       }
@@ -8648,7 +8648,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10654, 101.48773",
         "source": "OpenStreetMap"
       }
@@ -8669,7 +8669,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12784, 101.56497",
         "source": "OpenStreetMap"
       }
@@ -8690,7 +8690,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.19586, 102.48877",
         "source": "OpenStreetMap"
       }
@@ -8711,7 +8711,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.26732, 102.58311",
         "source": "OpenStreetMap"
       }
@@ -8732,7 +8732,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.02043, 101.42241",
         "source": "OpenStreetMap"
       }
@@ -8753,7 +8753,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.01695, 101.42087",
         "source": "OpenStreetMap"
       }
@@ -8774,7 +8774,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.01915, 101.41736",
         "source": "OpenStreetMap"
       }
@@ -8795,7 +8795,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.02011, 101.41880",
         "source": "OpenStreetMap"
       }
@@ -8816,7 +8816,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.02068, 101.41895",
         "source": "OpenStreetMap"
       }
@@ -8837,7 +8837,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03588, 101.40557",
         "source": "OpenStreetMap"
       }
@@ -8858,7 +8858,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03807, 101.40400",
         "source": "OpenStreetMap"
       }
@@ -8879,7 +8879,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59980, 103.47871",
         "source": "OpenStreetMap"
       }
@@ -8900,7 +8900,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59720, 103.46550",
         "source": "OpenStreetMap"
       }
@@ -8921,7 +8921,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59323, 103.46230",
         "source": "OpenStreetMap"
       }
@@ -8942,7 +8942,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71553, 103.32639",
         "source": "OpenStreetMap"
       }
@@ -8963,7 +8963,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70478, 103.31990",
         "source": "OpenStreetMap"
       }
@@ -8984,7 +8984,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.81760, 101.25465",
         "source": "OpenStreetMap"
       }
@@ -9005,7 +9005,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.81748, 101.25545",
         "source": "OpenStreetMap"
       }
@@ -9026,7 +9026,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.30447, 102.73201",
         "source": "OpenStreetMap"
       }
@@ -9047,7 +9047,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.68647, 103.09998",
         "source": "OpenStreetMap"
       }
@@ -9068,7 +9068,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72706, 103.22307",
         "source": "OpenStreetMap"
       }
@@ -9089,7 +9089,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72973, 103.22543",
         "source": "OpenStreetMap"
       }
@@ -9110,7 +9110,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71799, 103.14183",
         "source": "OpenStreetMap"
       }
@@ -9131,7 +9131,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64702, 103.27991",
         "source": "OpenStreetMap"
       }
@@ -9152,7 +9152,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63785, 102.87316",
         "source": "OpenStreetMap"
       }
@@ -9173,7 +9173,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65345, 102.80970",
         "source": "OpenStreetMap"
       }
@@ -9194,7 +9194,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64061, 102.79643",
         "source": "OpenStreetMap"
       }
@@ -9215,7 +9215,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.46733, 103.95324",
         "source": "OpenStreetMap"
       }
@@ -9236,7 +9236,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16998, 101.46316",
         "source": "OpenStreetMap"
       }
@@ -9257,7 +9257,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.17228, 101.46426",
         "source": "OpenStreetMap"
       }
@@ -9278,7 +9278,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.25479, 103.07956",
         "source": "OpenStreetMap"
       }
@@ -9299,7 +9299,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.11603, 102.96617",
         "source": "OpenStreetMap"
       }
@@ -9341,7 +9341,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71029, 103.11828",
         "source": "OpenStreetMap"
       }
@@ -9404,7 +9404,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73202, 103.13674",
         "source": "OpenStreetMap"
       }
@@ -9425,7 +9425,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.79049, 103.40059",
         "source": "OpenStreetMap"
       }
@@ -9446,7 +9446,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.00751, 101.38352",
         "source": "OpenStreetMap"
       }
@@ -9467,7 +9467,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.00603, 101.38507",
         "source": "OpenStreetMap"
       }
@@ -9488,7 +9488,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.00654, 101.38501",
         "source": "OpenStreetMap"
       }
@@ -9509,7 +9509,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.04936, 101.38570",
         "source": "OpenStreetMap"
       }
@@ -9530,7 +9530,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03460, 101.39940",
         "source": "OpenStreetMap"
       }
@@ -9551,7 +9551,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07361, 101.43123",
         "source": "OpenStreetMap"
       }
@@ -9572,7 +9572,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07243, 101.43221",
         "source": "OpenStreetMap"
       }
@@ -9593,7 +9593,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98454, 101.38396",
         "source": "OpenStreetMap"
       }
@@ -9614,7 +9614,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97909, 101.38153",
         "source": "OpenStreetMap"
       }
@@ -9635,7 +9635,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98135, 101.32942",
         "source": "OpenStreetMap"
       }
@@ -9656,7 +9656,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.84911, 102.29665",
         "source": "OpenStreetMap"
       }
@@ -9677,7 +9677,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63360, 103.57927",
         "source": "OpenStreetMap"
       }
@@ -9698,7 +9698,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64823, 103.55801",
         "source": "OpenStreetMap"
       }
@@ -9719,7 +9719,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63334, 103.54314",
         "source": "OpenStreetMap"
       }
@@ -9740,7 +9740,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.55087, 103.44814",
         "source": "OpenStreetMap"
       }
@@ -9761,7 +9761,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.55196, 103.44636",
         "source": "OpenStreetMap"
       }
@@ -9782,7 +9782,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.56277, 103.44986",
         "source": "OpenStreetMap"
       }
@@ -9803,7 +9803,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66787, 103.59226",
         "source": "OpenStreetMap"
       }
@@ -9824,7 +9824,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59780, 103.60896",
         "source": "OpenStreetMap"
       }
@@ -9845,7 +9845,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59790, 103.60960",
         "source": "OpenStreetMap"
       }
@@ -9866,7 +9866,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60557, 103.60402",
         "source": "OpenStreetMap"
       }
@@ -9887,7 +9887,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65591, 103.58120",
         "source": "OpenStreetMap"
       }
@@ -9908,7 +9908,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66077, 103.59774",
         "source": "OpenStreetMap"
       }
@@ -9929,7 +9929,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66712, 103.60235",
         "source": "OpenStreetMap"
       }
@@ -9950,7 +9950,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61765, 103.61950",
         "source": "OpenStreetMap"
       }
@@ -9971,7 +9971,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61604, 103.62050",
         "source": "OpenStreetMap"
       }
@@ -9992,7 +9992,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.82011, 101.25419",
         "source": "OpenStreetMap"
       }
@@ -10013,7 +10013,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66717, 102.76499",
         "source": "OpenStreetMap"
       }
@@ -10034,7 +10034,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66689, 102.76117",
         "source": "OpenStreetMap"
       }
@@ -10055,7 +10055,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.82813, 103.02245",
         "source": "OpenStreetMap"
       }
@@ -10076,7 +10076,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69410, 103.18465",
         "source": "OpenStreetMap"
       }
@@ -10097,7 +10097,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.23667, 101.56978",
         "source": "OpenStreetMap"
       }
@@ -10118,7 +10118,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.25086, 101.57241",
         "source": "OpenStreetMap"
       }
@@ -10139,7 +10139,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.05916, 102.46903",
         "source": "OpenStreetMap"
       }
@@ -10160,7 +10160,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59602, 103.67027",
         "source": "OpenStreetMap"
       }
@@ -10181,7 +10181,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57098, 103.63575",
         "source": "OpenStreetMap"
       }
@@ -10202,7 +10202,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59778, 103.78396",
         "source": "OpenStreetMap"
       }
@@ -10223,7 +10223,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57786, 103.73932",
         "source": "OpenStreetMap"
       }
@@ -10244,7 +10244,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69200, 103.65527",
         "source": "OpenStreetMap"
       }
@@ -10265,7 +10265,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73040, 103.66302",
         "source": "OpenStreetMap"
       }
@@ -10286,7 +10286,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78235, 103.83694",
         "source": "OpenStreetMap"
       }
@@ -10307,7 +10307,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78239, 103.83553",
         "source": "OpenStreetMap"
       }
@@ -10328,7 +10328,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62528, 103.58920",
         "source": "OpenStreetMap"
       }
@@ -10349,7 +10349,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62120, 103.59850",
         "source": "OpenStreetMap"
       }
@@ -10370,7 +10370,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62308, 103.59828",
         "source": "OpenStreetMap"
       }
@@ -10391,7 +10391,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.58000, 102.95896",
         "source": "OpenStreetMap"
       }
@@ -10433,7 +10433,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09912, 101.43091",
         "source": "OpenStreetMap"
       }
@@ -10454,7 +10454,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66195, 103.64556",
         "source": "OpenStreetMap"
       }
@@ -10475,7 +10475,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64128, 103.61925",
         "source": "OpenStreetMap"
       }
@@ -10496,7 +10496,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64063, 103.60971",
         "source": "OpenStreetMap"
       }
@@ -10517,7 +10517,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63812, 103.60394",
         "source": "OpenStreetMap"
       }
@@ -10538,7 +10538,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.66262, 103.25617",
         "source": "OpenStreetMap"
       }
@@ -10559,7 +10559,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64619, 103.27713",
         "source": "OpenStreetMap"
       }
@@ -10580,7 +10580,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64697, 103.27345",
         "source": "OpenStreetMap"
       }
@@ -10601,7 +10601,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.64636, 103.28341",
         "source": "OpenStreetMap"
       }
@@ -10622,7 +10622,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69518, 103.29440",
         "source": "OpenStreetMap"
       }
@@ -10643,7 +10643,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.68457, 103.30209",
         "source": "OpenStreetMap"
       }
@@ -10664,7 +10664,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.68071, 103.29194",
         "source": "OpenStreetMap"
       }
@@ -10685,7 +10685,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65030, 103.28976",
         "source": "OpenStreetMap"
       }
@@ -10706,7 +10706,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.58657, 103.57048",
         "source": "OpenStreetMap"
       }
@@ -10727,7 +10727,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59762, 103.57389",
         "source": "OpenStreetMap"
       }
@@ -10748,7 +10748,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59766, 103.57341",
         "source": "OpenStreetMap"
       }
@@ -10769,7 +10769,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53172, 103.53257",
         "source": "OpenStreetMap"
       }
@@ -10790,7 +10790,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.51971, 103.44063",
         "source": "OpenStreetMap"
       }
@@ -10811,7 +10811,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.67915, 103.09162",
         "source": "OpenStreetMap"
       }
@@ -10832,7 +10832,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11314, 101.51735",
         "source": "OpenStreetMap"
       }
@@ -10853,7 +10853,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61589, 103.58816",
         "source": "OpenStreetMap"
       }
@@ -10874,7 +10874,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.79530, 101.29719",
         "source": "OpenStreetMap"
       }
@@ -10895,7 +10895,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.56733, 101.91124",
         "source": "OpenStreetMap"
       }
@@ -10916,7 +10916,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.57897, 102.21215",
         "source": "OpenStreetMap"
       }
@@ -10937,7 +10937,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.46459, 102.32476",
         "source": "OpenStreetMap"
       }
@@ -10958,7 +10958,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.47092, 102.32334",
         "source": "OpenStreetMap"
       }
@@ -10979,7 +10979,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.49052, 102.27864",
         "source": "OpenStreetMap"
       }
@@ -11000,7 +11000,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78690, 103.32796",
         "source": "OpenStreetMap"
       }
@@ -11021,7 +11021,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78615, 103.33153",
         "source": "OpenStreetMap"
       }
@@ -11042,7 +11042,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73419, 103.27803",
         "source": "OpenStreetMap"
       }
@@ -11063,7 +11063,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73633, 103.27843",
         "source": "OpenStreetMap"
       }
@@ -11084,7 +11084,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.76657, 103.27643",
         "source": "OpenStreetMap"
       }
@@ -11105,7 +11105,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.74163, 103.27662",
         "source": "OpenStreetMap"
       }
@@ -11126,7 +11126,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72007, 103.26167",
         "source": "OpenStreetMap"
       }
@@ -11147,7 +11147,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73849, 103.32256",
         "source": "OpenStreetMap"
       }
@@ -11168,7 +11168,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77704, 103.33145",
         "source": "OpenStreetMap"
       }
@@ -11189,7 +11189,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60712, 103.65483",
         "source": "OpenStreetMap"
       }
@@ -11210,7 +11210,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61963, 103.64415",
         "source": "OpenStreetMap"
       }
@@ -11252,7 +11252,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.07213, 104.08317",
         "source": "OpenStreetMap"
       }
@@ -11273,7 +11273,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.12415, 104.14345",
         "source": "OpenStreetMap"
       }
@@ -11294,7 +11294,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.05792, 104.32968",
         "source": "OpenStreetMap"
       }
@@ -11315,7 +11315,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.67785, 103.41576",
         "source": "OpenStreetMap"
       }
@@ -11336,7 +11336,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.56465, 103.35599",
         "source": "OpenStreetMap"
       }
@@ -11357,7 +11357,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60833, 103.35448",
         "source": "OpenStreetMap"
       }
@@ -11378,7 +11378,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60875, 103.35374",
         "source": "OpenStreetMap"
       }
@@ -11399,7 +11399,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60324, 103.32621",
         "source": "OpenStreetMap"
       }
@@ -11420,7 +11420,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57988, 103.32747",
         "source": "OpenStreetMap"
       }
@@ -11441,7 +11441,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57976, 103.32757",
         "source": "OpenStreetMap"
       }
@@ -11462,7 +11462,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12224, 101.52790",
         "source": "OpenStreetMap"
       }
@@ -11483,7 +11483,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12149, 101.52695",
         "source": "OpenStreetMap"
       }
@@ -11504,7 +11504,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11312, 101.52931",
         "source": "OpenStreetMap"
       }
@@ -11525,7 +11525,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10212, 101.54325",
         "source": "OpenStreetMap"
       }
@@ -11546,7 +11546,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09841, 101.54375",
         "source": "OpenStreetMap"
       }
@@ -11567,7 +11567,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.17383, 104.01044",
         "source": "OpenStreetMap"
       }
@@ -11588,7 +11588,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.15296, 104.11701",
         "source": "OpenStreetMap"
       }
@@ -11609,7 +11609,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.21598, 104.16171",
         "source": "OpenStreetMap"
       }
@@ -11630,7 +11630,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.24054, 104.10347",
         "source": "OpenStreetMap"
       }
@@ -11651,7 +11651,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71854, 103.41472",
         "source": "OpenStreetMap"
       }
@@ -11672,7 +11672,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71257, 103.42302",
         "source": "OpenStreetMap"
       }
@@ -11693,7 +11693,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.03368, 103.08272",
         "source": "OpenStreetMap"
       }
@@ -11714,7 +11714,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.00625, 101.37900",
         "source": "OpenStreetMap"
       }
@@ -11735,7 +11735,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.96463, 101.34245",
         "source": "OpenStreetMap"
       }
@@ -11756,7 +11756,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08540, 101.48410",
         "source": "OpenStreetMap"
       }
@@ -11777,7 +11777,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07652, 101.43670",
         "source": "OpenStreetMap"
       }
@@ -11798,7 +11798,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07663, 101.38066",
         "source": "OpenStreetMap"
       }
@@ -11819,7 +11819,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08979, 101.40865",
         "source": "OpenStreetMap"
       }
@@ -11840,7 +11840,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10793, 101.47047",
         "source": "OpenStreetMap"
       }
@@ -11861,7 +11861,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.48024, 101.70360",
         "source": "OpenStreetMap"
       }
@@ -11882,7 +11882,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09062, 101.41684",
         "source": "OpenStreetMap"
       }
@@ -11903,7 +11903,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.22776, 101.55021",
         "source": "OpenStreetMap"
       }
@@ -11924,7 +11924,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.18002, 101.54557",
         "source": "OpenStreetMap"
       }
@@ -11945,7 +11945,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59842, 103.50070",
         "source": "OpenStreetMap"
       }
@@ -11966,7 +11966,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29544, 102.69866",
         "source": "OpenStreetMap"
       }
@@ -11987,7 +11987,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29567, 102.69793",
         "source": "OpenStreetMap"
       }
@@ -12008,7 +12008,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29446, 102.69825",
         "source": "OpenStreetMap"
       }
@@ -12029,7 +12029,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.74120, 103.27764",
         "source": "OpenStreetMap"
       }
@@ -12050,7 +12050,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16228, 101.58866",
         "source": "OpenStreetMap"
       }
@@ -12071,7 +12071,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16176, 101.58765",
         "source": "OpenStreetMap"
       }
@@ -12092,7 +12092,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.22248, 101.68004",
         "source": "OpenStreetMap"
       }
@@ -12113,7 +12113,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12049, 101.46112",
         "source": "OpenStreetMap"
       }
@@ -12134,7 +12134,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12072, 101.46199",
         "source": "OpenStreetMap"
       }
@@ -12155,7 +12155,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12091, 101.46536",
         "source": "OpenStreetMap"
       }
@@ -12176,7 +12176,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.17366, 101.46911",
         "source": "OpenStreetMap"
       }
@@ -12197,7 +12197,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16807, 101.46376",
         "source": "OpenStreetMap"
       }
@@ -12218,7 +12218,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16928, 101.46427",
         "source": "OpenStreetMap"
       }
@@ -12239,7 +12239,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.17265, 101.46599",
         "source": "OpenStreetMap"
       }
@@ -12260,7 +12260,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16885, 101.46848",
         "source": "OpenStreetMap"
       }
@@ -12281,7 +12281,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.96506, 101.36966",
         "source": "OpenStreetMap"
       }
@@ -12302,7 +12302,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.26172, 101.53144",
         "source": "OpenStreetMap"
       }
@@ -12323,7 +12323,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.26215, 101.53244",
         "source": "OpenStreetMap"
       }
@@ -12344,7 +12344,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99987, 103.21982",
         "source": "OpenStreetMap"
       }
@@ -12365,7 +12365,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.95130, 103.27794",
         "source": "OpenStreetMap"
       }
@@ -12386,7 +12386,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03204, 103.34844",
         "source": "OpenStreetMap"
       }
@@ -12407,7 +12407,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97354, 101.34867",
         "source": "OpenStreetMap"
       }
@@ -12428,7 +12428,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97595, 101.34783",
         "source": "OpenStreetMap"
       }
@@ -12449,7 +12449,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.22287, 101.57799",
         "source": "OpenStreetMap"
       }
@@ -12470,7 +12470,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.57966, 101.94183",
         "source": "OpenStreetMap"
       }
@@ -12491,7 +12491,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09336, 101.41341",
         "source": "OpenStreetMap"
       }
@@ -12512,7 +12512,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.15010, 101.44211",
         "source": "OpenStreetMap"
       }
@@ -12533,7 +12533,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-0.93495, 103.56598",
         "source": "OpenStreetMap"
       }
@@ -12554,7 +12554,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-0.92747, 103.56916",
         "source": "OpenStreetMap"
       }
@@ -12575,7 +12575,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.20197, 103.98388",
         "source": "OpenStreetMap"
       }
@@ -12596,7 +12596,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.95140, 101.33581",
         "source": "OpenStreetMap"
       }
@@ -12617,7 +12617,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.94822, 101.33446",
         "source": "OpenStreetMap"
       }
@@ -12638,7 +12638,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.94775, 101.33404",
         "source": "OpenStreetMap"
       }
@@ -12659,7 +12659,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93993, 101.32939",
         "source": "OpenStreetMap"
       }
@@ -12680,7 +12680,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.93455, 101.32685",
         "source": "OpenStreetMap"
       }
@@ -12701,7 +12701,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08111, 101.46754",
         "source": "OpenStreetMap"
       }
@@ -12722,7 +12722,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07635, 101.47216",
         "source": "OpenStreetMap"
       }
@@ -12743,7 +12743,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07964, 101.46648",
         "source": "OpenStreetMap"
       }
@@ -12764,7 +12764,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08744, 101.48388",
         "source": "OpenStreetMap"
       }
@@ -12785,7 +12785,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07095, 101.46444",
         "source": "OpenStreetMap"
       }
@@ -12806,7 +12806,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07431, 101.46281",
         "source": "OpenStreetMap"
       }
@@ -12827,7 +12827,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06370, 102.55871",
         "source": "OpenStreetMap"
       }
@@ -12848,7 +12848,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.58869, 102.79807",
         "source": "OpenStreetMap"
       }
@@ -12869,7 +12869,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.13663, 102.12420",
         "source": "OpenStreetMap"
       }
@@ -12890,7 +12890,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.17294, 102.12548",
         "source": "OpenStreetMap"
       }
@@ -12911,7 +12911,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.17377, 102.13079",
         "source": "OpenStreetMap"
       }
@@ -12932,7 +12932,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.17816, 102.11315",
         "source": "OpenStreetMap"
       }
@@ -12953,7 +12953,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.17644, 102.12111",
         "source": "OpenStreetMap"
       }
@@ -12974,7 +12974,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.14895, 102.09677",
         "source": "OpenStreetMap"
       }
@@ -12995,7 +12995,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11802, 101.94039",
         "source": "OpenStreetMap"
       }
@@ -13016,7 +13016,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.13723, 101.92461",
         "source": "OpenStreetMap"
       }
@@ -13037,7 +13037,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.25287, 102.52474",
         "source": "OpenStreetMap"
       }
@@ -13058,7 +13058,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.99125, 102.98867",
         "source": "OpenStreetMap"
       }
@@ -13079,7 +13079,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.00283, 102.98738",
         "source": "OpenStreetMap"
       }
@@ -13100,7 +13100,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.00478, 102.98809",
         "source": "OpenStreetMap"
       }
@@ -13121,7 +13121,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09220, 101.98296",
         "source": "OpenStreetMap"
       }
@@ -13142,7 +13142,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12930, 101.55449",
         "source": "OpenStreetMap"
       }
@@ -13163,7 +13163,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07271, 102.89174",
         "source": "OpenStreetMap"
       }
@@ -13184,7 +13184,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06684, 102.89557",
         "source": "OpenStreetMap"
       }
@@ -13205,7 +13205,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06566, 102.89638",
         "source": "OpenStreetMap"
       }
@@ -13226,7 +13226,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11397, 101.98411",
         "source": "OpenStreetMap"
       }
@@ -13247,7 +13247,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11042, 101.43153",
         "source": "OpenStreetMap"
       }
@@ -13268,7 +13268,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11075, 101.42690",
         "source": "OpenStreetMap"
       }
@@ -13289,7 +13289,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10959, 101.42635",
         "source": "OpenStreetMap"
       }
@@ -13310,7 +13310,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10900, 101.42600",
         "source": "OpenStreetMap"
       }
@@ -13331,7 +13331,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03461, 102.96542",
         "source": "OpenStreetMap"
       }
@@ -13352,7 +13352,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.13759, 102.81616",
         "source": "OpenStreetMap"
       }
@@ -13373,7 +13373,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.26409, 102.57492",
         "source": "OpenStreetMap"
       }
@@ -13394,7 +13394,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11546, 102.51991",
         "source": "OpenStreetMap"
       }
@@ -13415,7 +13415,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07629, 102.26874",
         "source": "OpenStreetMap"
       }
@@ -13436,7 +13436,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07982, 102.26671",
         "source": "OpenStreetMap"
       }
@@ -13457,7 +13457,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08077, 102.26690",
         "source": "OpenStreetMap"
       }
@@ -13478,7 +13478,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.30191, 102.72285",
         "source": "OpenStreetMap"
       }
@@ -13499,7 +13499,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.30352, 102.72344",
         "source": "OpenStreetMap"
       }
@@ -13520,7 +13520,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.15640, 102.07530",
         "source": "OpenStreetMap"
       }
@@ -13541,7 +13541,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11666, 102.02706",
         "source": "OpenStreetMap"
       }
@@ -13562,7 +13562,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11691, 102.02649",
         "source": "OpenStreetMap"
       }
@@ -13583,7 +13583,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11930, 102.02293",
         "source": "OpenStreetMap"
       }
@@ -13604,7 +13604,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.90954, 101.29612",
         "source": "OpenStreetMap"
       }
@@ -13625,7 +13625,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07406, 102.28007",
         "source": "OpenStreetMap"
       }
@@ -13646,7 +13646,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.78704, 103.36618",
         "source": "OpenStreetMap"
       }
@@ -13667,7 +13667,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.95980, 101.34310",
         "source": "OpenStreetMap"
       }
@@ -13688,7 +13688,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.96789, 101.35957",
         "source": "OpenStreetMap"
       }
@@ -13709,7 +13709,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08438, 102.18069",
         "source": "OpenStreetMap"
       }
@@ -13730,7 +13730,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08834, 102.19233",
         "source": "OpenStreetMap"
       }
@@ -13751,7 +13751,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07618, 102.20084",
         "source": "OpenStreetMap"
       }
@@ -13772,7 +13772,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.08082, 102.20118",
         "source": "OpenStreetMap"
       }
@@ -13793,7 +13793,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06608, 102.22868",
         "source": "OpenStreetMap"
       }
@@ -13814,7 +13814,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06609, 102.23009",
         "source": "OpenStreetMap"
       }
@@ -13835,7 +13835,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07395, 102.23977",
         "source": "OpenStreetMap"
       }
@@ -13856,7 +13856,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07557, 102.25095",
         "source": "OpenStreetMap"
       }
@@ -13877,7 +13877,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06964, 102.26409",
         "source": "OpenStreetMap"
       }
@@ -13898,7 +13898,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.81265, 103.04800",
         "source": "OpenStreetMap"
       }
@@ -13919,7 +13919,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.81320, 103.04586",
         "source": "OpenStreetMap"
       }
@@ -13940,7 +13940,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.88371, 103.00114",
         "source": "OpenStreetMap"
       }
@@ -13961,7 +13961,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.92048, 102.99889",
         "source": "OpenStreetMap"
       }
@@ -13982,7 +13982,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.05652, 103.87951",
         "source": "OpenStreetMap"
       }
@@ -14003,7 +14003,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.76873, 103.84028",
         "source": "OpenStreetMap"
       }
@@ -14024,7 +14024,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-0.83421, 103.35077",
         "source": "OpenStreetMap"
       }
@@ -14045,7 +14045,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29581, 102.64602",
         "source": "OpenStreetMap"
       }
@@ -14066,7 +14066,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.06583, 103.08839",
         "source": "OpenStreetMap"
       }
@@ -14087,7 +14087,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.10415, 103.02804",
         "source": "OpenStreetMap"
       }
@@ -14108,7 +14108,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.14368, 103.07564",
         "source": "OpenStreetMap"
       }
@@ -14129,7 +14129,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.20502, 103.04122",
         "source": "OpenStreetMap"
       }
@@ -14150,7 +14150,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.17686, 103.11957",
         "source": "OpenStreetMap"
       }
@@ -14171,7 +14171,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16861, 101.58952",
         "source": "OpenStreetMap"
       }
@@ -14192,7 +14192,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16974, 101.59785",
         "source": "OpenStreetMap"
       }
@@ -14213,7 +14213,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.16488, 101.59525",
         "source": "OpenStreetMap"
       }
@@ -14234,7 +14234,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.47375, 101.87283",
         "source": "OpenStreetMap"
       }
@@ -14255,7 +14255,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.38704, 101.72363",
         "source": "OpenStreetMap"
       }
@@ -14276,7 +14276,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.32330, 101.74502",
         "source": "OpenStreetMap"
       }
@@ -14297,7 +14297,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.32247, 101.74118",
         "source": "OpenStreetMap"
       }
@@ -14318,7 +14318,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.36016, 101.73793",
         "source": "OpenStreetMap"
       }
@@ -14339,7 +14339,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.23780, 101.86698",
         "source": "OpenStreetMap"
       }
@@ -14360,7 +14360,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.26384, 101.85803",
         "source": "OpenStreetMap"
       }
@@ -14381,7 +14381,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.14010, 101.90802",
         "source": "OpenStreetMap"
       }
@@ -14402,7 +14402,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.15460, 101.93557",
         "source": "OpenStreetMap"
       }
@@ -14423,7 +14423,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.22820, 101.90229",
         "source": "OpenStreetMap"
       }
@@ -14444,7 +14444,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.15746, 102.03466",
         "source": "OpenStreetMap"
       }
@@ -14465,7 +14465,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.15866, 102.01904",
         "source": "OpenStreetMap"
       }
@@ -14486,7 +14486,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.12784, 101.90655",
         "source": "OpenStreetMap"
       }
@@ -14507,7 +14507,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.09406, 101.85174",
         "source": "OpenStreetMap"
       }
@@ -14528,7 +14528,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73022, 103.27424",
         "source": "OpenStreetMap"
       }
@@ -14549,7 +14549,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.33948, 102.30897",
         "source": "OpenStreetMap"
       }
@@ -14570,7 +14570,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.19548, 102.19973",
         "source": "OpenStreetMap"
       }
@@ -14591,7 +14591,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.85712, 101.27232",
         "source": "OpenStreetMap"
       }
@@ -14612,7 +14612,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-0.94039, 103.60932",
         "source": "OpenStreetMap"
       }
@@ -14633,7 +14633,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.23910, 103.42894",
         "source": "OpenStreetMap"
       }
@@ -14654,7 +14654,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.23779, 103.42869",
         "source": "OpenStreetMap"
       }
@@ -14675,7 +14675,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.06372, 102.27748",
         "source": "OpenStreetMap"
       }
@@ -14696,7 +14696,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.88403, 101.20773",
         "source": "OpenStreetMap"
       }
@@ -14717,7 +14717,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.84540, 102.99553",
         "source": "OpenStreetMap"
       }
@@ -14738,7 +14738,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.40321, 101.96163",
         "source": "OpenStreetMap"
       }
@@ -14759,7 +14759,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.10348, 101.46687",
         "source": "OpenStreetMap"
       }
@@ -14780,7 +14780,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12160, 101.43223",
         "source": "OpenStreetMap"
       }
@@ -14801,7 +14801,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11827, 101.43452",
         "source": "OpenStreetMap"
       }
@@ -14822,7 +14822,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11623, 101.42938",
         "source": "OpenStreetMap"
       }
@@ -14843,7 +14843,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63546, 103.60565",
         "source": "OpenStreetMap"
       }
@@ -14864,7 +14864,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71282, 101.34474",
         "source": "OpenStreetMap"
       }
@@ -14885,7 +14885,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.63958, 102.79725",
         "source": "OpenStreetMap"
       }
@@ -14906,7 +14906,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72061, 101.34612",
         "source": "OpenStreetMap"
       }
@@ -14927,7 +14927,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.67943, 103.03468",
         "source": "OpenStreetMap"
       }
@@ -14948,7 +14948,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77289, 103.10376",
         "source": "OpenStreetMap"
       }
@@ -14969,7 +14969,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.76480, 103.11173",
         "source": "OpenStreetMap"
       }
@@ -14990,7 +14990,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.76235, 103.11367",
         "source": "OpenStreetMap"
       }
@@ -15011,7 +15011,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12447, 102.40619",
         "source": "OpenStreetMap"
       }
@@ -15032,7 +15032,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12604, 102.40439",
         "source": "OpenStreetMap"
       }
@@ -15053,7 +15053,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12659, 102.40529",
         "source": "OpenStreetMap"
       }
@@ -15074,7 +15074,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.12600, 102.39141",
         "source": "OpenStreetMap"
       }
@@ -15095,7 +15095,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.77373, 102.39918",
         "source": "OpenStreetMap"
       }
@@ -15116,7 +15116,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.25568, 102.33033",
         "source": "OpenStreetMap"
       }
@@ -15137,7 +15137,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.18113, 101.50934",
         "source": "OpenStreetMap"
       }
@@ -15158,7 +15158,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.22871, 102.05671",
         "source": "OpenStreetMap"
       }
@@ -15179,7 +15179,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.22959, 102.05843",
         "source": "OpenStreetMap"
       }
@@ -15200,7 +15200,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.03849, 102.28965",
         "source": "OpenStreetMap"
       }
@@ -15221,7 +15221,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.37570, 102.41338",
         "source": "OpenStreetMap"
       }
@@ -15242,7 +15242,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.37758, 102.41761",
         "source": "OpenStreetMap"
       }
@@ -15263,7 +15263,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.91033, 102.96810",
         "source": "OpenStreetMap"
       }
@@ -15284,7 +15284,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.89977, 102.96620",
         "source": "OpenStreetMap"
       }
@@ -15305,7 +15305,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.91148, 102.96830",
         "source": "OpenStreetMap"
       }
@@ -15326,7 +15326,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.20167, 102.38171",
         "source": "OpenStreetMap"
       }
@@ -15347,7 +15347,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.20566, 102.38029",
         "source": "OpenStreetMap"
       }
@@ -15368,7 +15368,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.20438, 102.38106",
         "source": "OpenStreetMap"
       }
@@ -15389,7 +15389,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.14616, 102.31275",
         "source": "OpenStreetMap"
       }
@@ -15410,7 +15410,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.14735, 102.31278",
         "source": "OpenStreetMap"
       }
@@ -15431,7 +15431,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.15220, 102.31542",
         "source": "OpenStreetMap"
       }
@@ -15452,7 +15452,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.55030, 103.44793",
         "source": "OpenStreetMap"
       }
@@ -15473,7 +15473,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.85090, 103.00862",
         "source": "OpenStreetMap"
       }
@@ -15494,7 +15494,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03092, 101.40423",
         "source": "OpenStreetMap"
       }
@@ -15515,7 +15515,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.03148, 101.40415",
         "source": "OpenStreetMap"
       }
@@ -15536,7 +15536,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.90665, 102.98912",
         "source": "OpenStreetMap"
       }
@@ -15557,7 +15557,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.11797, 102.00483",
         "source": "OpenStreetMap"
       }
@@ -15578,7 +15578,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09801, 102.23953",
         "source": "OpenStreetMap"
       }
@@ -15599,7 +15599,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.14014, 101.92787",
         "source": "OpenStreetMap"
       }
@@ -15620,7 +15620,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.39890, 103.98262",
         "source": "OpenStreetMap"
       }
@@ -15641,7 +15641,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.29757, 104.08043",
         "source": "OpenStreetMap"
       }
@@ -15662,7 +15662,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.32268, 104.05685",
         "source": "OpenStreetMap"
       }
@@ -15683,7 +15683,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31905, 104.05959",
         "source": "OpenStreetMap"
       }
@@ -15704,7 +15704,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.34316, 104.03377",
         "source": "OpenStreetMap"
       }
@@ -15725,7 +15725,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.34754, 104.03111",
         "source": "OpenStreetMap"
       }
@@ -15746,7 +15746,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.39815, 103.96250",
         "source": "OpenStreetMap"
       }
@@ -15767,7 +15767,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.39299, 103.96316",
         "source": "OpenStreetMap"
       }
@@ -15788,7 +15788,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.37988, 103.99307",
         "source": "OpenStreetMap"
       }
@@ -15809,7 +15809,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53653, 103.88954",
         "source": "OpenStreetMap"
       }
@@ -15830,7 +15830,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53787, 103.66267",
         "source": "OpenStreetMap"
       }
@@ -15851,7 +15851,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.20552, 103.96165",
         "source": "OpenStreetMap"
       }
@@ -15872,7 +15872,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.20424, 103.96088",
         "source": "OpenStreetMap"
       }
@@ -15893,7 +15893,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.17119, 103.93771",
         "source": "OpenStreetMap"
       }
@@ -15914,7 +15914,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.25314, 103.90430",
         "source": "OpenStreetMap"
       }
@@ -15935,7 +15935,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.22865, 103.91096",
         "source": "OpenStreetMap"
       }
@@ -15956,7 +15956,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.02544, 103.80713",
         "source": "OpenStreetMap"
       }
@@ -15977,7 +15977,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.02709, 103.80780",
         "source": "OpenStreetMap"
       }
@@ -15998,7 +15998,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.03216, 103.80872",
         "source": "OpenStreetMap"
       }
@@ -16019,7 +16019,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71636, 103.24400",
         "source": "OpenStreetMap"
       }
@@ -16040,7 +16040,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.60505, 103.54219",
         "source": "OpenStreetMap"
       }
@@ -16061,7 +16061,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70805, 103.32174",
         "source": "OpenStreetMap"
       }
@@ -16082,7 +16082,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71099, 103.31155",
         "source": "OpenStreetMap"
       }
@@ -16103,7 +16103,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72597, 103.17321",
         "source": "OpenStreetMap"
       }
@@ -16124,7 +16124,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73521, 103.18911",
         "source": "OpenStreetMap"
       }
@@ -16145,7 +16145,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69976, 103.33744",
         "source": "OpenStreetMap"
       }
@@ -16166,7 +16166,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.05445, 101.39023",
         "source": "OpenStreetMap"
       }
@@ -16187,7 +16187,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07683, 101.43658",
         "source": "OpenStreetMap"
       }
@@ -16208,7 +16208,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07703, 101.43455",
         "source": "OpenStreetMap"
       }
@@ -16229,7 +16229,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.07664, 101.43537",
         "source": "OpenStreetMap"
       }
@@ -16250,7 +16250,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.73536, 103.71268",
         "source": "OpenStreetMap"
       }
@@ -16271,7 +16271,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97336, 102.50622",
         "source": "OpenStreetMap"
       }
@@ -16292,7 +16292,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.97301, 102.50661",
         "source": "OpenStreetMap"
       }
@@ -16313,7 +16313,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.32103, 102.20457",
         "source": "OpenStreetMap"
       }
@@ -16334,7 +16334,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31920, 102.20376",
         "source": "OpenStreetMap"
       }
@@ -16355,7 +16355,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31950, 102.20564",
         "source": "OpenStreetMap"
       }
@@ -16376,7 +16376,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31790, 102.20384",
         "source": "OpenStreetMap"
       }
@@ -16397,7 +16397,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31982, 102.20599",
         "source": "OpenStreetMap"
       }
@@ -16418,7 +16418,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.31821, 102.20423",
         "source": "OpenStreetMap"
       }
@@ -16439,7 +16439,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.49238, 102.53837",
         "source": "OpenStreetMap"
       }
@@ -16460,7 +16460,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.83314, 103.25174",
         "source": "OpenStreetMap"
       }
@@ -16481,7 +16481,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.83977, 103.26439",
         "source": "OpenStreetMap"
       }
@@ -16502,7 +16502,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71622, 103.25828",
         "source": "OpenStreetMap"
       }
@@ -16523,7 +16523,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.21795, 102.12792",
         "source": "OpenStreetMap"
       }
@@ -16544,7 +16544,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.16040, 102.12929",
         "source": "OpenStreetMap"
       }
@@ -16565,7 +16565,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.15963, 102.12979",
         "source": "OpenStreetMap"
       }
@@ -16586,7 +16586,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-0.95961, 103.68612",
         "source": "OpenStreetMap"
       }
@@ -16607,7 +16607,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-0.97588, 103.37901",
         "source": "OpenStreetMap"
       }
@@ -16628,7 +16628,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.65815, 103.60996",
         "source": "OpenStreetMap"
       }
@@ -16649,7 +16649,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.52151, 102.09622",
         "source": "OpenStreetMap"
       }
@@ -16670,7 +16670,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.56000, 102.18363",
         "source": "OpenStreetMap"
       }
@@ -16691,7 +16691,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57341, 103.62046",
         "source": "OpenStreetMap"
       }
@@ -16712,7 +16712,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57342, 103.62083",
         "source": "OpenStreetMap"
       }
@@ -16733,7 +16733,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.56913, 103.59713",
         "source": "OpenStreetMap"
       }
@@ -16754,7 +16754,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.58330, 103.61577",
         "source": "OpenStreetMap"
       }
@@ -16775,7 +16775,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59667, 103.38138",
         "source": "OpenStreetMap"
       }
@@ -16796,7 +16796,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61010, 103.57624",
         "source": "OpenStreetMap"
       }
@@ -16817,7 +16817,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62821, 103.52392",
         "source": "OpenStreetMap"
       }
@@ -16838,7 +16838,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62475, 103.51640",
         "source": "OpenStreetMap"
       }
@@ -16859,7 +16859,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61333, 103.52805",
         "source": "OpenStreetMap"
       }
@@ -16880,7 +16880,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61675, 103.57418",
         "source": "OpenStreetMap"
       }
@@ -16901,7 +16901,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.61607, 103.57423",
         "source": "OpenStreetMap"
       }
@@ -16922,7 +16922,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62413, 103.60119",
         "source": "OpenStreetMap"
       }
@@ -16943,7 +16943,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62168, 103.54421",
         "source": "OpenStreetMap"
       }
@@ -16964,7 +16964,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.30637, 102.28061",
         "source": "OpenStreetMap"
       }
@@ -16985,7 +16985,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.96505, 103.43080",
         "source": "OpenStreetMap"
       }
@@ -17006,7 +17006,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29528, 102.64593",
         "source": "OpenStreetMap"
       }
@@ -17027,7 +17027,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59571, 103.61940",
         "source": "OpenStreetMap"
       }
@@ -17048,7 +17048,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59546, 103.61998",
         "source": "OpenStreetMap"
       }
@@ -17069,7 +17069,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.58040, 102.19751",
         "source": "OpenStreetMap"
       }
@@ -17090,7 +17090,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.09269, 101.41175",
         "source": "OpenStreetMap"
       }
@@ -17111,7 +17111,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.24106, 101.57974",
         "source": "OpenStreetMap"
       }
@@ -17132,7 +17132,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.85520, 101.27294",
         "source": "OpenStreetMap"
       }
@@ -17153,7 +17153,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.98865, 101.37281",
         "source": "OpenStreetMap"
       }
@@ -17174,7 +17174,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70063, 103.10228",
         "source": "OpenStreetMap"
       }
@@ -17195,7 +17195,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70385, 103.09059",
         "source": "OpenStreetMap"
       }
@@ -17216,7 +17216,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71008, 103.08595",
         "source": "OpenStreetMap"
       }
@@ -17237,7 +17237,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.68046, 102.99770",
         "source": "OpenStreetMap"
       }
@@ -17258,7 +17258,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.62770, 102.86813",
         "source": "OpenStreetMap"
       }
@@ -17279,7 +17279,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.23845, 101.51302",
         "source": "OpenStreetMap"
       }
@@ -17300,7 +17300,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.24790, 101.53120",
         "source": "OpenStreetMap"
       }
@@ -17321,7 +17321,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.23302, 101.51426",
         "source": "OpenStreetMap"
       }
@@ -17342,7 +17342,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59663, 103.56624",
         "source": "OpenStreetMap"
       }
@@ -17363,7 +17363,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69963, 103.45875",
         "source": "OpenStreetMap"
       }
@@ -17384,7 +17384,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70337, 103.45432",
         "source": "OpenStreetMap"
       }
@@ -17405,7 +17405,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.69846, 103.45091",
         "source": "OpenStreetMap"
       }
@@ -17426,7 +17426,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.35113, 103.32974",
         "source": "OpenStreetMap"
       }
@@ -17447,7 +17447,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.35470, 103.33078",
         "source": "OpenStreetMap"
       }
@@ -17468,7 +17468,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.57786, 103.56299",
         "source": "OpenStreetMap"
       }
@@ -17489,7 +17489,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.30490, 102.65355",
         "source": "OpenStreetMap"
       }
@@ -17510,7 +17510,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.30431, 102.65155",
         "source": "OpenStreetMap"
       }
@@ -17531,7 +17531,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-2.29492, 102.72152",
         "source": "OpenStreetMap"
       }
@@ -17552,7 +17552,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.53755, 103.45876",
         "source": "OpenStreetMap"
       }
@@ -17573,7 +17573,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.56053, 103.42866",
         "source": "OpenStreetMap"
       }
@@ -17594,7 +17594,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.55473, 103.39490",
         "source": "OpenStreetMap"
       }
@@ -17615,7 +17615,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.55724, 103.39332",
         "source": "OpenStreetMap"
       }
@@ -17678,7 +17678,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.59623, 103.53828",
         "source": "OpenStreetMap"
       }
@@ -17699,7 +17699,7 @@ var json_schools = {
         "category": "Sekolah",
         "jenjang": "Lainnya",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.50306, 102.04885",
         "source": "OpenStreetMap"
       }
@@ -17720,7 +17720,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.49796, 102.04639",
         "source": "OpenStreetMap"
       }
@@ -17741,7 +17741,7 @@ var json_schools = {
         "category": "SMP",
         "jenjang": "Sekolah Menengah Pertama",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70069, 103.26433",
         "source": "OpenStreetMap"
       }
@@ -17762,7 +17762,7 @@ var json_schools = {
         "category": "SMA/SMK",
         "jenjang": "Sekolah Menengah Atas / Kejuruan",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.71518, 103.26023",
         "source": "OpenStreetMap"
       }
@@ -17783,7 +17783,7 @@ var json_schools = {
         "category": "TK",
         "jenjang": "TK / PAUD",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70227, 103.26311",
         "source": "OpenStreetMap"
       }
@@ -17804,7 +17804,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.70293, 103.26315",
         "source": "OpenStreetMap"
       }
@@ -17825,7 +17825,7 @@ var json_schools = {
         "category": "SD",
         "jenjang": "Sekolah Dasar",
         "regency": "Jambi",
-        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "address": "-",
         "coordinates_str": "-1.72748, 103.26953",
         "source": "OpenStreetMap"
       }
