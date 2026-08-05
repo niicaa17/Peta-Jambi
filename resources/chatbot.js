@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sendBtn = document.getElementById('chat-send');
 
     // GROQ API Configuration
-    const GROQ_API_KEY = window.GROQ_API_KEY || "";
+    // API Key disimpan di server (Vercel Environment Variables), tidak di client
 
     // Helper: Build dynamic context from map layers loaded in window/memory
     function getMapOverviewContext() {
@@ -235,11 +235,10 @@ ATURAN UTAMA:
         showLoading();
 
         try {
-            const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+            const response = await fetch("/api/chat", {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json",
-                    "Authorization": `Bearer ${GROQ_API_KEY}`
+                    "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
                     model: "llama-3.1-8b-instant",
