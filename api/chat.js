@@ -1,5 +1,7 @@
 // Vercel Serverless Function — proxy ke Groq API
 // API key dibaca dari Vercel Environment Variables (tidak pernah ke client)
+const Groq = require('groq-sdk');
+
 module.exports = async function handler(req, res) {
     // CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -21,23 +23,21 @@ module.exports = async function handler(req, res) {
     }
 
     try {
-        const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${GROQ_API_KEY}`
-            },
-            body: JSON.stringify(req.body)
+        const groq = new Groq({ apiKey: GROQ_API_KEY });
+
+        const { model, messages, temperature, max_tokens } = req.body;
+
+        const completion = await groq.chat.completions.create({
+            model: model || 'llama-3.1-8b-instant',
+            messages,
+            temperature: temperature ?? 0.6,
+            max_tokens: max_tokens ?? 450,
         });
 
-        const data = await groqRes.json();
-
-        if (!groqRes.ok) {
-            return res.status(groqRes.status).json(data);
-        }
-
-        return res.status(200).json(data);
+        return res.status(200).json(completion);
     } catch (err) {
-        return res.status(500).json({ error: 'Internal server error', detail: err.message });
+        const status = err.status || 500;
+        const message = err.message || 'Internal server error';
+        return res.status(status).json({ error: { message } });
     }
 }

@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // GROQ API Configuration
     // API Key disimpan di server (Vercel Environment Variables), tidak di client
 
-    // Helper: Build dynamic context from map layers loaded in window/memory
+    // Helper: Build dynamic context from map layers loaded in window/memGory
     function getMapOverviewContext() {
         let summary = "=== DATA UTAMA MAPS PROVINSI JAMBI ===\n";
         summary += "Provinsi Jambi terdiri dari 11 Kabupaten/Kota dengan Total Penduduk: 3.724.140 Jiwa dan Luas Wilayah: 50.160,05 km².\n\n";
@@ -215,7 +215,7 @@ ATURAN UTAMA:
         }
     }
 
-    // Fungsi mengirim pesan ke Groq API
+    // Fungsi mengirim pesan ke API
     async function sendMessage() {
         const text = chatInput.value.trim();
         if (!text) return;

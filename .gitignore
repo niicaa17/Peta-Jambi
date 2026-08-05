@@ -16,3 +16,5 @@ Thumbs.db
 
 # API Keys - JANGAN DI-COMMIT!
 public/config.js
+.env
+.env.local

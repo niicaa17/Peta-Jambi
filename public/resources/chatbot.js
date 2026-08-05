@@ -36,8 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatInput = document.getElementById('chat-input');
     const sendBtn = document.getElementById('chat-send');
 
-    // GROQ API Configuration — isi key di sini secara lokal, jangan commit!
-    const GROQ_API_KEY = ""; // ganti dengan API key Groq kamu
+    // API Key tidak disimpan di sini lagi, melainkan di server (Vite/Vercel)
 
     // Helper: Build dynamic context from map layers loaded in window/memory
     function getMapOverviewContext() {
@@ -215,7 +214,7 @@ ATURAN UTAMA:
         }
     }
 
-    // Fungsi mengirim pesan ke Groq API
+    // Fungsi mengirim pesan ke API
     async function sendMessage() {
         const text = chatInput.value.trim();
         if (!text) return;
@@ -235,11 +234,10 @@ ATURAN UTAMA:
         showLoading();
 
         try {
-            const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+            const response = await fetch("/api/chat", {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json",
-                    "Authorization": `Bearer ${GROQ_API_KEY}`
+                    "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
                     model: "llama-3.1-8b-instant",
