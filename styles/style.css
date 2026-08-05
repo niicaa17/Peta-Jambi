@@ -897,9 +897,9 @@ html {
 
 .select-wrapper select {
     width: 100%;
-    background: rgba(255, 255, 255, 0.03);
+    background: #2a0820;
     border: 1px solid var(--glass-border);
-    color: var(--text-secondary);
+    color: #fdf2f8;
     padding: 10px 36px 10px 14px;
     border-radius: var(--radius);
     font-size: 12px;
@@ -922,8 +922,15 @@ html {
 }
 
 .select-wrapper select option {
-    background: #1a1d2e;
-    color: var(--text-primary);
+    background: #1a0820;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.select-wrapper select option:checked,
+.select-wrapper select option:hover {
+    background: #f472b6;
+    color: #ffffff;
 }
 
 .select-wrapper:after {
