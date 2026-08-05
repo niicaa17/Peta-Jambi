@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatInput = document.getElementById('chat-input');
     const sendBtn = document.getElementById('chat-send');
 
-    // GROQ API Configuration
-    const GROQ_API_KEY = "REDACTED_KEY";
+    // GROQ API Configuration — isi key di sini secara lokal, jangan commit!
+    const GROQ_API_KEY = ""; // ganti dengan API key Groq kamu
 
     // Helper: Build dynamic context from map layers loaded in window/memory
     function getMapOverviewContext() {

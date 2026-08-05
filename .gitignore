@@ -13,3 +13,6 @@ dist/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# API Keys - JANGAN DI-COMMIT!
+public/config.js
