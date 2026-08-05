@@ -1,8 +1,8 @@
 // Vercel Serverless Function — proxy ke Groq API
 // API key dibaca dari Vercel Environment Variables (tidak pernah ke client)
-const Groq = require('groq-sdk');
+import Groq from 'groq-sdk';
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
     // CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
