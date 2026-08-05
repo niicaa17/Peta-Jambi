@@ -6,23 +6,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.5222,
-          -1.6167
+          103.5740578,
+          -1.6724765
         ]
       },
       "properties": {
         "id": 1,
-        "npsn": "001017",
-        "name": "Universitas Jambi (UNJA) Mendalo",
-        "type": "Negeri",
+        "name": "Fakultas Teknologi Pertanian Universitas Jambi",
+        "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Muaro Jambi",
-        "address": "Jl. Raya Jambi - Muara Bulian KM. 15, Mendalo Darat",
-        "website": "https://unja.ac.id",
-        "accreditation": "A / Unggul",
-        "coordinates_str": "-1.61670, 103.52220",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Jambi, Indonesia",
+        "address": "Jl. Tri Brata KM 11, Desa Pondok Meja, Mestong, Muaro Jambi, Jambi, Indonesia",
+        "coordinates_str": "-1.67248, 103.57406",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -30,23 +27,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.5815,
-          -1.6012
+          101.3931154,
+          -2.0655876
         ]
       },
       "properties": {
         "id": 2,
-        "npsn": "001017-TEL",
-        "name": "Universitas Jambi (UNJA) Telanaipura",
-        "type": "Negeri",
+        "name": "Sekolah Tinggi Ilmu Ekonomi Sakti Alam Kerinci",
+        "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Muaro Jambi",
-        "address": "Jl. A. Hakim, Telanaipura, Kota Jambi",
-        "website": "https://unja.ac.id",
-        "accreditation": "A / Unggul",
-        "coordinates_str": "-1.60120, 103.58150",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-2.06559, 101.39312",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -54,23 +48,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.535,
-          -1.595
+          101.3932202,
+          -2.0654361
         ]
       },
       "properties": {
         "id": 3,
-        "npsn": "201012",
-        "name": "UIN Sulthan Thaha Saifuddin Jambi",
-        "type": "Negeri",
+        "name": "Sekolah Tinggi Ilmu Administrasi Nusantara Sakti",
+        "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Muaro Jambi",
-        "address": "Jl. Jambi - Muara Bulian KM. 16, Simpang Sei Duren",
-        "website": "https://uinjambi.ac.id",
-        "accreditation": "B / Baik Sekali",
-        "coordinates_str": "-1.59500, 103.53500",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-2.06544, 101.39322",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -78,23 +69,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.5938,
-          -1.5912
+          102.1201691,
+          -1.4945808
         ]
       },
       "properties": {
         "id": 4,
-        "npsn": "101001",
-        "name": "Universitas Batanghari (UNBARI)",
+        "name": "Universitas Muhammadiyah Bungo",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. Slamet Riyadi, Broni, Kec. Danau Sipin",
-        "website": "https://unbari.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.59120, 103.59380",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.49458, 102.12017",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -102,23 +90,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.621,
-          -1.6234
+          102.1213417,
+          -1.447888
         ]
       },
       "properties": {
         "id": 5,
-        "npsn": "101032",
-        "name": "Universitas Dinamika Bangsa (UNAMA)",
+        "name": "IAI Yasni",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. Jend. Sudirman, The Hok, Kota Jambi",
-        "website": "https://unama.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.62340, 103.62100",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.44789, 102.12134",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -126,23 +111,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6095,
-          -1.611
+          102.7042428,
+          -2.3895843
         ]
       },
       "properties": {
         "id": 6,
-        "npsn": "101035",
-        "name": "Universitas Muhammadiyah Jambi",
+        "name": "STAI Ma'arif Sarolangun",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Jambi",
-        "address": "Jl. Kapten Pattimura, Nusa Indah, Kota Jambi",
-        "website": "https://umjambi.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.61100, 103.60950",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Sarolangun",
+        "address": "Jalan Jendral Sudirman, Sarolangun",
+        "coordinates_str": "-2.38958, 102.70424",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -150,23 +132,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.5951,
-          -1.6025
+          103.5783721,
+          -1.6190218
         ]
       },
       "properties": {
         "id": 7,
-        "npsn": "101033",
-        "name": "Universitas Nurdin Hamzah (UNH)",
+        "name": "STIE Muhammadiyah Jambi",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. Kolonel Abunjani No. 8, Sipin, Kota Jambi",
-        "website": "https://unh.ac.id",
-        "accreditation": "Baik",
-        "coordinates_str": "-1.60250, 103.59510",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.61902, 103.57837",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -174,23 +153,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6189,
-          -1.6315
+          103.5187047,
+          -1.6119608
         ]
       },
       "properties": {
         "id": 8,
-        "npsn": "101030",
-        "name": "Universitas Adiwangsa Jambi (UNAJA)",
-        "type": "Swasta",
+        "name": "Universitas Negeri Jambi",
+        "type": "Negeri",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. Sersan Muslim, RT. 24, The Hok, Kota Jambi",
-        "website": "https://unaja.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.63150, 103.61890",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.61196, 103.51870",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -198,23 +174,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          102.115,
-          -1.4875
+          103.5092703,
+          -1.6072674
         ]
       },
       "properties": {
         "id": 9,
-        "npsn": "101021",
-        "name": "Universitas Muara Bungo (UMB)",
-        "type": "Swasta",
+        "name": "Universitas Islam Negeri Sulthan Thaha Saifuddin",
+        "type": "Negeri",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Bungo",
-        "address": "Jl. Pendidikan, Sungai Binjai, Kec. Bathin III, Bungo",
-        "website": "https://umb.ac.id",
-        "accreditation": "C / Baik",
-        "coordinates_str": "-1.48750, 102.11500",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.60727, 103.50927",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -222,23 +195,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.623,
-          -1.618
+          103.2715702,
+          -1.6915851
         ]
       },
       "properties": {
         "id": 10,
-        "npsn": "103015",
-        "name": "STIKES Harapan Ibu Jambi",
+        "name": "PGSD Muara Bulian",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. Tarmizi Kadir No. 71, Pakuan Baru",
-        "website": "https://stikeshi.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.61800, 103.62300",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.69159, 103.27157",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -246,23 +216,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.605,
-          -1.6088
+          103.2775287,
+          -1.6880222
         ]
       },
       "properties": {
         "id": 11,
-        "npsn": "103020",
-        "name": "STIKES Baiturrahim Jambi",
+        "name": "Universitas Graha Karya Muara Bulian",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. Prof. DR. Moh. Yamin No. 30, Lebak Bandung",
-        "website": "https://stikba.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.60880, 103.60500",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.68802, 103.27753",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -270,23 +237,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6012,
-          -1.6155
+          102.1199262,
+          -1.5054868
         ]
       },
       "properties": {
         "id": 12,
-        "npsn": "405008",
-        "name": "Poltekkes Kemenkes Jambi",
-        "type": "Negeri",
+        "name": "Universitas Muara Bungo",
+        "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. H. Agus Salim No. 09, Paal Lima, Kota Jambi",
-        "website": "https://poltekkesjambi.ac.id",
-        "accreditation": "A / Unggul",
-        "coordinates_str": "-1.61550, 103.60120",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.50549, 102.11993",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -294,23 +258,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          101.398,
-          -2.067
+          103.6180045,
+          -1.5940486
         ]
       },
       "properties": {
         "id": 13,
-        "npsn": "201018",
-        "name": "IAIN Kerinci",
-        "type": "Negeri",
+        "name": "Akademi Keperawatan Garuda Putih",
+        "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Kerinci",
-        "address": "Jl. Kapten Muradi, Sungai Penuh",
-        "website": "https://iainkerinci.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-2.06700, 101.39800",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.59405, 103.61800",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -318,23 +279,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          101.393,
-          -2.062
+          103.5925675,
+          -1.6161602
         ]
       },
       "properties": {
         "id": 14,
-        "npsn": "102012",
-        "name": "STIE Sakti Alam Kerinci",
+        "name": "STMIK Nurdin Hamzah",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Kerinci",
-        "address": "Jl. Jend. Sudirman No. 28, Sungai Penuh",
-        "website": "https://stie-sak.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-2.06200, 101.39300",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.61616, 103.59257",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -342,23 +300,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.284,
-          -1.725
+          103.6282793,
+          -1.6187089
         ]
       },
       "properties": {
         "id": 15,
-        "npsn": "202045",
-        "name": "IAI Nusantara Batanghari",
+        "name": "STIKOM Dinamika Bangsa",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Batang Hari",
-        "address": "Jl. Sudirman KM. 3, Muara Bulian",
-        "website": "https://iainusantara.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.72500, 103.28400",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.61871, 103.62828",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -366,23 +321,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          102.122,
-          -1.492
+          103.2622118,
+          -1.7161582
         ]
       },
       "properties": {
         "id": 16,
-        "npsn": "102025",
-        "name": "STKIP Muhammadiyah Muara Bungo",
+        "name": "AKPER-YPSBR Muara Bulian",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
-        "regency": "Bungo",
-        "address": "Jl. Lintas Sumatera KM. 6, Muara Bungo",
-        "website": "https://stkipmb.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.49200, 102.12200",
-        "source": "PDDikti & Direct Registry"
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.71616, 103.26221",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -390,23 +342,20 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.612,
-          -1.609
+          101.378125,
+          -2.0334507
         ]
       },
       "properties": {
         "id": 17,
-        "npsn": "104018",
-        "name": "STITEK Tunas Bangsa Jambi",
+        "name": "IAIN Kerinci",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. Gajah Mada, Jelutung, Kota Jambi",
-        "website": "https://stitek-tb.ac.id",
-        "accreditation": "Baik",
-        "coordinates_str": "-1.60900, 103.61200",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-2.03345, 101.37812",
+        "source": "OpenStreetMap"
       }
     },
     {
@@ -414,23 +363,188 @@ var json_universities = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.632,
-          -1.638
+          101.368363,
+          -2.0149147
         ]
       },
       "properties": {
         "id": 18,
-        "npsn": "105006",
-        "name": "Politeknik Jambi",
+        "name": "Kampus 2 STIA/STIE",
         "type": "Swasta",
         "category": "Universitas",
         "jenjang": "Perguruan Tinggi",
         "regency": "Jambi",
-        "address": "Jl. Eka Rasmi, Lingkar Selatan, Kota Jambi",
-        "website": "https://politeknikjambi.ac.id",
-        "accreditation": "B",
-        "coordinates_str": "-1.63800, 103.63200",
-        "source": "PDDikti & Direct Registry"
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-2.01491, 101.36836",
+        "source": "OpenStreetMap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6180902,
+          -1.5980908
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "FA Sekolah Mode",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.59809, 103.61809",
+        "source": "OpenStreetMap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.5786459,
+          -2.2649827
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "STIT Darul Ulum",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-2.26498, 102.57865",
+        "source": "OpenStreetMap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5756555,
+          -1.6737908
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Universitas Jambi Kampus Pondok Meja",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.67379, 103.57566",
+        "source": "OpenStreetMap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.572857,
+          -1.5976512
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Politeknik Kesehatan Jambi Jurusan Kebidanan",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.59765, 103.57286",
+        "source": "OpenStreetMap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.2707132,
+          -1.6926262
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "IAI Nusantara Batang Hari",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.69263, 103.27071",
+        "source": "OpenStreetMap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2358783,
+          -2.0952367
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Sekolah Tinggi Ilmu Kesehatan Merangin",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-2.09524, 102.23588",
+        "source": "OpenStreetMap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2544218,
+          -2.0880652
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "IAI Syekh Maulana Qori",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-2.08807, 102.25442",
+        "source": "OpenStreetMap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5627219,
+          -1.5945739
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Poltekkes Jurusan Keperawatan dan Promosi Kesehatan",
+        "type": "Swasta",
+        "category": "Universitas",
+        "jenjang": "Perguruan Tinggi",
+        "regency": "Jambi",
+        "address": "Alamat belum tersedia dari OpenStreetMap",
+        "coordinates_str": "-1.59457, 103.56272",
+        "source": "OpenStreetMap"
       }
     }
   ]
